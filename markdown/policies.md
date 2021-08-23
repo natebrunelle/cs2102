@@ -20,8 +20,8 @@ The course is organized around five 3-week modules:
 1. **Discrete Structures**: sets, sequences, quantifiers, numbers
 2. **First-order Logic**: instantiation, direct proofs, proof-by-cases
 3. **Contradiction**: proof-by-contradiction, well-ordering principle
-4. **Induction**: proof-by-induction, multi-part proofs
-5. **Toward Computing**: logarithms and state machines
+4. **Induction and Logarithms**: proof-by-induction, multi-part proofs, logarithms
+5. **Automata**: state machines
 
 Each module will have the following components:
 
