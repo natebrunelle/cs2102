@@ -6,23 +6,22 @@ title: Policies
 
 ## Meetings
 
-Due to COVID-19 student density restrictions, we do not have adequate classroom space for this course, so all class meetings will happen online.
-
-A link to join your section's lectures via Zoom can be found in your section's Collab site.
+In preparation for continuing need to accommodate COVID-19 related happenstances, all live lectures will occur both in person and live-streams via zoom. A link to join your section's lectures via Zoom can be found in your section's Collab site.
 We noticed a strong correlation last semester between student happiness with the course and attending synchronously with cameras on.
-We recommend you arrange your schedule and environment to permit that mode of engagement.
+We recommend you arrange your schedule and environment to permit attending the lecture synchronously, whether that be in person or over zoom.
 
-We will generally have time-limited, and sometimes group-work, assignments during the Friday class time.
+We will generally have time-limited, and sometimes group-work, assignments during the Friday class time, and so synchronous and in-person attendance is expected then. If you are not able to attend those times, please let the course staff know as soon as you do.
 Monday and Wednesday classes will generally not have such work and can be skipped to be reviewed by recording later if necessary.
 
 ## Tasks {#tasks}
 
-The course is organized around four 3-week modules:
+The course is organized around five 3-week modules:
 
 1. **Discrete Structures**: sets, sequences, quantifiers, numbers
 2. **First-order Logic**: instantiation, direct proofs, proof-by-cases
 3. **Contradiction**: proof-by-contradiction, well-ordering principle
 4. **Induction**: proof-by-induction, multi-part proofs
+5. **Toward Computing**: logarithms and state machines
 
 Each module will have the following components:
 
@@ -32,10 +31,10 @@ Each module will have the following components:
     - You will
         - be given a prompt and a time limit
         - write a solution on paper
-        - take a picture of your paper and upload it
+        - Submit your paper
     - We will
         - grade based on a rubric
-        - upload your grade and comments
+        - digitize then upload your grade and comments
         - discuss common mistakes in class
     - Occur during the Friday class time of the second and third week of the module
 
@@ -54,9 +53,9 @@ Each module will have the following components:
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
     - If taken, replaces your grade for the module (whether better or worse)
-    - Due to the very early final exam time given by the university, module 4 will not have this quiz
+    - Due to the very early final exam time given by the university, module 5 will not have this quiz
 
-- One **group project** (except for the fourth module, which has no project)
+- One **group project** (except for the fifth module, which has no project)
     - You will
         - work with a partner during scheduled class time
         - finish on your own time, if needed
@@ -70,33 +69,30 @@ You will also be expected to read instructional material and either understand i
 
 At the end of the semester, you will also be able to take a **final quiz**.
 The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
-If you chose to take any of these four, your results will replace your grade for that module.
-You may chose to take 0, 1, 2, 3, or all 4 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
+If you chose to take any of these five, your results will replace your grade for that module.
+You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
 
 ## Contact
 
 We'll use 
 
 All
-:   We will use **discord** to emulate offices, office hours, office hours queues, etc.
+:   We will use **discord** to manage course communication and provide online office hours, and office hours queues.
     A discord server join link is in the course's Collab site.
     We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
 
     For communication about personal circumstances, contact an instructor **directly** via email, telephone, or office hours.
 
-Luther Tychonievich
-:   Phone
-    :   +1 434 243 3789
-
-    Email
-    :   <a href="mailto:tychonievich@virginia.edu?subject=2102">tychonievich@virginia.edu</a>; include 2102 in the subject
+Nathan Brunelle
+:    Email
+    :   <a href="mailto:njb2b@virginia.edu?subject=2120">njb2b@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    :   Monday, Tuesday, Wednesday 3:00–4:00; Friday 2:30–3:30
+    :   TBD
 
 Elizabeth Orrico
 :   Email
-    :   <a href="mailto:emo7bf@virginia.edu?subject=2102">emo7bf@virginia.edu</a>; include 2102 in the subject
+    :   <a href="mailto:emo7bf@virginia.edu?subject=2120">emo7bf@virginia.edu</a>; include 2120 in the subject
 
 TAs
 :   Contact
