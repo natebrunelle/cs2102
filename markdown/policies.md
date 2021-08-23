@@ -6,26 +6,31 @@ title: Policies
 
 ## Meetings
 
-In preparation for continuing need to accommodate COVID-19 related happenstances, all live lectures will occur both in person and live-streams via zoom. A link to join your section's lectures via Zoom can be found in your section's Collab site.
-We noticed a strong correlation last semester between student happiness with the course and attending synchronously with cameras on.
-We recommend you arrange your schedule and environment to permit attending the lecture synchronously, whether that be in person or over zoom.
+Due to the continuing COVID-19 pandemic, we want to give plenty of options for how to attend lectures to match your needs and comfort levels. Excepting cases when there are mandatory in-class activities (for which we have ample opportunity for make-up), you may attend lecture by:
 
-We will generally have time-limited, and sometimes group-work, assignments during the Friday class time, and so synchronous and in-person attendance is expected then. If you are not able to attend those times, please let the course staff know as soon as you do.
-Monday and Wednesday classes will generally not have such work and can be skipped to be reviewed by recording later if necessary.
+- Showing up in person
+- Joining the zoom live-stream remotely
+- Watching the recorded lecture after-the-fact.
+
+Links to your section's zoom livestreams and recordings can be found on the Collab site.
+
+
+We will generally have time-limited, and sometimes group-work, assignments during the Friday class time (and on one Monday), and so synchronous and in-person attendance is expected then. If you are not able to attend those times make-up opportunities are available, just ask the course staff.
 
 ## Tasks {#tasks}
 
-The course is organized around five 3-week modules:
+The course is organized around four 3-week modules:
 
-1. **Discrete Structures**: sets, sequences, quantifiers, numbers
-2. **First-order Logic**: instantiation, direct proofs, proof-by-cases
-3. **Contradiction**: proof-by-contradiction, well-ordering principle
-4. **Induction and Logarithms**: proof-by-induction, multi-part proofs, logarithms
-5. **Automata**: state machines
+1. **Discrete Structures**: sets, logic, equivalence proofs
+2. **First-order Logic**: predicates, quantifiers, functions, relations
+3. **Contradiction**: contradiction, integers, well-ordering
+4. **Induction and Logarithms**: proof-by-induction, multi-part proofs, counting, logarithms
 
-Each module will have the following components:
+And one additional ``mini-module'' on **state machines**.
 
-- Between 5 and 11 **lectures**
+Each (full-sized) module will have the following components:
+
+- Between 5 and 7 **lectures**
 
 - Two manually-graded **paper quizzes**
     - You will
@@ -38,7 +43,7 @@ Each module will have the following components:
         - discuss common mistakes in class
     - Occur during the Friday class time of the second and third week of the module
 
-- Two automatically-graded **online quizzes**
+- Two automatically-graded multiple-choice **online quizzes**
     - You will
         - be given a set of questions with a web form for answering them
         - write clarifying comments if the question is confusingly worded
@@ -55,7 +60,7 @@ Each module will have the following components:
     - If taken, replaces your grade for the module (whether better or worse)
     - Due to the very early final exam time given by the university, module 5 will not have this quiz
 
-- One **group project** (except for the fifth module, which has no project)
+- One **group project**
     - You will
         - work with a partner during scheduled class time
         - finish on your own time, if needed
@@ -65,10 +70,12 @@ Each module will have the following components:
         - discuss common mistakes in class
     - Occurs during the Friday class the week after a module ends
 
+The mini-module will contain 2 lectures, one group project, one in-class paper quiz, and one onling multiple choice quiz. There is no make-up for for the mini-module (except for the final quiz detailed below).
+
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
 At the end of the semester, you will also be able to take a **final quiz**.
-The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
+The final will be a set of five additional makeup quizzes, one for each module (including the mini-module), of similar format to earlier makeup quizzes. 
 If you chose to take any of these five, your results will replace your grade for that module.
 You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
 
@@ -101,7 +108,7 @@ TAs
         Our TAs are students too, with duties and work outside of their TAing. Please do not ask them to act as your TA except at the scheduled on-the-clock times they have listed as their office hours. They are also kind people; please don't put them in the position of having to say no or (worse) being nice to you at the expense of their own schooling.
     
     Names
-    :   Annie, Chloe, Eeshma, Emily, Giovanni, Isabelle, Jingyuan, Kallie, Keerat, Ketian, Miriam, Param, Rachel, Ronith, TJ, Yuxin, Zachary
+    :   TBD
 
 
 
@@ -143,42 +150,32 @@ In February 2019 the CS faculty approved [a definition](http://ugrads.cs.virgini
 We hope that the following numerical system will approximate that.
 If you think your score in the course does not reflect your understanding of course material, please let us know.
 
-Your grade is divided into 4 modules.
-We want you to do well in all four of the modules, as each covers content needed in later courses.
-To incentivize mastering all four areas, your grade will be computed as follows:
+Your grade will be computed as a weighted average as follows:
 
-- We score the assessments each module separately, as $m_1$, $m_2$, $m_3$, and $m_4$
-- We compute the minimum of those four scores, $n = \min(m_1, m_2, m_3, m_4)$
-- We compute the maximum of those four scores, $x = \max(m_1, m_2, m_3, m_4)$
-- Your combined modules score is the lesser of $10+n$ and $x$: $s = \min(10+n,x)$
-- Your overall score is 94% the combined modules scores, 6% the three group projects: $0.94 s + 0.02 (g_1 + g_2 + g_3)$
+- Each of the 4 (full-sized) modules is worth 20% of your grade
+- The mini-module is worth 10% of your grade
+- Each of the four group projects is worth 2.5% of your grade
 
-Your overall score will be converted to a letter and recording in SIS, as follows:
+After combining your scores, your letter grade will be assigned according to the following:
 
-You get     or  if you score     Which is worth
-----------  --- ------------    ----------------
-A+          CR  near the top           4.0
-A           CR  &ge; 93%               4.0
-A&minus;    CR  &ge; 90%               3.7
-B+          CR  &ge; 87%               3.3
-B           CR  &ge; 83%               3.0
-B&minus;    CR  &ge; 80%               2.7
-C+          CR  &ge; 77%               2.3
-C[^1]       CR  &ge; 70%               2.0
-D+          GC  &ge; 67%               1.3
-D           GC  &ge; 63%               1.0
-D&minus;    GC  &ge; 60%               0.7
-F           NC  otherwise              0.0
-
-[^1]:
-    Why no C&minus;?
-    
-    CS prereqs require a C&minus or better grad in CS 2102.
-    But the university has defined the line between GC and CR as the line between C and C&minus;.
-    To avoid any "I would have made the prereq if I'd chosen a different grading system" concerns, we've removed the C&minus; grade so these two systems become compatible.
+You get      if you score     Which is worth
+----------   ------------    ----------------
+A+           near the top           4.0
+A            &ge; 93%               4.0
+A&minus;     &ge; 90%               3.7
+B+           &ge; 87%               3.3
+B            &ge; 83%               3.0
+B&minus;     &ge; 80%               2.7
+C+           &ge; 77%               2.3
+C            &ge; 73%               2.0
+C-           &ge; 70%               1.7
+D+           &ge; 67%               1.3
+D            &ge; 63%               1.0
+D&minus;     &ge; 60%               0.7
+F            otherwise              0.0
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
-Missed hand-graded evaluations may be rescheduled with adequate notice and reasoning (sent to your instructor via email).
+Missed hand-graded evaluations (including group projects) may be rescheduled or replaced with adequate notice and reasoning (sent to your instructor via email).
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
