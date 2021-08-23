@@ -10,6 +10,7 @@ Special Dates:
   Thanksgiving break:
     start: 2021-11-24
     end: 2021-11-28
+  Final Exam: 2021-12-09
 
 meta:
   timezone: America/New_York
@@ -264,6 +265,17 @@ assignments:
         due: 2021-10-01 15:00:00
     M2Q2:
         due: 2021-10-08 15:00:00
+    M3Q1:
+        due: 2021-10-22 15:00:00
+    M3Q2:
+        due: 2021-10-29 15:00:00
+    M4Q1:
+        due: 2021-11-12 15:00:00
+    M4Q2:
+        due: 2021-11-19 15:00:00
+    M5Q1:
+        due: 2021-12-09 15:00:00
+
 
     M1MC1:
         due: 2021-09-13 09:00:00
@@ -280,3 +292,6 @@ assignments:
 
     Group 1:
         due: 2021-09-28 15:00:00
+    
+    M1 Final:
+        due: 2021-12-09 15:00:00
