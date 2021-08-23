@@ -257,6 +257,7 @@ assignments:
             portion: "6"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
 
+
     Mod1Quiz1:
         due: 2021-09-10 15:00:00
     Mod1Quiz2:
@@ -277,6 +278,8 @@ assignments:
         due: 2021-12-03 15:00:00
 
 
+    Mod0Multi1:
+        due: 2021-08-30 09:00:00
     Mod1Multi1:
         due: 2021-09-13 09:00:00
     Mod1Multi2:
