@@ -257,28 +257,40 @@ assignments:
             portion: "6"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
 
-    M1Q1:
+    Mod1Quiz1:
         due: 2021-09-10 15:00:00
-    M1Q2:
+    Mod1Quiz2:
         due: 2021-09-17 15:00:00
-    M2Q1:
+    Mod2Quiz1:
         due: 2021-10-01 15:00:00
-    M2Q2:
+    Mod2Quiz2:
         due: 2021-10-08 15:00:00
-    M3Q1:
+    Mod3Quiz1:
         due: 2021-10-22 15:00:00
-    M3Q2:
+    Mod3Quiz2:
         due: 2021-10-29 15:00:00
-    M4Q1:
+    Mod4Quiz1:
         due: 2021-11-12 15:00:00
-    M4Q2:
+    Mod4Quiz2:
         due: 2021-11-19 15:00:00
-    M5Q1:
-        due: 2021-12-09 15:00:00
 
 
-    M1MC1:
+    Mod1Multi1:
         due: 2021-09-13 09:00:00
+    Mod1Multi2:
+        due: 2021-09-20 09:00:00
+    Mod2Multi1:
+        due: 2021-10-4 09:00:00
+    Mod2Multi2:
+        due: 2021-10-13 09:00:00   
+    Mod3Multi1:
+        due: 2021-10-25 09:00:00
+    Mod3Multi2:
+        due: 2021-11-01 09:00:00
+    Mod4Multi1:
+        due: 2021-11-15 09:00:00
+    Mod4Multi2:
+        due: 2021-11-22 09:00:00
    
     M1 Makeup:
         due: 2021-03-08 09:00:00
