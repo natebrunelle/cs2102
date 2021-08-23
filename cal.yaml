@@ -250,7 +250,7 @@ reading:
 
 assignments:
     ".groups":
-        M:
+        Mod:
             portion: "94"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
         Group:
