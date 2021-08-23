@@ -4,15 +4,15 @@ title: Discrete Mathematics
 
 # Course Overview 
 Discrete Mathematics is a course designed to provide the mathematical tools needed for later CS courses.
-This version of the course is shared by Elizabeth Orrico and Luther Tychonievich, including sharing a common set of assessments and grading schemes.
+This version of the course is shared by Elizabeth Orrico and Nathan Brunelle, including sharing a common set of assessments and grading schemes.
 
-Course meetings are synchronous, with recordings posted after class for asynchronous review.
-Some class meetings will be announced as mandatory with no recordings provided.
+Course meetings are synchronous and usually may be attended in-person or remotely via zoom live-stream. We will additionally post recordings of live-streams after class for asynchronous review.
+Friday class meetings are mandatory with no recordings provided, we will make an announcement when there are exceptions to this..
 Connecting to the course meetings is managed through Collab:
 
-- 10:00 section: <https://collab.its.virginia.edu/portal/site/5f8620a6-2dcf-458f-9b41-34b8207aca35>
-- 11:00 section: <https://collab.its.virginia.edu/portal/site/9c5db4ed-7a44-41b1-8243-95da5c55229c>
-- 14:00 section: <https://collab.its.virginia.edu/portal/site/5f8620a6-2dcf-458f-9b41-34b8207aca35>
+- 10:00 section: <TODO>
+- 13:00 section: <TODO>
+- 14:00 section: <TODO>
 
 Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
 

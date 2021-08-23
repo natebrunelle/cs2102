@@ -7,6 +7,9 @@ Special Dates:
   Fall break: 
     start: 2021-10-09
     end: 2021-10-12
+  Thanksgiving break:
+    start: 2021-11-24
+    end: 2021-11-28
 
 meta:
   timezone: America/New_York
@@ -87,6 +90,9 @@ lectures:
     - quiz
     
     - state machines
+    - state machines
+    - group
+    
     - review
 
 reading:
