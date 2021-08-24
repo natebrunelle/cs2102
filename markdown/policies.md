@@ -186,7 +186,7 @@ If you feel you deserve an exception to this rule, please contact your instructo
 
 ## Professionalism
 
-Behave professionally.
+Behave professionally, abiding by the [course pledge](/pledge.html).
 
 Never abuse anyone, including the emotional abuse of blaming others for your mistakes.
 Kindness is more important than correctness.
