@@ -24,17 +24,17 @@ meta:
   days: [Monday, Wednesday, Friday]
 
 sections:
-  CS2102-1000:
-    room: online
+  CS2102-001:
+    room: MECH 205
+    start: 14:00:00
+    duration: 50
+  CS2102-002:
+    room: THORN E303
     start: 10:00:00
     duration: 50
-  CS2102-1100:
-    room: online
-    start: 11:00:00
-    duration: 50
-  CS2102-1400:
-    room: online
-    start: 14:00:00
+  CS2102-004:
+    room: PHYS 204
+    start: 13:00:00
     duration: 50
 
 

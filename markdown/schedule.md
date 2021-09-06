@@ -105,7 +105,7 @@ readings can be <input type="button" value="shown" onclick="document.querySelect
 
 <script src="schedule.js"></script>
 
-To subscribe to the above calendar, add <http://www.cs.virginia.edu/luther/2102/S2021/cal.ics> to your calender application of choice.
+To subscribe to the above calendar, add <http://www.cs.virginia.edu/~njb2b/cs2120/f2021/cal.ics> to your calender application of choice.
 
 <hr/>
 
