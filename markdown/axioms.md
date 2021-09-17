@@ -16,6 +16,7 @@ The first five are big and worth memorizing
  long                    simplified                 Name of rule
 ----------------------  ------------------------    ----------------------------
 $\lnot \lnot P$         $P$                         double negation
+$\lnot \top$            $\bot$                      definition of $\bot$
 $P \land \bot$          $\bot$
 $P \land \top$          $P$
 $P \lor \bot$           $P$
