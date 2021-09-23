@@ -49,7 +49,7 @@ Next we'll look at the truth tables these expressions. Fill out the truth table 
 
 Now look through your truth table and identify all the rows where both $\lnot T$ and $B \rightarrow T$ are True. By doing this, you're looking at every situation where both of those statements are correct. Notice that in all such rows the value of $B$ is False. This means that in order for both of $\lnot T$ and $B \rightarrow T$, it's required that $B$ is False (i.e. if $B$ is True then at least one of $B \rightarrow T$ or $\lnot T$ must be False). In other words, from $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or equivalently $(B \rightarrow T) \land \lnot T$ *entails* $\lnot B$, which we denote as $(B \rightarrow T) \land \lnot T \vdash \lnot B$. 
 
-To then conclude $\lnot F$ we would look at all rows of the truth table where $\lnot B$ and $\lnot B \rightarrow \lnot F$ are both True, and see that in all cases $\lnot F$ must also be True, and so 
+To then conclude $\lnot F$ we would look at all rows of the truth table where $\lnot B$ and $\lnot B \rightarrow \lnot F$ are both True, and see that in all cases $\lnot F$ must also be True, and so $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$.
 
 ## Perspective 2: Does this make that True?
 
