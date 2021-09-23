@@ -28,11 +28,12 @@ From these statements, we are able to conclude that Nathan is not good at footba
 1. Considering the statement "Nathan is not tall" in the context of the statement "If Nathan is good at basketball then Nathan is tall" allows us to conclude that "Nathan is not good at basketball"
 1. From our conclusion that "Nathan is not good at basketball", the statement "If Nathan is not good at basketball then Nathan is not good at football" allows us to finally conclude that "Nathan is not good at football".
 
-How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. 
+How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. From either perspective we'll be exploring what statements logically follow from what other statements.
 
-## Perspective 2: What's required?
 
-It may be helpful to think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude must also be true?" Let's think formally about what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. To begin, we translate these statements into propositions. If these are our atomic propositions:
+## Perspective 1: What else must be True?
+
+We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude must also be true?" Let's think formally about what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. To begin, we translate these statements into propositions. If these are our atomic propositions:
 
 - $T$: Nathan is tall
 - $B$: Nathan is good at basketball
@@ -46,6 +47,16 @@ Then we can represent each of our original statements as the following compound 
 
 Next we'll look at the truth tables these expressions. Fill out the truth table in your worksheet (problem 3). 
 
-Now look through your truth table and identify all the rows where both $\lnot T$ and $B \rightarrow T$ are True. By doing this, you're looking at every situation where both of those statements are correct. Notice that in all such rows the value of $B$ is False. This means that in order for both of $\lnot T$ and $B \rightarrow T$, it's required that $B$ is False. In other words, from $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or equivalently $(B \rightarrow T) \land \lnot T$ *entails* $\lnot B$, which we denote as $(B \rightarrow T) \land \lnot T \vdash \lnot B$. 
+Now look through your truth table and identify all the rows where both $\lnot T$ and $B \rightarrow T$ are True. By doing this, you're looking at every situation where both of those statements are correct. Notice that in all such rows the value of $B$ is False. This means that in order for both of $\lnot T$ and $B \rightarrow T$, it's required that $B$ is False (i.e. if $B$ is True then at least one of $B \rightarrow T$ or $\lnot T$ must be False). In other words, from $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or equivalently $(B \rightarrow T) \land \lnot T$ *entails* $\lnot B$, which we denote as $(B \rightarrow T) \land \lnot T \vdash \lnot B$. 
 
-## Perspective 2: It follows.
+To then conclude $\lnot F$ we would look at all rows of the truth table where $\lnot B$ and $\lnot B \rightarrow \lnot F$ are both True, and see that in all cases $\lnot F$ must also be True, and so 
+
+## Perspective 2: Does this make that True?
+
+Another way to think of entailment is as answering questions of the form "do these statements being true result in this other statement being true?" Again, to consider this formally we'll look at the same propositions as before:
+
+- $\lnot T$
+- $\lnot B \rightarrow \lnot F$
+- $B\rightarrow T$
+
+This time, though, we'll be building a different truth table to represent this new perspective. Saying that one proposition being True results in another being True is really just asserting something like "If this is True then that is also True", in other words, it's just an implication! With this second approach, to show $(B \rightarrow T) \land \lnot T \vdash \lnot B$ we would show that "if $B \rightarrow T$ and $\lnot T$ then $\lnot B$". To show such a statement formall we must show $\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \equiv \top$
