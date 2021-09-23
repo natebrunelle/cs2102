@@ -83,6 +83,7 @@ Typically when writing proofs we're more concerned with which statements logical
 # Cluedo
 
 For **problem 8**, use the entailment with the following statements to determine who killed Mr. Body. Identify the murderer in your worksheet.
+
 1. Mr. Body was killed with a candlestick.
 1. Either Miss Scarlet or Mrs. White was in the dining room at the time of the murder.
 1. If Colonel Mustard was in the kitchen at the time of the murder, then Mr. Green killed Mr. Body with a revolver.
