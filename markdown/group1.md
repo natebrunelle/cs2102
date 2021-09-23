@@ -42,3 +42,14 @@ Then we can represent each of our original statements as the following compound 
 
 Let's now look at a truth table for $\lnot T$ and $B\rightarrow T$:
 
+
+    P Q R | (P -> Q) and (Q -> R)
+    ----+------------------------
+    0 0 0 |    1      1     1    
+    0 0 1 |    1      1     1    
+    0 1 0 |    1      0     0    
+    0 1 1 |    1      1     1    
+    1 0 0 |    0      0     1    
+    1 0 1 |    0      0     1   
+    1 1 0 |    1      0     0   
+    1 1 1 |    1      1     1    
