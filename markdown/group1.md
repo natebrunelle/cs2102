@@ -69,10 +69,37 @@ To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wed
 
 Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at basketball then Nathan is not tall, as perhaps he instead has poor balance).
 
-The goal of entailment is to be able to more nimbly draw conclusions from given statements.
+Typically when writing proofs we're more concerned with which statements logically follow from other than we are with strict logical equivalence. Entailment relaxes the equivalence requirement and often makes proofs easier and more intuitive.
 
-# More Entailment Examples
+# Entailment Examples
 
-Next, show that $(A \oplus B) \land B) \vdash \lnot A$ is a valid entailment (**problem 6**). We recommend you first consider why it is valid on an intuitive level before formally showing its validity.
+**Problem 6**: Show that $(A \oplus B) \land B) \vdash \lnot A$ is a valid entailment. We recommend you first consider why it is valid on an intuitive level before formally showing its validity. Fill in your intuitive explanation in your worksheet.
+
+**Problem 7**: First convert each English statement into compound propositions. Then use entailment to identify conclusions you can draw provided all of the following statements are True. Write two conclusions you find in your worksheet.
+- If Elizabeth id Dancing then she is happy.
+- There is a mouse in the house or Elizabeth is happy.
+- Elizabeth is sad.
+
+# Clue
+
+For **problem 8**, use the entailment with the following statements to determine who killed Mr. Body. Identify the murderer in your worksheet.
+1. Mr. Body was killed with a candlestick.
+1. Either Miss Scarlet or Mrs. White was in the dining room at the time of the murder.
+1. If Colonel Mustard was in the kitchen at the time of the murder, then Mr. Green killed Mr. Body with a revolver.
+1. If Miss Scarlet was in the dining room at the time of the murder, then Mrs. Peacock killed Mr. Body.
+1. If Colonel Mustard was not in the kitchen at the time of the murder, then Mrs. White was not in the dining room at the time of the murder.
+1. If Mrs. White was in the dining room at the time of the murder, then Professor Black killed Mr. Body.
+1. Either the candlestick was the murder weapon or else the revolver was.
+
+We recommend that you use the following atomic propositions:
+
+- $C$: The candlestick was the murder weapon
+- $R$: The revolver was the murder weapon
+- $S$: Miss Scarlet was in the Dining Room
+- $W$: Mrs. White was in the Dining Room
+- $M$: Colonel Mustard was in the Kitchen
+- $G$: Mr. Green was the murderer
+- $B$: Professor Black was the murderer
+- $P$: Mrs. Peacock was the murderer
 
 
