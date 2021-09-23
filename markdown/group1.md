@@ -59,7 +59,7 @@ Another way to think of entailment is as answering questions of the form "do the
 - $\lnot B \rightarrow \lnot F$
 - $B\rightarrow T$
 
-This time, though, we'll be building a different truth table to represent this new perspective. Saying that one proposition being True results in another being True is really just asserting something like "If this is True then that is also True", in other words, it's just an implication! With this second approach, to show $(B \rightarrow T) \land \lnot T \vdash \lnot B$ we would show that "if $B \rightarrow T$ and $\lnot T$ then $\lnot B$". To show such a statement formall we must show $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$.
+This time, though, we'll be building a different truth table to represent this new perspective. Saying that one proposition being True results in another being True is really just asserting something like "If *this* is True then *that* is also True", in other words, it's just an implication! With this second approach, to show $(B \rightarrow T) \land \lnot T \vdash \lnot B$ we would show that "if $B \rightarrow T$ and $\lnot T$ then $\lnot B$". To show such a statement formall we must show $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$.
 
 Show that $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$ using either direct proof or Truth tables (**problem 5**).
 
