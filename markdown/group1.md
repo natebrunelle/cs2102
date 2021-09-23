@@ -80,7 +80,7 @@ Typically when writing proofs we're more concerned with which statements logical
 - There is a mouse in the house or Elizabeth is happy.
 - Elizabeth is sad.
 
-# Clue
+# Cluedo
 
 For **problem 8**, use the entailment with the following statements to determine who killed Mr. Body. Identify the murderer in your worksheet.
 1. Mr. Body was killed with a candlestick.
