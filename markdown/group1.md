@@ -28,7 +28,11 @@ From these statements, we are able to conclude that Nathan is not good at footba
 1. Considering the statement "Nathan is not tall" in the context of the statement "If Nathan is good at basketball then Nathan is tall" allows us to conclude that "Nathan is not good at basketball"
 1. From our conclusion that "Nathan is not good at basketball", the statement "If Nathan is not good at basketball then Nathan is not good at football" allows us to finally conclude that "Nathan is not good at football".
 
-How are we able to conclude this? When using entailments, I find it most helpful to think of it as answers to questions of the form "presuming some statement is true, what other statement must also be true?" Let's think formally about what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. To begin, we translate these statements into propositions. If these are our atomic propositions:
+How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. 
+
+## Perspective 2: What's required?
+
+It may be helpful to think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude must also be true?" Let's think formally about what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. To begin, we translate these statements into propositions. If these are our atomic propositions:
 
 - $T$: Nathan is tall
 - $B$: Nathan is good at basketball
@@ -42,4 +46,6 @@ Then we can represent each of our original statements as the following compound 
 
 Next we'll look at the truth tables these expressions. Fill out the truth table in your worksheet (problem 3). 
 
-To get an idea of how entailment works, identify all rows in the truth table where both $\lnot T$ and $B \rightarrow T$ are True. Observe that in all such rows $B$ is false. This means that from the assumption $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or $(B \rightarrow T) \land \lnot T \vdash \lnot B$ (which we read as "B implies T and not T entails not B".
+Now look through your truth table and identify all the rows where both $\lnot T$ and $B \rightarrow T$ are True. By doing this, you're looking at every situation where both of those statements are correct. Notice that in all such rows the value of $B$ is False. This means that in order for both of $\lnot T$ and $B \rightarrow T$, it's required that $B$ is False. In other words, from $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or equivalently $(B \rightarrow T) \land \lnot T$ *entails* $\lnot B$, which we denote as $(B \rightarrow T) \land \lnot T \vdash \lnot B$. 
+
+## Perspective 2: It follows.
