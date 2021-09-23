@@ -4,7 +4,7 @@ title: Group Activity 1 | Entailment
 
 # Introduce Your Group!
 
-The first thing you're going to do is break up into a group of either 3 or 4. We will use $G$ to refer to the set of members in your group. Fill in the members of $G$ on your worksheet (problem 1).
+The first thing you're going to do is break up into a group of either 3 or 4. We will use $G$ to refer to the set of members in your group. Fill in the members of $G$ on your worksheet (**problem 1**).
 
 Next you're going to identify a set $F$ to make this statement true: 
 
@@ -12,7 +12,7 @@ $\forall x \in G. \forall y \in G. \exists f \in F. (x \neq y) \land A(x,f) \lan
 
 Where $A(a,b)$: fun fact $b$ is true of group member $a$. 
 
-In other words, for each pair of members of your group, find a fact that both members have in common. Fill in the members of $F$ on your worksheet, then identify which two members share each fact (problem 2).
+In other words, for each pair of members of your group, find a fact that both members have in common. Fill in the members of $F$ on your worksheet, then identify which two members share each fact (**problem 2**).
 
 
 # What is Entailment?
@@ -45,11 +45,11 @@ Then we can represent each of our original statements as the following compound 
 - $\lnot B \rightarrow \lnot F$
 - $B\rightarrow T$
 
-Next we'll look at the truth tables these expressions. Fill out the truth table in your worksheet (problem 3). 
+Next we'll look at the truth tables these expressions. Fill out the truth table in your worksheet (**problem 3**). 
 
 Now look through your truth table and identify all the rows where both $\lnot T$ and $B \rightarrow T$ are True. By doing this, you're looking at every situation where both of those statements are correct. Notice that in all such rows the value of $B$ is False. This means that in order for both of $\lnot T$ and $B \rightarrow T$, it's required that $B$ is False (i.e. if $B$ is True then at least one of $B \rightarrow T$ or $\lnot T$ must be False). In other words, from $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or equivalently $(B \rightarrow T) \land \lnot T$ *entails* $\lnot B$, which we denote as $(B \rightarrow T) \land \lnot T \vdash \lnot B$. This rule is called *Modus Tolens* in our [list of logical entailments](https://www.cs.virginia.edu/~njb2b/cs2120/f2021/axioms.html).
 
-To then conclude $\lnot F$ we would look at all rows of the truth table where $\lnot B$ and $\lnot B \rightarrow \lnot F$ are both True, and see that in all cases $\lnot F$ must also be True, and so $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$. Identify the name of this rule from our [list of logical entailments](https://www.cs.virginia.edu/~njb2b/cs2120/f2021/axioms.html) (problem 4).
+To then conclude $\lnot F$ we would look at all rows of the truth table where $\lnot B$ and $\lnot B \rightarrow \lnot F$ are both True, and see that in all cases $\lnot F$ must also be True, and so $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$. Identify the name of this rule from our [list of logical entailments](https://www.cs.virginia.edu/~njb2b/cs2120/f2021/axioms.html) (**problem 4**).
 
 ## Perspective 2: Does this make that True?
 
@@ -61,10 +61,10 @@ Another way to think of entailment is as answering questions of the form "do the
 
 This time, though, we'll be building a different truth table to represent this new perspective. Saying that one proposition being True results in another being True is really just asserting something like "If this is True then that is also True", in other words, it's just an implication! With this second approach, to show $(B \rightarrow T) \land \lnot T \vdash \lnot B$ we would show that "if $B \rightarrow T$ and $\lnot T$ then $\lnot B$". To show such a statement formall we must show $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$.
 
-Show that $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$ using either direct proof or Truth tables (problem 5).
+Show that $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$ using either direct proof or Truth tables (**problem 5**).
 
 To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$ by demonstrating that $\Big( \big( ( \lnot B \rightarrow \lnot F ) \wedge \lnot B \big) \rightarrow \lnot F \Big) \equiv \top$. You are not required to demonstrate this for today's group activity, but it may be of interest for you to do so on your own later.
 
 # Using Entailment
 
-Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at football then Nathan is not tall, as perhaps he is instead has poor balance).
+Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at football then Nathan is not tall, as perhaps he instead has poor balance).
