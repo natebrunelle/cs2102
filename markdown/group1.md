@@ -67,4 +67,4 @@ To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wed
 
 # Using Entailment
 
-Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at football then Nathan is not tall, as perhaps he instead has poor balance).
+Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at basketball then Nathan is not tall, as perhaps he instead has poor balance).
