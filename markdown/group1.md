@@ -63,4 +63,8 @@ This time, though, we'll be building a different truth table to represent this n
 
 Show that $\Big(\big( (B \rightarrow T) \land \lnot T \big)  \rightarrow \lnot B \Big) \equiv \top$ using either direct proof or Truth tables (problem 4).
 
-To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$ by demonstrating that $\Big( \big( ( \lnot B \rightarrow \lnot F ) \wedge \lnot B \big) \rightarrow \lnot F \Big) \equiv \top$
+To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wedge \lnot B \vdash \lnot F$ by demonstrating that $\Big( \big( ( \lnot B \rightarrow \lnot F ) \wedge \lnot B \big) \rightarrow \lnot F \Big) \equiv \top$. You are not required to demonstrate this for today's group activity, but it may be of interest for you to do so on your own later.
+
+# Using Entailment
+
+Unlike with logical equivalence, entailment can only be applied in one direction
