@@ -77,7 +77,7 @@ Typically when writing proofs we're more concerned with which statements logical
 
 **Problem 7**: First convert each English statement into compound propositions. Then use entailment to identify conclusions you can draw provided all of the following statements are True. Write two conclusions you find in your worksheet.
 
-- If Elizabeth id Dancing then she is happy.
+- If Elizabeth is Dancing then she is happy.
 - There is a mouse in the house or Elizabeth is happy.
 - Elizabeth is sad.
 
