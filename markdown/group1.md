@@ -4,7 +4,7 @@ title: Group Activity 1 | Entailment
 
 # Introduce Your Group!
 
-The first thing you're going to do is break up into a group of either 3 or 4. We will use $G$ to refer to the set of members in your group. Fill in the members of $G$ on your worksheet.
+The first thing you're going to do is break up into a group of either 3 or 4. We will use $G$ to refer to the set of members in your group. Fill in the members of $G$ on your worksheet (problem 1).
 
 Next you're going to identify a set $F$ to make this statement true: 
 
@@ -12,7 +12,7 @@ $\forall x \in G. \forall y \in G. \exists f \in F. (x \neq y) \land A(x,f) \lan
 
 Where $A(a,b)$: fun fact $b$ is true of group member $a$. 
 
-In other words, for each pair of members of your group, find a fact that both members have in common. Fill in the members of $F$ on your worksheet, then identify which two members share each fact.
+In other words, for each pair of members of your group, find a fact that both members have in common. Fill in the members of $F$ on your worksheet, then identify which two members share each fact (problem 2).
 
 
 # What is Entailment?
@@ -40,13 +40,6 @@ Then we can represent each of our original statements as the following compound 
 - $\lnot B \rightarrow \lnot F$
 - $B\rightarrow T$
 
-Let's now look at a truth table for $\lnot T$ and $B\rightarrow T$:
+Next we'll look at the truth tables these expressions. Fill out the truth table in your worksheet (problem 3). 
 
-
-    $B$ $T$ | $\lnot T$ | $B \rightarrow T$
-    ----+----------------------
-    0 0 |    1      1     1    
-    0 1 |    1      1     1    
-    1 0 |    1      0     0    
-    1 1 |    1      1     1    
-
+To get an idea of how entailment works, identify all rows in the truth table where both $\lnot T$ and $B \rightarrow T$ are True. Observe that in all such rows $B$ is false. This means that from the assumption $(B \rightarrow T) \land \lnot T$ we can conclude $\lnot B$, or $(B \rightarrow T) \land \lnot T \vdash \lnot B$ (which we read as "B implies T and not T entails not B".
