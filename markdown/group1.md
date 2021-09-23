@@ -76,6 +76,7 @@ Typically when writing proofs we're more concerned with which statements logical
 **Problem 6**: Show that $(A \oplus B) \land B) \vdash \lnot A$ is a valid entailment. We recommend you first consider why it is valid on an intuitive level before formally showing its validity. Fill in your intuitive explanation in your worksheet.
 
 **Problem 7**: First convert each English statement into compound propositions. Then use entailment to identify conclusions you can draw provided all of the following statements are True. Write two conclusions you find in your worksheet.
+
 - If Elizabeth id Dancing then she is happy.
 - There is a mouse in the house or Elizabeth is happy.
 - Elizabeth is sad.
