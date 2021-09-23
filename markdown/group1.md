@@ -68,3 +68,11 @@ To then conclude $\lnot F$ we need to show $( \lnot B \rightarrow \lnot F ) \wed
 # Using Entailment
 
 Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at basketball then Nathan is not tall, as perhaps he instead has poor balance).
+
+The goal of entailment is to be able to more nimbly draw conclusions from given statements.
+
+# More Entailment Examples
+
+Next, show that $(A \oplus B) \land B) \vdash \lnot A$ is a valid entailment (**problem 6**). We recommend you first consider why it is valid on an intuitive level before formally showing its validity.
+
+
