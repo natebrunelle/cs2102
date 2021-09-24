@@ -157,6 +157,7 @@ reading:
         - {txt: Spring 2020 class examples, lnk: eng2quant.html}
     group1:
         -lnk: "group1.html"
+         txt: "Group 1 Guide"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
