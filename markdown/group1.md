@@ -2,6 +2,8 @@
 title: Group Activity 1 | Entailment
 ...
 
+Put your answers for each problem of this activity in this [worksheet](/files/group1.pdf).
+
 # Introduce Your Group!
 
 The first thing you're going to do is break up into a group of either 3 or 4. We will use $G$ to refer to the set of members in your group. Fill in the members of $G$ on your worksheet (**problem 1**).
