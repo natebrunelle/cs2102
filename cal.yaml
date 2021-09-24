@@ -57,7 +57,7 @@ lectures:
 
     - predicates
     - quantifiers
-    - group
+    - group1
 
     - [quantifiers, entailment]
     - english
@@ -155,6 +155,8 @@ reading:
         - {txt: bus example, lnk: bus-example.html}
         - "practice exercises in ∀x 22 and 23"
         - {txt: Spring 2020 class examples, lnk: eng2quant.html}
+    group1:
+        -lnk: "group1.html"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
