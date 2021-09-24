@@ -19,7 +19,7 @@ In other words, for each pair of members of your group, find a fact that both me
 
 # What is Entailment?
 
-So far when discussing proofs we've been showing that two statements are logically equivalent to one another. Sometimes when proving things we actually want to *draw conclusions* from statements. For example, consider the that the following statements are True:
+So far when discussing proofs we've been showing that two statements are logically equivalent to one another. Sometimes when proving things we actually want to *draw conclusions* from statements. For example, suppose that all of the following statements are True:
  
 - Nathan is not tall
 - If Nathan is not good at basketball then Nathan is not good at football
@@ -33,9 +33,12 @@ From these statements, we are able to conclude that Nathan is not good at footba
 How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. From either perspective we'll be exploring what statements logically follow from what other statements.
 
 
-## Perspective 1: What else must be True?
+## Perspective 1: What else needs to be True?
 
-We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude must also be true?" Let's think formally about what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. To begin, we translate these statements into propositions. If these are our atomic propositions:
+We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude *must* also be true?" Let's consider what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. From an intuitive perspective, the conclusion "Nathan is not good at basketball" makes sense, because since in every situation where Nathan is good at basketball he is also tall, and so knowing Nathan is not tall there's no way he could be good at basketball. 
+
+Let's now see how this shapes up with a more formal treatment
+To begin, we translate each statement into a proposition. If these are our atomic propositions:
 
 - $T$: Nathan is tall
 - $B$: Nathan is good at basketball
