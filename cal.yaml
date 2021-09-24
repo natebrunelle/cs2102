@@ -156,8 +156,8 @@ reading:
         - "practice exercises in ∀x 22 and 23"
         - {txt: Spring 2020 class examples, lnk: eng2quant.html}
     group1:
-        -lnk: "group1.html"
-         txt: "Group 1 Guide"
+        - lnk: "direct.html"
+          txt: "direct proof"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
