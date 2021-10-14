@@ -71,7 +71,25 @@ Note that there are examples given in this section and the previous that are nei
 
 A relation is symmetric provided that for every pair that are related, their opposite order are related as well. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be symmetric if $\forall x\in D. \forall y \in D. R(x,y) \rightarrow R(y,x)$.
 
+The following relations (with their domains) are symmetric:
 
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x \neq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,1), (1,2), (2,1), (2,2), (2,3), (3,2), (4,0) \big\}$
+
+- the empty relation $R = \emptyset$.
+
+The following relations (with their domains) are not symmetric:
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \lt y$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \leq y$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,1), (1,1), (1,2), (2,1), (2,2), (2,3), (4,4), (4,0) \big\}$
 
 ## Asymmetric
 
@@ -79,13 +97,60 @@ A relation is asymmetric provided that for every pair that are related, their op
 
 **Observe that asymmetric has a different meaning from "not symmetric"**. When expressed in first-order logic, we would write "not symmetric" as $\lnot \forall x\in D. \forall y \in D. R(x,y) \rightarrow R(y,x) \equiv \exists x\in D.\exists y\in D. R(x,y) \land \lnot R(y,x)$, which is not equivalent to the definition of asymmetric. 
 
+The following relations (with their domains) are asymmetric:
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \lt y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (2,3) \big\}$
+
+- the empty relation $R = \emptyset$.
+
+The following relations (with their domains) are not asymmetric:
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \leq y$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x \neq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (2,3), (3,2) \big\}$
+
+Note that some examples here and in the previous section are neither symmetric nor asymmetric. (The empty relation is actually both, another time it might be wortwhile to think about whether that's the only one).
+
 ## Antisymmetric
 
-A relation is anitsymmetric provided that for every non-equal pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be antisymmetric if $\forall x\in D. \forall y \in D. \big((x \neq y) \land R(x,y)\big) \rightarrow \lnot R(y,x)$.
+A relation is antisymmetric provided that for every non-equal pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be antisymmetric if $\forall x\in D. \forall y \in D. \big((x \neq y) \land R(x,y)\big) \rightarrow \lnot R(y,x)$.
 
 Something that might be helpful in distinguishing between asymmetric and antisymmetric is that reflexive relations can be antisymmetric, but they cannot be asymmetric.
 
+
+The following relations (with their domains) are antisymmetric:
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \lt y$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \leq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (2,3), (3,3) \big\}$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x = |y|$
+
+- the empty relation $R = \emptyset$.
+
+The following relations (with their domains) are not antisymmetric:
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x \neq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (2,3), (3,2) \big\}$
+
 ## Transitive
+
+
+A relation is anitsymmetric provided that for every non-equal pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be antisymmetric if $\forall x\in D. \forall y \in D. \big((x \neq y) \land R(x,y)\big) \rightarrow \lnot R(y,x)$.
+
 
 
 Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antisymmetric, and transitive) that your relation $M$ has (**problem 3**).
