@@ -187,6 +187,10 @@ Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antis
 
 # Ball-Toss Closure Championship
 
+## Symmetric Closure
 
+## Reflexive Closure
+
+## Transitive Closure
 
 
