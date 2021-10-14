@@ -150,7 +150,7 @@ The following relations (with their domains) are not antisymmetric:
 ## Transitive
 
 
-A relation is transitive provided that for every two pairs of the form $(a,b)$, $(b,c)$ that are in the relation, the "shortcut" $(a,c)$ are in the relation as well. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be transitive if $\forall x\in D. \forall y \in D. \forall z \in D. \big(R(x,y) \land R(y,y)\big) \rightarrow \lnot R(y,x)$.
+A relation is transitive provided that for every two pairs of the form $(a,b)$, $(b,c)$ that are in the relation, the "shortcut" $(a,c)$ are in the relation as well. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be transitive if $\forall x\in D. \forall y \in D. \forall z \in D. \big(R(x,y) \land R(y,z)\big) \rightarrow  R(x,z)$.
 
 
 
