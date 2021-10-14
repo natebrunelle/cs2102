@@ -152,6 +152,27 @@ The following relations (with their domains) are not antisymmetric:
 
 A relation is transitive provided that for every two pairs of the form $(a,b)$, $(b,c)$ that are in the relation, the "shortcut" $(a,c)$ are in the relation as well. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be transitive if $\forall x\in D. \forall y \in D. \forall z \in D. \big(R(x,y) \land R(y,z)\big) \rightarrow  R(x,z)$.
 
+The following relations (with their domains) are transitive:
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \lt y$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x \leq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (2,3), (3,3), (1,3) \big\}$
+
+- the relation $R$ over $\mathbb{N}$ where $R(x,y): x = |y|$
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x = |y|$
+
+- the empty relation $R = \emptyset$.
+
+The following relations (with their domains) are not transitive:
+
+- the relation $R$ over $\mathbb{Z}$ where $R(x,y): x \neq y$
+
+- the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (3,3), (2,1) \big\}$
+
+
 
 
 Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antisymmetric, and transitive) that your relation $M$ has (**problem 3**).
