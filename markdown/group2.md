@@ -75,11 +75,15 @@ A relation is symmetric provided that for every pair that are related, their opp
 
 ## Asymmetric
 
-A relation is asymmetric provided that for every pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be symmetric if $\forall x\in D. \forall y \in D. R(x,y) \rightarrow \lnot R(y,x)$.
+A relation is asymmetric provided that for every pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be asymmetric if $\forall x\in D. \forall y \in D. R(x,y) \rightarrow \lnot R(y,x)$.
 
 **Observe that asymmetric has a different meaning from "not symmetric"**. When expressed in first-order logic, we would write "not symmetric" as $\lnot \forall x\in D. \forall y \in D. R(x,y) \rightarrow R(y,x) \equiv \exists x\in D.\exists y\in D. R(x,y) \land \lnot R(y,x)$, which is not equivalent to the definition of asymmetric. 
 
 ## Antisymmetric
+
+A relation is anitsymmetric provided that for every non-equal pair that are related, their opposite order are *not* related. Using first order logic, for relation $R$ over domain $D$ we define $R$ to be antisymmetric if $\forall x\in D. \forall y \in D. \big((x \neq y) \land R(x,y)\big) \rightarrow \lnot R(y,x)$.
+
+Something that might be helpful in distinguishing between asymmetric and antisymmetric is that reflexive relations can be antisymmetric, but they cannot be asymmetric.
 
 ## Transitive
 
