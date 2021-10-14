@@ -181,9 +181,11 @@ Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antis
 
 We sometimes may come across situations where we have a relation that does not possess a certain property (e.g. it's not reflexive), but we want to modify the relation so that it does. For example, I might have a non-reflexive relation like "city $x$ relates to city $y$ provided there is a direct flight from $x$ to $y$". Unless planes are flying in circles, that relation is most likely going to be irreflexive. If, however, I was interested in the relation "city $x$ relates to city $y$ if someone can in $x$ can get to city $y$ without any layovers", then we might want the latter relation to be reflexive. 
 
-For today's activity we'll be exploring this idea of closure, which means changing relations (specifically adding pairs) in order ensure they have a particular property.
+For today's activity we'll be exploring this idea of *closure*, which means changing relations (specifically adding pairs) in order ensure they have a particular property.
 
 ## Reflexive Closure
+
+The *reflexive closure* of a relation is defined to be the smallest superset of a that relation that is reflexive. In other words, to perform the reflexive closure we want to add the fewest pairs required to make it reflexive. In this case, the pairs we need to add in are just all of the elements from our relation's domain paired with themselves. Using first order logic, we can define the reflexive closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,x) | x\in D \big\}$.
 
 ## Symmetric Closure
 
