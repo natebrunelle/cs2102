@@ -179,6 +179,10 @@ Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antis
 
 # Closure
 
+We sometimes may come across situations where we have a relation that does not possess a certain property (e.g. it's not reflexive), but we want to modify the relation so that it does. For example, I might have a non-reflexive relation like "city $x$ relates to city $y$ provided there is a direct flight from $x$ to $y$". Unless planes are flying in circles, that relation is most likely going to be irreflexive. If, however, I was interested in the relation "city $x$ relates to city $y$ if someone can in $x$ can get to city $y$ without any layovers", then we might want the latter relation to be reflexive. 
+
+For today's activity we'll be exploring this idea of closure, which means changing relations (specifically adding pairs) in order ensure they have a particular property.
+
 ## Reflexive Closure
 
 ## Symmetric Closure
