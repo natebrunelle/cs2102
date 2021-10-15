@@ -260,10 +260,28 @@ Here are some more examples of transitive closures:
 
 # Ball-Toss Closure Championship
 
-## Symmetric Closure
+To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
 
-## Reflexive Closure
+1. Everyone will answer problems 3-7 with their teams
+1. Once you're done you'll find another team to verify that your solutions are correct
+1. If you get finished with the previous step early then solve problem 8.
+1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
+1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
 
-## Transitive Closure
+The competition will involve producing Symmetric, Reflexive, and Transitive closures using the following relation. The domain of this relation is going to be the set of colors $\{ yellow, blue, purple, red, green \}$. Which colors relate to each other will depend on which numbered balls (see the bag at the front of the room) are in which bins (see those at the front of the room). 
+
+We'll use the placement of balls to define a relation as follows: 
+
+$C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$ in the same bin and the number on the $m$-colored ball is larger than the number on the $n$-colored ball.
+
+For example, if there is a yellow ball with the number 4 on it that shares a bin with a blue ball with a 1 on it then we'll say that yellow relates to blue.
+
+## Round 1: Symmetric Closure
+
+
+
+## Round 2: Reflexive Closure
+
+## Round 3: Transitive Closure
 
 
