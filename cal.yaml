@@ -68,7 +68,7 @@ lectures:
     - quiz
 
     - contradiction
-    - group
+    - group2
     - [contradiction, integers]
     
     - [contradiction, integers]
@@ -158,6 +158,9 @@ reading:
     group1:
         - lnk: "group1.html"
           txt: "Group 1 Guide"
+    group2:
+        - lnk: "group2.html"
+          txt: "Group 2 Guide"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
