@@ -31,9 +31,9 @@ Here are some more examples of reflexive closures:
 
 - The reflexive closure of the $\lt$ relation over $\mathbb{Z}$ is the $\leq$ relation
 
-- The reflexive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
+- The reflexive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$ (the relation where everything relates to everything else). 
 
-- The reflexive closure the empty relation over domain $D$ is exactly $\big\{ (x,x) | x\in D \big\}$.
+- The reflexive closure the empty relation (where nothing relates to anything else) over domain $D$ is exactly $\big\{ (x,x) | x\in D \big\}$.
 
 - The reflexive closure of any relation $R$ that is already reflexive is just that same relation $R$.
 
@@ -47,11 +47,11 @@ Here are some more examples of symmetric closures:
 
 - The symmetric closure of the $\lt$ relation over $\mathbb{Z}$ is the $\neq$ relation
 
-- The symmetric closure of the $\leq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
+- The symmetric closure of the $\leq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$ (the relation where everything relates to everything else). 
 
 - The symmetric closure of any relation $R$ that is already reflexive is just that same relation $R$.
 
-- The symmetric closure the empty relation is just the empty relation (since it is already symmetric).
+- The symmetric closure the empty relation (where nothing relates to anything else) is just the empty relation (since it is already symmetric).
 
 
 
