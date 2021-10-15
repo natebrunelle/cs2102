@@ -14,7 +14,140 @@ Next you're going to identify the relation $M$ over the set $T$ where $M(x,y):$ 
 
 
 
-# Properties of relations
+
+# Closure
+
+We sometimes may come across situations where we have a relation that does not possess a certain property (e.g. it's not reflexive), but we want to modify the relation so that it does. For example, I might have a non-reflexive relation like "city $x$ relates to city $y$ provided there is a direct flight from $x$ to $y$". Unless planes are flying in circles, that relation is most likely going to be irreflexive. If, however, I was interested in the relation "city $x$ relates to city $y$ if someone can in $x$ can get to city $y$ without any layovers", then we might want the latter relation to be reflexive. 
+
+For today's activity we'll be exploring this idea of *closure*, which means changing relations (specifically adding pairs) in order ensure they have a particular property.
+
+## Reflexive Closure
+
+The *reflexive closure* of a relation is defined to be the smallest superset of a that relation that is reflexive. In other words, to perform the reflexive closure we want to add the fewest pairs required to make it reflexive. In this case, the pairs we need to add in are just all of the elements from our relation's domain paired with themselves. Using first order logic, we can define the reflexive closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,x) | x\in D \big\}$.
+
+To see how this works, let's consider an example relation $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not reflexive, as to be reflexive we'd need to satisfy $\forall x\in D. (x,x)\in R$. In this case, we're missing $(1,1)$ and $(3,3)$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in $(1,1)$ and $(3,3)$, and so the reflexive closure of $R$ is $\big\{ (0,0), (0,1), (0,2), (1,2), (1,1), (1,5), (2,2), (2,3), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}
+
+Here are some more examples of reflexive closures:
+
+- The reflexive closure of the $\lt$ relation over $\mathbb{Z}$ is the $\leq$ relation
+
+- The reflexive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
+
+- The reflexive closure the empty relation over domain $D$ is exactly $\big\{ (x,x) | x\in D \big\}$.
+
+- The reflexive closure of any relation $R$ that is already reflexive is just that same relation $R$.
+
+## Symmetric Closure
+
+The *symmetric closure* of a relation is defined to be the smallest superset of a that relation that is symmetric. In other words, to perform the symmetric closure we want to add the fewest pairs required to make it symmetric. In this case, the pairs we need to add in are just the reverses of all pairs already in the relation. Using first order logic, we can define the symmetric closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,y) | (y,x)\in R \}$.
+
+To see how this works, let's consider the same example relation from before, $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not symmetric, as to be symmetric we'd need to satisfy $\forall x\in D.\forall y\in D (x,y)\in R \rightarrow (y,x)\in R$. In this case, we're missing $(1,0)$, $(2,0)$, $(2,1)$, $(5,1)$, and $(3,2)$, since those are all missing opposites of relations that belong to $R$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in exactly those pairs, and so the summetric closure of $R$ is $\big\{ (0,0), (0,1), (1,0), (0,2), (2,0), (1,2), (2,1), (1,1), (1,5), (5,1), (2,2), (2,3), (3,2), (3,3), (3,4), (4,4), (5,5) \big\}
+
+Here are some more examples of symmetric closures:
+
+- The symmetric closure of the $\lt$ relation over $\mathbb{Z}$ is the $\neq$ relation
+
+- The symmetric closure of the $\leq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
+
+- The symmetric closure of any relation $R$ that is already reflexive is just that same relation $R$.
+
+- The symmetric closure the empty relation is just the empty relation (since it is already symmetric).
+
+
+
+## Transitive Closure
+
+The *transitive closure* of a relation is defined to be the smallest superset of a that relation that is transitive. In other words, to perform the transitive closure we want to add the fewest pairs required to make it transitive. Transitive closures are much trickier than either reflexive or symmetric closures. Let's see why.
+
+
+Consider the same example relation as before: $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. To be transitive we need to satisfy $\forall x \in D, \forall y \in D. \forall z \in D. \big( (x,y)\in R \land (y,z)\in R\big) \rightarrow (x,z)\in R$. We can see that $R$ is not transitive as we're missing:
+
+- $(0,5)$ (needed since we have $(0,1)$ and $(1,5)$)
+- $(0,3)$ (needed since we have $(0,2)$ and $(2,3)$)
+- $(1,3)$ (needed since we have $(1,2)$ and $(2,3)$)
+- $(2,4)$ (needed since we have $(2,3)$ and $(3,4)$)
+- $(3,3)$ (needed since we have $(3,4)$ and $(4,3)$)
+
+So just as before, let's add in these 5 pairs to our relation, resulting in the new relation $R_2 = \big\{ (0,0), (0,1), (0,2), (0,3), (0,5), (1,2), (1,3), (1,5), (2,2), (2,3), (2,4), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$
+
+However, notice that this new relation $R_2$ *still* isn't transitive, as we now have $(0,2)$ and $(2,4)$ but not $(0,4)$! The challenge we have is that completing all "transitive triples" can introduce new relations that create new incomplete "transitive triples", and so we need to keep going until the result is finally transitive. Next we're going to add:
+
+- $(0,4)$ (needed since we have $(0,2)$ and $(2,4)$)
+- $(1,4)$ (needed since we have $(1,2)$ and $(2,4)$)
+
+Giving us $R_3 = \big\{ (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (1,2), (1,3), (1,4), (1,5), (2,2), (2,3), (2,4), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$, which is *finally* transitive, and therefore is the transitive closure of our original relation $R$.
+
+In this case it took us 2 rounds of adding pairs together, but this gets even worse when we have an infinite domain. Consider the relation $P(x,y): x=y+1$ over the domain $\mathbb{Z}$. When we try and take the transitive closure of $P$, we'll need to add in $(0,2)$ since we previously had $P(0,1)$ and $P(1,2)$. Next we'll need to add $(0,3)$ since we had $P(0,2)$ and $P(2,3)$. Then we'll need to add $(0,4)$ since we had $P(0,3)$ and $P(3,4)$. Hopefully you can see the pattern, and notice that the transitive closure of $P$ is going to end up being the $\lt$ relation, but it's going to require an infinite number of steps to get there! Because of the possibility of needing an infinite number of steps, it actually becomes impossible to write out a definition of transitive closure using first order logic!
+
+
+Here are some more examples of transitive closures:
+
+- The transitive closure of the relation $P(x,y):x=y+1$ over $\mathbb{Z}$ is the $\lt$ relation
+
+- The transitive closure of the relation $P(x,y):$ "$x$ is a parent of $y$" over the set of all people is the relation "$x$ is an ancestor of $y$"
+
+- The transitive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
+
+- The transitive closure of any relation $R$ that is already transitive is just that same relation $R$.
+
+- The transitive closure the empty relation is just the empty relation (since it is already transitive).
+
+- The transitive closure the $\lt$ relation is just the empty relation (since it is already transitive).
+
+
+
+# Ball-Toss Closure Championship
+
+To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
+
+1. Everyone will answer problems 3-6 with their teams
+1. Once you're done you'll find another team to verify that your solutions are correct
+1. If you get finished with the previous step early then solve **problem 8**.
+1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
+1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
+
+The competition will involve producing Symmetric, Reflexive, and Transitive closures using the following relation. The domain of this relation is going to be the set of colors $\{ yellow, blue, purple, red, green \}$. Which colors relate to each other will depend on which numbered balls (see the bag at the front of the room) are in which bins (see those at the front of the room). 
+
+We'll use the placement of balls to define a relation as follows: 
+
+$C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$ in the same bin and the number on the $m$-colored ball is larger than the number on the $n$-colored ball.
+
+For example, if there is a $yellow$ ball with the number 4 on it that shares a bin with a $blue$ ball with a 1 on it then we'll say that $yellow$ relates to $blue$.
+
+Currently, the balls are placed in the bins in the front of the room in this arrangement:
+
+![](files/bins_setup.png){ width=50% }
+
+Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
+
+## Round 1: Reflexive Closure
+
+To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. Write down the missing pairs on your worksheet (**problem 3**).
+
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the reflexive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
+
+The 4 competitors will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
+
+## Round 2: Symmetric Closure
+
+To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
+
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the symmetric closure of $C$ (**problem 6**). We were able to do this by adding 2 balls.
+
+The 2 victors from Round 1 will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
+
+
+## Round 3: Transitive Closure
+
+The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
+
+![](files/bins_setup2.png){ width=50% }
+
+that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
+
+As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$ (**problem 7**).
+
+# Appendix: Properties of relations
 
 We identified several properties of relations in class. We recall those properties here:
 
@@ -171,142 +304,4 @@ The following relations (with their domains) are not transitive:
 - the relation $R$ over $\mathbb{Z}$ where $R(x,y): x \neq y$
 
 - the relation $R$ over $A=\big\{ 0, 1, 2, 3, 4 \big\}$ where $R = \big\{ (0,4), (1,2), (3,3), (2,1) \big\}$
-
-
-
-
-Identify the properties (of reflexive, irreflexive, symmetric, asymmetric, antisymmetric, and transitive) that your relation $M$ has (**problem 3**).
-
-# Closure
-
-We sometimes may come across situations where we have a relation that does not possess a certain property (e.g. it's not reflexive), but we want to modify the relation so that it does. For example, I might have a non-reflexive relation like "city $x$ relates to city $y$ provided there is a direct flight from $x$ to $y$". Unless planes are flying in circles, that relation is most likely going to be irreflexive. If, however, I was interested in the relation "city $x$ relates to city $y$ if someone can in $x$ can get to city $y$ without any layovers", then we might want the latter relation to be reflexive. 
-
-For today's activity we'll be exploring this idea of *closure*, which means changing relations (specifically adding pairs) in order ensure they have a particular property.
-
-## Reflexive Closure
-
-The *reflexive closure* of a relation is defined to be the smallest superset of a that relation that is reflexive. In other words, to perform the reflexive closure we want to add the fewest pairs required to make it reflexive. In this case, the pairs we need to add in are just all of the elements from our relation's domain paired with themselves. Using first order logic, we can define the reflexive closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,x) | x\in D \big\}$.
-
-To see how this works, let's consider an example relation $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not reflexive, as to be reflexive we'd need to satisfy $\forall x\in D. (x,x)\in R$. In this case, we're missing $(1,1)$ and $(3,3)$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in $(1,1)$ and $(3,3)$, and so the reflexive closure of $R$ is $\big\{ (0,0), (0,1), (0,2), (1,2), (1,1), (1,5), (2,2), (2,3), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}
-
-Here are some more examples of reflexive closures:
-
-- The reflexive closure of the $\lt$ relation over $\mathbb{Z}$ is the $\leq$ relation
-
-- The reflexive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
-
-- The reflexive closure the empty relation over domain $D$ is exactly $\big\{ (x,x) | x\in D \big\}$.
-
-- The reflexive closure of any relation $R$ that is already reflexive is just that same relation $R$.
-
-## Symmetric Closure
-
-The *symmetric closure* of a relation is defined to be the smallest superset of a that relation that is symmetric. In other words, to perform the symmetric closure we want to add the fewest pairs required to make it symmetric. In this case, the pairs we need to add in are just the reverses of all pairs already in the relation. Using first order logic, we can define the symmetric closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,y) | (y,x)\in R \}$.
-
-To see how this works, let's consider the same example relation from before, $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not symmetric, as to be symmetric we'd need to satisfy $\forall x\in D.\forall y\in D (x,y)\in R \rightarrow (y,x)\in R$. In this case, we're missing $(1,0)$, $(2,0)$, $(2,1)$, $(5,1)$, and $(3,2)$, since those are all missing opposites of relations that belong to $R$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in exactly those pairs, and so the summetric closure of $R$ is $\big\{ (0,0), (0,1), (1,0), (0,2), (2,0), (1,2), (2,1), (1,1), (1,5), (5,1), (2,2), (2,3), (3,2), (3,3), (3,4), (4,4), (5,5) \big\}
-
-Here are some more examples of symmetric closures:
-
-- The symmetric closure of the $\lt$ relation over $\mathbb{Z}$ is the $\neq$ relation
-
-- The symmetric closure of the $\leq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
-
-- The symmetric closure of any relation $R$ that is already reflexive is just that same relation $R$.
-
-- The symmetric closure the empty relation is just the empty relation (since it is already symmetric).
-
-
-
-## Transitive Closure
-
-The *transitive closure* of a relation is defined to be the smallest superset of a that relation that is transitive. In other words, to perform the transitive closure we want to add the fewest pairs required to make it transitive. Transitive closures are much trickier than either reflexive or symmetric closures. Let's see why.
-
-
-Consider the same example relation as before: $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. To be transitive we need to satisfy $\forall x \in D, \forall y \in D. \forall z \in D. \big( (x,y)\in R \land (y,z)\in R\big) \rightarrow (x,z)\in R$. We can see that $R$ is not transitive as we're missing:
-
-- $(0,5)$ (needed since we have $(0,1)$ and $(1,5)$)
-- $(0,3)$ (needed since we have $(0,2)$ and $(2,3)$)
-- $(1,3)$ (needed since we have $(1,2)$ and $(2,3)$)
-- $(2,4)$ (needed since we have $(2,3)$ and $(3,4)$)
-- $(3,3)$ (needed since we have $(3,4)$ and $(4,3)$)
-
-So just as before, let's add in these 5 pairs to our relation, resulting in the new relation $R_2 = \big\{ (0,0), (0,1), (0,2), (0,3), (0,5), (1,2), (1,3), (1,5), (2,2), (2,3), (2,4), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$
-
-However, notice that this new relation $R_2$ *still* isn't transitive, as we now have $(0,2)$ and $(2,4)$ but not $(0,4)$! The challenge we have is that completing all "transitive triples" can introduce new relations that create new incomplete "transitive triples", and so we need to keep going until the result is finally transitive. Next we're going to add:
-
-- $(0,4)$ (needed since we have $(0,2)$ and $(2,4)$)
-- $(1,4)$ (needed since we have $(1,2)$ and $(2,4)$)
-
-Giving us $R_3 = \big\{ (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (1,2), (1,3), (1,4), (1,5), (2,2), (2,3), (2,4), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$, which is *finally* transitive, and therefore is the transitive closure of our original relation $R$.
-
-In this case it took us 2 rounds of adding pairs together, but this gets even worse when we have an infinite domain. Consider the relation $P(x,y): x=y+1$ over the domain $\mathbb{Z}$. When we try and take the transitive closure of $P$, we'll need to add in $(0,2)$ since we previously had $P(0,1)$ and $P(1,2)$. Next we'll need to add $(0,3)$ since we had $P(0,2)$ and $P(2,3)$. Then we'll need to add $(0,4)$ since we had $P(0,3)$ and $P(3,4)$. Hopefully you can see the pattern, and notice that the transitive closure of $P$ is going to end up being the $\lt$ relation, but it's going to require an infinite number of steps to get there! Because of the possibility of needing an infinite number of steps, it actually becomes impossible to write out a definition of transitive closure using first order logic!
-
-
-Here are some more examples of transitive closures:
-
-- The transitive closure of the relation $P(x,y):x=y+1$ over $\mathbb{Z}$ is the $\lt$ relation
-
-- The transitive closure of the relation $P(x,y):$ "$x$ is a parent of $y$" over the set of all people is the relation "$x$ is an ancestor of $y$"
-
-- The transitive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
-
-- The transitive closure of any relation $R$ that is already transitive is just that same relation $R$.
-
-- The transitive closure the empty relation is just the empty relation (since it is already transitive).
-
-- The transitive closure the $\lt$ relation is just the empty relation (since it is already transitive).
-
-
-
-# Ball-Toss Closure Championship
-
-To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
-
-1. Everyone will answer problems 3-6 with their teams
-1. Once you're done you'll find another team to verify that your solutions are correct
-1. If you get finished with the previous step early then solve **problem 8**.
-1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
-1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
-
-The competition will involve producing Symmetric, Reflexive, and Transitive closures using the following relation. The domain of this relation is going to be the set of colors $\{ yellow, blue, purple, red, green \}$. Which colors relate to each other will depend on which numbered balls (see the bag at the front of the room) are in which bins (see those at the front of the room). 
-
-We'll use the placement of balls to define a relation as follows: 
-
-$C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$ in the same bin and the number on the $m$-colored ball is larger than the number on the $n$-colored ball.
-
-For example, if there is a $yellow$ ball with the number 4 on it that shares a bin with a $blue$ ball with a 1 on it then we'll say that $yellow$ relates to $blue$.
-
-Currently, the balls are placed in the bins in the front of the room in this arrangement:
-
-![](files/bins_setup.png){ width=50% }
-
-Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
-
-## Round 1: Reflexive Closure
-
-To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. Write down the missing pairs on your worksheet (**problem 3**).
-
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the reflexive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
-
-The 4 competitors will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
-
-## Round 2: Symmetric Closure
-
-To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
-
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the symmetric closure of $C$ (**problem 6**). We were able to do this by adding 2 balls.
-
-The 2 victors from Round 1 will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
-
-
-## Round 3: Transitive Closure
-
-The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
-
-![](files/bins_setup2.png){ width=50% }
-
-that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
-
-As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$ (**problem 7**).
-
 
