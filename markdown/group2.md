@@ -264,7 +264,7 @@ To give you experience with doing closures, we're together going to have a tourn
 
 1. Everyone will answer problems 3-6 with their teams
 1. Once you're done you'll find another team to verify that your solutions are correct
-1. If you get finished with the previous step early then solve **problem 7**.
+1. If you get finished with the previous step early then solve **problem 8**.
 1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
 1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
 
@@ -305,8 +305,8 @@ The victor for round 2 will face off with the professor to produce the transitiv
 
 ![](files/bins_setup2.png){ width=50% }
 
-that is $C=\big\{  \big\}$
+that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
 
-As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$
+As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$ (**problem 7**).
 
 
