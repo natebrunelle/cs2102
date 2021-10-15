@@ -278,7 +278,7 @@ For example, if there is a $yellow$ ball with the number 4 on it that shares a b
 
 Currently, the balls are placed in the bins in the front of the room in this arrangement:
 
-![bins](files/bins_setup.png)
+![](files/bins_setup.png)
 
 ## Round 1: Symmetric Closure
 
