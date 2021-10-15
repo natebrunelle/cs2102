@@ -274,7 +274,7 @@ We'll use the placement of balls to define a relation as follows:
 
 $C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$ in the same bin and the number on the $m$-colored ball is larger than the number on the $n$-colored ball.
 
-For example, if there is a yellow ball with the number 4 on it that shares a bin with a blue ball with a 1 on it then we'll say that yellow relates to blue.
+For example, if there is a $yellow$ ball with the number 4 on it that shares a bin with a $blue$ ball with a 1 on it then we'll say that $yellow$ relates to $blue$.
 
 ## Round 1: Symmetric Closure
 
