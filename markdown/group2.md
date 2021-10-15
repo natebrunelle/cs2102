@@ -286,7 +286,7 @@ Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green
 
 To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. Write down the missing pairs on your worksheet (**problem 3**).
 
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the transitive closure of $C$. We were able to do this by adding 4 balls.
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the transitive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
 
 ## Round 2: Symmetric Closure
 
