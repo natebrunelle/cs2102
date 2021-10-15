@@ -1,5 +1,5 @@
 ---
-title: Group Activity 1 | Closure
+title: Group Activity 2 | Closure
 ...
 
 Put your answers for each problem of this activity in this [worksheet](/files/group2.pdf).
