@@ -246,7 +246,7 @@ Here are some more examples of transitive closures:
 
 - The transitive closure of the relation $P(x,y):x=y+1$ over $\mathbb{Z}$ is the $\lt$ relation
 
-- The transitive closure of the relation $P(x,y): x$ is a parent of $y$ over the set of all people is the relation "$x$ is an ancestor of $y$"
+- The transitive closure of the relation $P(x,y):$ "$x$ is a parent of $y$" over the set of all people is the relation "$x$ is an ancestor of $y$"
 
 - The transitive closure of the $\neq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$. 
 
