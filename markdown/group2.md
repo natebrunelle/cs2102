@@ -276,6 +276,8 @@ $C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$
 
 For example, if there is a $yellow$ ball with the number 4 on it that shares a bin with a $blue$ ball with a 1 on it then we'll say that $yellow$ relates to $blue$.
 
+Currently, the balls are placed in the bins in the front of the room in this arrangement:
+
 ## Round 1: Symmetric Closure
 
 
