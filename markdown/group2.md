@@ -262,9 +262,9 @@ Here are some more examples of transitive closures:
 
 To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
 
-1. Everyone will answer problems 3-7 with their teams
+1. Everyone will answer problems 3-6 with their teams
 1. Once you're done you'll find another team to verify that your solutions are correct
-1. If you get finished with the previous step early then solve problem 8.
+1. If you get finished with the previous step early then solve **problem 7**.
 1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
 1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
 
@@ -289,6 +289,11 @@ To prepare for round 1 of the tournament, we will figure out how to add balls to
 Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the transitive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
 
 ## Round 2: Symmetric Closure
+
+To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
+
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the transitive closure of $C$ (**problem 6**). We were able to do this by adding 4 balls.
+
 
 ## Round 3: Transitive Closure
 
