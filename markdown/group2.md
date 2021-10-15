@@ -280,6 +280,8 @@ Currently, the balls are placed in the bins in the front of the room in this arr
 
 ![](files/bins_setup.png){ width=50% }
 
+Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$
+
 ## Round 1: Symmetric Closure
 
 
