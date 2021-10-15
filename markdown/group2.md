@@ -282,11 +282,13 @@ Currently, the balls are placed in the bins in the front of the room in this arr
 
 Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
 
-## Round 1: Symmetric Closure
+## Round 1: Reflexive Closure
 
+To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. Write down the missing pairs on your worksheet (**problem 3**).
 
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the transitive closure of $C$. We were able to do this by adding 4 balls.
 
-## Round 2: Reflexive Closure
+## Round 2: Symmetric Closure
 
 ## Round 3: Transitive Closure
 
