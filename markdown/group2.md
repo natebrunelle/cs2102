@@ -288,13 +288,25 @@ To prepare for round 1 of the tournament, we will figure out how to add balls to
 
 Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the reflexive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
 
+The 4 competitors will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
+
 ## Round 2: Symmetric Closure
 
 To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
 
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the symmetric closure of $C$ (**problem 6**). We were able to do this by adding 4 balls.
+Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the symmetric closure of $C$ (**problem 6**). We were able to do this by adding 2 balls.
+
+The 2 victors from Round 1 will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
 
 
 ## Round 3: Transitive Closure
+
+The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
+
+![](files/bins_setup2.png){ width=50% }
+
+that is $C=\big\{  \big\}$
+
+As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$
 
 
