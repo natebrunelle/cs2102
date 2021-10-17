@@ -99,7 +99,10 @@ Nathan Brunelle
 
 Elizabeth Orrico
 :   Email
-    :   <a href="mailto:emo7bf@virginia.edu?subject=2120">emo7bf@virginia.edu</a>; include 2120 in the subject
+    :   <a href="mailto:emo7bf@virginia.edu?subject=2120">orrico@virginia.edu</a>; include 2120 in the subject
+    
+    Office Hours
+    : Rice 207 --   Mon 11am-12pm and 3pm-4pm. Wed 11am-12pm and 3pm-4pm.
 
 TAs
 :   Contact
