@@ -17,6 +17,9 @@ Over the last two weeks we have discussed two ways of proving theorems like $\fo
 
 ## Proof by Contradiction Using Well-Ordering
 
+If you recall from class, the Well-Ordering Principle states "Every non-empty subset of the Natural numbers has a least element". The general template for how we use this idea to construct a proof that $\forall x\in \mathbb{N}. P(x)$ is as follows:
+
+1. Begin by assuming the negation of our theorem toward reaching a contradiction. That is, assume $\lnot\big(\forall x\in \mathbb{N}. P(x)\big)\equiv \big( \exists x \in \mathbb{N}. \neg P(x)\big)$.
 
 ## Proof by Induction
 
