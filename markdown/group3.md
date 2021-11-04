@@ -15,4 +15,14 @@ Over the last two weeks we have discussed two ways of proving theorems like $\fo
 
 
 
+## Proof by Contradiction Using Well-Ordering
 
+
+## Proof by Induction
+
+
+# Proving Properties of Programs
+
+# Recursion
+
+# Towers of Hanoi
