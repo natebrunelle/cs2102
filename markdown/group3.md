@@ -105,7 +105,7 @@ To prove that a function terminates, it's typically easiest to do this via proof
 {.example ...}
 Consider this code for finding the greatest common divisor of two natural numbers:
 
-<table><tr><th>Java</th><th>Python</th></tr><tr><td valign="top">
+<table><tr><th>Python</th><th>Java</th></tr><tr><td valign="top">
 ```python
 def gcd(x,y):
     if y == 0:
@@ -134,7 +134,7 @@ To prove that this code always terminates using well-ordering, we first need to 
 {.example ...}
 Consider this code for finding the maximum item in a list:
 
-<table><tr><th>Java</th><th>Python</th></tr><tr><td valign="top">
+<table><tr><th>Python</th><th>Java</th></tr><tr><td valign="top">
 ```python
 def find_max(my_list):
     m = 0
