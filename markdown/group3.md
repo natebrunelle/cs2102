@@ -59,10 +59,12 @@ These proofs techniques are equivalent in that you can transform any proof by co
 
 You can similarly transform any proof by induction into a proof by contradiction by well ordering by using your proof that the base case ($P(0)$) holds to show $0 \notin C$, and then using your proof that $P(n)\rightarrow P(n+1)$ in your inductive step as the proof of the logically equivalent statement $\neg P(n) \rightarrow \neg P(n-1)$. Everything else in these proof strategies are just structural pieces that will be the same among *all* proofs that use the respective strategy!
 
-To get practice doing this, take the following proof that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and use it to find a proof that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction) (**Problem 3**). In this case, we define $P(n)$ to be the predicate $\Sigma_{i=0}^{n} i = \frac{n(n+1)}{2}$. The proof follows.
+To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction) 
 
-Suppose $\neg P(n)$, i.e., $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. By algebra, we therefore have:
 
+
+:::
+Suppose $\neg P(n)$, i.e., $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
 $n+ \Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}-n$  
@@ -72,10 +74,10 @@ $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1-2)}{2}$
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$  
 $\square$
+:::
 
-Check your work[^check].
-
-[^check]: Suppose $P(n)$, i.e. $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. Let $n=m-1$. By algebra, we therefore have:  
+:::
+Suppose $P(n)$, i.e. $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. Let $n=m-1$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
 $\Sigma_{i=0}^{m-1} i \neq \frac{(m-1)(m+1-1)}{2}$  
 $\Sigma_{i=0}^{m-1} i \neq \frac{m(m-1)}{2}$  
@@ -87,7 +89,7 @@ $m+ \Sigma_{i=0}^{m-1} i \neq \frac{m(m+1)}{2}$
 $\Sigma_{i=0}^{m} i \neq \frac{m(m+1)}{2}$  
 $\Sigma_{i=0}^{n+1} i \neq \frac{(n+1)(n+1+1)}{2}$  
 \box
-
+:::
 # Proving Properties of Programs
 
 # Recursion
