@@ -62,7 +62,7 @@ You can similarly transform any proof by induction into a proof by contradiction
 To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction) 
 
 
-
+{.example ...}
 :::
 Suppose $\neg P(n)$, i.e., $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
@@ -75,7 +75,9 @@ $\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$
 $\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$  
 $\square$
 :::
+{/}
 
+{.example ...}
 :::
 Suppose $P(n)$, i.e. $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. Let $n=m-1$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
@@ -90,6 +92,8 @@ $\Sigma_{i=0}^{m} i \neq \frac{m(m+1)}{2}$
 $\Sigma_{i=0}^{n+1} i \neq \frac{(n+1)(n+1+1)}{2}$  
 \box
 :::
+{/}
+
 # Proving Properties of Programs
 
 # Recursion
