@@ -98,6 +98,15 @@ $\Sigma_{i=0}^{n+1} i \neq \frac{(n+1)(n+1+1)}{2}$
 
 We've probably gone on long enough in this course without applying things we've learned directly to something discernable as computer science, so let's apply induction and well-ordering to code! It's very often the case that you can use these proof strategies to prove things about code. We'll look at two applications: code correctness ("How can we show that a function returns the right answer?") and code termination ("How can we show that our program is not stuck in an infinite loop?").
 
+```python
+def babylonian(x):
+    y = 1
+    for i in range(20):
+      y = (y + x/y)/2
+    return y
+```
+
+
 # Recursion
 
 # Towers of Hanoi
