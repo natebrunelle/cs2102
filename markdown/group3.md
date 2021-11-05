@@ -101,7 +101,7 @@ We've probably gone on long enough in this course without applying things we've 
 ## Code Correctness
 
 {.example ...}
-Consider this code:
+Consider this code for finding the maximum item in a list:
 
 <table><tr><th>Java</th><th>Python</th></tr><tr><td valign="top">
 ```python
