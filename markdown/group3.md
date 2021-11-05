@@ -172,4 +172,6 @@ Next show the inductive step, the $P(n)\rightarrow P(n+1)$ (**Problem 7**).
 
 Make sure everyone in your group understands why these two together would allow us to conclude that the code correctly finds the maximum of the list.
 
-# Towers of Hanoi
+# Tower of Hanoi
+
+According to ancient legend, somewhere in Hanoi there is a temple in Hanoi, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and are placed in a stack over the first pillar. This stack is arranged so that the largest disc is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
