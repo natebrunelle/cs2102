@@ -127,7 +127,7 @@ int gcd(int x, int y){
 </td></tr></table>
 {/}
 
-To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: The program terminates for $y=n$. We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (**Problem 4**).
+To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "The program terminates for $y=n$". We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (**Problem 4**).
 
 Finally, to show that this program will terminate, we need to show that if there is some natural number $n$ for which the function does not terminate, then there must be some smaller natural number $m$ for which it doesn't terminate as well[^1]. Explain how we know this is the case (**Problem 5**).
 
