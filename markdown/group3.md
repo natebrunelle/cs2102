@@ -166,10 +166,10 @@ int find_max(int[] my_list){
 </td></tr></table>
 {/}
 
+To prove that this code always terminates using induction, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n): $ after looking at the $n$th element in the list $m$ is equal to the maximum of those elements. To begin, show a base case that $P(1)$ is true (**Problem 6**).
 
+Next show the inductive step, the $P(n)\rightarrow P(n+1)$ (**Problem 7**). 
 
-
-
-# Recursion
+Make sure everyone in your group understands why these two together would allow us to conclude that the code correctly finds the maximum of the list.
 
 # Towers of Hanoi
