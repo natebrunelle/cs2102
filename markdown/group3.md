@@ -71,6 +71,7 @@ $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)-2n}{2}$
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1-2)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$  
+$\square$
 
 
 
