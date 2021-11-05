@@ -64,6 +64,7 @@ To see this transformation, consider the following proofs that $\neg P(n) \right
 
 {.example ...}$\neg P(n) \rightarrow \neg P(n-1)$
 
+:::proof
 Suppose $\neg P(n)$, i.e., $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
 $n+ \Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}$  
@@ -73,7 +74,7 @@ $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)-2n}{2}$
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1-2)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$  
 $\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$  
-$\square$
+:::
 {/}
 
 {.example ...}$P(n)\rightarrow P(n+1)$
@@ -90,9 +91,7 @@ $\Sigma_{i=0}^{m-1} i \neq \frac{m(m+1)}{2}-m$
 $m+ \Sigma_{i=0}^{m-1} i \neq \frac{m(m+1)}{2}$  
 $\Sigma_{i=0}^{m} i \neq \frac{m(m+1)}{2}$  
 $\Sigma_{i=0}^{n+1} i \neq \frac{(n+1)(n+1+1)}{2}$  
-\box
 :::
-
 {/}
 
 # Proving Properties of Programs
