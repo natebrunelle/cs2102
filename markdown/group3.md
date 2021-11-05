@@ -63,21 +63,14 @@ To get practice doing this, take the following proof that $\neg P(n) \rightarrow
 
 Suppose $\neg P(n)$, i.e., $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. By algebra, we therefore have:
 
-$\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$
-
-$n+ \Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}-n$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}-\frac{2n}{2}$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)-2n}{2}$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1-2)}{2}$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$
-
-$\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$
+$\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
+$n+ \Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}-n$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)}{2}-\frac{2n}{2}$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1)-2n}{2}$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{n(n+1-2)}{2}$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{n(n-1)}{2}$  
+$\Sigma_{i=0}^{n-1} i \neq \frac{(n-1)(n+1-1)}{2}$  
 
 
 
