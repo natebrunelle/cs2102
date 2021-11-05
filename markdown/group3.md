@@ -59,7 +59,7 @@ These proofs techniques are equivalent in that you can transform any proof by co
 
 You can similarly transform any proof by induction into a proof by contradiction by well ordering by using your proof that the base case ($P(0)$) holds to show $0 \notin C$, and then using your proof that $P(n)\rightarrow P(n+1)$ in your inductive step as the proof of the logically equivalent statement $\neg P(n) \rightarrow \neg P(n-1)$. Everything else in these proof strategies are just structural pieces that will be the same among *all* proofs that use the respective strategy!
 
-To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction) 
+To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction). Briefly explain how we transformed the first proof into the second (**Problem 3**).
 
 
 {.example ...}$\neg P(n) \rightarrow \neg P(n-1)$
