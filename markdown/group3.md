@@ -98,6 +98,37 @@ $\Sigma_{i=0}^{n+1} i \neq \frac{(n+1)(n+1+1)}{2}$
 
 We've probably gone on long enough in this course without applying things we've learned directly to something discernable as computer science, so let's apply induction and well-ordering to code! It's very often the case that you can use these proof strategies to prove things about code. We'll look at two applications: code correctness ("How can we show that a function returns the right answer?") and code termination ("How can we show that our program is not stuck in an infinite loop?").
 
+## Code Termination
+
+To prove that a function terminates, it's typically easiest to do this via proof by contradiction using well-ordering. We'll work together to show that the following code (which happens to computes greatest common divisors, though that's not obvious) is guaranteed to halt for any natural numbers given as input.
+
+{.example ...}
+Consider this code for finding the greatest common divisor of two natural numbers:
+
+<table><tr><th>Java</th><th>Python</th></tr><tr><td valign="top">
+```python
+def gcd(x,y):
+    if y == 0:
+        return x
+    r = x % y
+    return gcd(y,r)
+        
+```                          
+</td><td valign="top">
+```Java
+int gcd(int x, int y){
+    if (y == 0){
+        return x;
+    }
+    int r = x % y;
+    return gcd(y,r);
+}
+```
+</td></tr></table>
+{/}
+
+To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n): $ The program terminates for $y=n$.
+
 ## Code Correctness
 
 {.example ...}
