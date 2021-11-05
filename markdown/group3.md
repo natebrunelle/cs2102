@@ -6,7 +6,7 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 
 # Introduce Your Team!
 
- (**problem 1**).
+Give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Spring 2022. (**problem 1**).
 
 # Induction and Well-Ordering
 
@@ -176,7 +176,7 @@ Make sure everyone in your group understands why these two together would allow 
 
 According to ancient legend, somewhere in Hanoi there is a temple in Hanoi, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and are placed in a stack over the first pillar. This stack is arranged so that the largest disc is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
 
-You have a set of 4 disks. With your group, determine the number of moves it will take for the monks to move a stack of 4 disks (**Problem 8**). To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
+You have a set of 4 disks (or if you're completing this at home, make 4 disks of unique diameter, pancakes sound good). With your group, determine the number of moves it will take for the monks to move a stack of 4 disks (**Problem 8**). To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
 
 Next, guess a formula that would represent the number of moves required for the monks to move $n$ disks (**Problem 9**).
 
