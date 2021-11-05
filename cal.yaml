@@ -80,7 +80,7 @@ lectures:
     
     - [proof by cases, induction]
     - induction
-    - group
+    - group3
     
     - [counting, induction]
     - [counting, induction]
@@ -161,6 +161,9 @@ reading:
     group2:
         - lnk: "group2.html"
           txt: "Group 2 Guide"
+    group3:
+        - lnk: "group3.html"
+          txt: "Group 3 Guide"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
