@@ -175,3 +175,32 @@ Make sure everyone in your group understands why these two together would allow 
 # Tower of Hanoi
 
 According to ancient legend, somewhere in Hanoi there is a temple in Hanoi, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and are placed in a stack over the first pillar. This stack is arranged so that the largest disc is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
+
+You have a set of 4 disks. With your group, determine the number of moves it will take for the monks to move a stack of 4 disks (**Problem 8**). To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
+
+Next, guess a formula that would represent the number of moves required for the monks to move $n$ disks (**Problem 9**).
+
+Finally, use induction to show that your answer for Problem 9 is correct. Here's a hint for how you might do this. The number of moves required to move all $n$ disks is going to be the number of moves required to move $n-1$ disks (to free the largest disk), plus one (to move the largest disk), plust the number of moves required to move $n-1$ disks again (to put all disks back atop the largest). In other words, the number of moves required should match the return value of the following function.
+
+{.example ...}
+A function which computes the number of moves required to move a stack of n disks
+
+<table><tr><th>Python</th><th>Java</th></tr><tr><td valign="top">
+```python
+def hanoi(n):
+    if n == 1:
+        return 1
+    return 2*hanoi(n-1)+1
+```                          
+</td><td valign="top">
+```Java
+int hanoi(int n){
+    if (n == 1){
+        return 1;
+    }
+    return 2*hanoi(n-1)+1;
+}
+```
+</td></tr></table>
+{/}
+
