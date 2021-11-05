@@ -75,8 +75,7 @@ $\square$
 
 Check your work[^check].
 
-[^check]: Suppose $P(n)$, i.e. $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. Let $n=m-1$. By algebra, we therefore have:
-
+[^check]: Suppose $P(n)$, i.e. $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$. Let $n=m-1$. By algebra, we therefore have:  
 $\Sigma_{i=0}^{n} i \neq \frac{n(n+1)}{2}$  
 $\Sigma_{i=0}^{m-1} i \neq \frac{(m-1)(m+1-1)}{2}$  
 $\Sigma_{i=0}^{m-1} i \neq \frac{m(m-1)}{2}$  
