@@ -31,13 +31,23 @@ Give the names of all members of your group. Indicate the your relation to each 
 
 ## Activity B: "Do you have a crush on me?"
 
-*What your group members will need to know/What you may need to teach*: Propositions, Boolean algebra, functions.
+*Goals of this activity*:
+- To see some ideas realted to cryptography. Namely, we'll be exploring an illustration of a cryptography topics called secure computation. Check whether that crush who you're seeing for the first time since before the pandemic still has feelings for you, too.
+
+*What your group members will need to know/What you may need to teach*:  
+- Propositions, Boolean algebra, functions.
 
 ## Activity C: The Secret of NIM
 
-*What your group members will need to know/What you may need to teach*: 
-Counting (from 1 to 5), Induction/recursion (or related ideas), how to lose a gram gracefully.
+*Goals of this activity*:
+- Help you finally get one up on your older sibling/smarty-pants family member by playing a game against them that they cannot win. Then give you the opportunity to make yourself look even smarter by explaining to them precisely how you're winning every time.
+
+*What your group members will need to know/What you may need to teach*:  
+- Counting (from 1 to 5), Induction/recursion (or related ideas), how to lose a gram gracefully.
 
 ## Activity D: Centrifuges
+
+*Goals of this activity*:
+- Revisit a problem that we looked at during the first week of class so that we can see how far exactly we've come in honing our skills for careful thought and problem solving. Demonstrate how formal reasoning can help you to be convinced of counter-intuitive facts. Give yourself an excuse to load up the lazy-susan with turkey, mashed potatoes, and on the fixin's, then give it a whirl *as fast as you can*!
 
 *What your group members will need to know/What you may need to teach*: How to read an analog clock, what a centrifuge is, what a test-tube is, problem-solving skills.
