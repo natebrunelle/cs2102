@@ -19,20 +19,21 @@ Below you will see that there are 4 different activities available. You're welco
 
 Give the names of all members of your group. Indicate the your relation to each group member and how much Math/CS experience/education they have. (**problem 1**).
 
+# Select an Activity
 
-# Activity 1: Propositions to Computing
+## Activity A: Propositions to Computing
 
 *What your group members will need to know/What you may need to teach*: Propositions, elementary school arithmetic, Boolean algebra.
 
-# Activity 2: "Do you have a crush on me?"
+## Activity B: "Do you have a crush on me?"
 
 *What your group members will need to know/What you may need to teach*: Propositions, Boolean algebra, functions.
 
-# Activity 3: The Secret of NIM
+## Activity C: The Secret of NIM
 
 *What your group members will need to know/What you may need to teach*: 
 Counting (from 1 to 5), Induction/recursion (or related ideas), how to lose a gram gracefully.
 
-# Activity 4: Centrifuges
+## Activity D: Centrifuges
 
 *What your group members will need to know/What you may need to teach*: How to read an analog clock, what a centrifuge is, what a test-tube is, problem-solving skills.
