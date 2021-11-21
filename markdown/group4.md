@@ -23,7 +23,11 @@ Give the names of all members of your group. Indicate the your relation to each 
 
 ## Activity A: Propositions to Computing
 
-*What your group members will need to know/What you may need to teach*: Propositions, elementary school arithmetic, Boolean algebra.
+*Goals of this activity*:  
+    See how propositions and boolean algebra allow us to build computers. We'll walk you through how computers use boolean algebra to add numbers together.
+
+*What your group members will need to know/What you may need to teach*:  
+    Propositions, elementary school arithmetic, Boolean algebra.
 
 ## Activity B: "Do you have a crush on me?"
 
