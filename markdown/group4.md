@@ -40,6 +40,7 @@ Give the names of all members of your group. Indicate the your relationship to e
 For the remaining problems we'll be analyzing how many different Thanksgiving feasts Nate and Elizbeth could have.
 
 Nate and Elizabeth will have the following at their Thanksgiving dinner:
+
 - Turkey
 - Mashed Potatoes
 - Dressing
@@ -51,16 +52,16 @@ Nate and Elizabeth will have the following at their Thanksgiving dinner:
 - Macaroni and Cheese
 
 The following items are gluten-free:
+
 - Turkey
 - Mashed Potatoes
-- Green Beans
 - Corn
 - Cranberry Sauce
 - Cornbread
 
 The following items are vegan:
+
 - Green Beans
-- Corn
 - Cranberry Sauce
 - Sweet Potato casserole
 
@@ -80,6 +81,7 @@ Again, we'll define a "helping" to be any non-empty subset of the items listed a
 ## Gravy Boat
 
 In addition to all of the tasty items above, the Professors' Thanksgiving will feature a delicious gluten-free gravy. Gravy tastes good on most items available for this meal, but not all of them. In particular, it would be gross if you covered any of these with gravy:
+
 - Cranberry Sauce
 - Sweet Potato Casserole
 - Macaroni and Cheese
@@ -87,6 +89,7 @@ In addition to all of the tasty items above, the Professors' Thanksgiving will f
 The all remaining items would taste good with gravy on top, and so we call those "graviable".
 
 We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy. For example, some different valid gravy-helpings might be:
+
 - {(Turkey, Gravy), (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Cranberry Sauce}
@@ -97,6 +100,7 @@ We'll consider a "gravy-helping" to be a helping where graviable items may or ma
 ## Leftovers
 
 On the day after Thanksgiving, Nate likes to make a sandwich with the leftover items. Importantly, unlike for a helping, the order that items are placed on a sandwich is very important. Every valid sandwich must start and end with bread, and any different sequence of ingredients in the middle would make a different sandwich. For example, all of the following would be different valid sandwiches:
+
 - (bread, corn, turkey, mashed potatoes, bread)
 - (bread, turkey, corn, mashed potatoes, bread)
 - (bread, turkey, turkey, bread)
@@ -112,6 +116,7 @@ For now (we'll change this in the next section) sandwiches may not have gravy.
 ## Gravy on Sandwiches
 
 A sandwich is considered "graviable" if all of its ingredients are graviable. Any graviable sandwich may additionally have gravy added (just once and it can be placed anywhere between the two pieces of bread). If we may add gravy to sandwiches, these would be different valid gravy-sandwiches:
+
 - (bread, gravy, turkey, turkey, bread)
 - (bread, turkey, gravy, turkey, bread)
 - (bread, turkey, gravy, mashed potatoes, bread)
