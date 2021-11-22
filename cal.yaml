@@ -90,7 +90,7 @@ lectures:
     - logarithms
     - quiz
     
-    - family (group)
+    - group4
     
     - state machines
     - state machines
@@ -164,6 +164,9 @@ reading:
     group3:
         - lnk: "group3.html"
           txt: "Group 3 Guide"
+    group4:
+        - lnk: "group4.html"
+          txt: "Group 4 Guide"
     sets:
         - lnk: "values.html"
           txt: "sets are values"
