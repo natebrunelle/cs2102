@@ -88,7 +88,7 @@ In addition to all of the tasty items above, the Professors' Thanksgiving will f
 
 All remaining items would taste good with gravy on top, and so we call those "graviable".
 
-We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy. For example, some different valid gravy-helpings might be:
+We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy (also, a gravy-helping may not have both an item with gravy and also that same item without gravy). For example, some different valid gravy-helpings might be:
 
 - {(Turkey, Gravy), (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
@@ -110,19 +110,17 @@ For now (we'll change this in the next section) sandwiches may not have gravy.
 
 **Problem 9** How many different sandwiches are there?
 
-**Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many such sandwiches are there?
+**Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many edible sandwiches are there?
 
 **Problem 11** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients?
 
 
 ## Gravy on Sandwiches
 
-A sandwich is considered "graviable" if all of its ingredients are graviable. Any graviable sandwich may additionally have gravy added (just once and it can be placed anywhere between the two pieces of bread). If we may add gravy to sandwiches, these would be different valid gravy-sandwiches:
+A sandwich is considered "graviable" if all of its ingredients are graviable. Any graviable sandwich may additionally have gravy added (just once and it can be placed anywhere between the two pieces of bread). If we may add gravy to sandwiches, these would be different valid sandwiches with gravy:
 
 - (bread, gravy, turkey, turkey, bread)
 - (bread, turkey, gravy, turkey, bread)
 - (bread, turkey, gravy, mashed potatoes, bread)
-- (bread, turkey, mashed potatoes, bread)
-- (bread, cranberry sauce, bread)
 
-**Problem 12** How many possible graviable sandwiches are there if we must have exactly 5 distinct ingredients, where one of them might be gravy?
+**Problem 12** How many possible graviable sandwiches are there if we must have exactly 5 distinct ingredients, where one of them must be gravy?
