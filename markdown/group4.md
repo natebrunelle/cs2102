@@ -37,9 +37,7 @@ Give the names of all members of your group. Indicate the your relationship to e
 
 **If you're at home**: You're welcome to work on these problems with your team/family, but if they're tired and grumpy from all the feasting, you're welcome to work on them alone.
 
-## How many Feasts in the Professors' Thanksgivings?
-
-For this first set of problems we'll be analyzing how many different Thanksgiving feasts Nate and Elizbeth could have.
+For the remaining problems we'll be analyzing how many different Thanksgiving feasts Nate and Elizbeth could have.
 
 Nate and Elizabeth will have the following at their Thanksgiving dinner:
 - Turkey
@@ -52,12 +50,12 @@ Nate and Elizabeth will have the following at their Thanksgiving dinner:
 - Cornbread
 - Macaroni and Cheese
 
-The following items are Gluten-Free:
+The following items are gluten-free:
 - Turkey
 - Mashed Potatoes
+- Green Beans
 - Corn
 - Cranberry Sauce
-- Sweet potato casserole
 - Cornbread
 
 The following items are vegan:
@@ -66,6 +64,58 @@ The following items are vegan:
 - Cranberry Sauce
 - Sweet Potato casserole
 
+
+## How Many Helpings?
+
 Again, we'll define a "helping" to be any non-empty subset of the items listed above. For example, one helping might be {Turkey, Mashed potatoes, Corn, Cornbread}, and a different helping might be {Corn, Cornbread}. 
 
 **Problem 4**: How many different possible helpings are there for the Professors' Thanksgiving?
+
+**Problem 5**: How many different possible helpings are there for Elizabeth, where Elizabeth can only eat gluten-free items?
+
+**Problem 6**: How many different possible helpings are there for someone who can only eat items that are gluten-free and vegan?
+
+**Problem 7**: How many different possible helpings are there if no helping is may have both corn and cornbread?
+
+## Gravy Boat
+
+In addition to all of the tasty items above, the Professors' Thanksgiving will feature a delicious gluten-free gravy. Gravy tastes good on most items available for this meal, but not all of them. In particular, it would be gross if you covered any of these with gravy:
+- Cranberry Sauce
+- Sweet Potato Casserole
+- Macaroni and Cheese
+
+The all remaining items would taste good with gravy on top, and so we call those "graviable".
+
+We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy. For example, some different valid gravy-helpings might be:
+- {(Turkey, Gravy), (Mashed Potatoes, Gravy), Cranberry Sauce}
+- {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
+- {Cranberry Sauce}
+
+**Problem 8** How many different gravy-helpings are there?
+
+
+## Leftovers
+
+On the day after Thanksgiving, Nate likes to make a sandwich with the leftover items. Importantly, unlike for a helping, the order that items are placed on a sandwich is very important. Every valid sandwich must start and end with bread, and any different sequence of ingredients in the middle would make a different sandwich. For example, all of the following would be different valid sandwiches:
+- (bread, corn, turkey, mashed potatoes, bread)
+- (bread, turkey, corn, mashed potatoes, bread)
+- (bread, turkey, turkey, bread)
+- (bread, turkey, turkey, turkey, bread)
+
+For now (we'll change this in the next section) sandwiches may not have gravy.
+
+**Problem 9** How many different sandwiches are there?
+
+**Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many such sandwiches are there?
+
+
+## Gravy on Sandwiches
+
+A sandwich is considered "graviable" if all of its ingredients are graviable. Any graviable sandwich may additionally have gravy added (just once and it can be placed anywhere between the two pieces of bread). If we may add gravy to sandwiches, these would be different valid gravy-sandwiches:
+- (bread, gravy, turkey, turkey, bread)
+- (bread, turkey, gravy, turkey, bread)
+- (bread, turkey, gravy, mashed potatoes, bread)
+- (bread, turkey, mashed potatoes, bread)
+- (bread, cranberry sauce, bread)
+
+**Problem 11** How many possible sandwiches are there now?
