@@ -112,6 +112,8 @@ For now (we'll change this in the next section) sandwiches may not have gravy.
 
 **Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many such sandwiches are there?
 
+**Problem 11** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients?
+
 
 ## Gravy on Sandwiches
 
@@ -123,4 +125,4 @@ A sandwich is considered "graviable" if all of its ingredients are graviable. An
 - (bread, turkey, mashed potatoes, bread)
 - (bread, cranberry sauce, bread)
 
-**Problem 11** How many possible sandwiches are there now?
+**Problem 12** How many possible sandwiches are there if we must have exactly 5 distinct ingredients, where one of them might be gravy?
