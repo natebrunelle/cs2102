@@ -86,7 +86,7 @@ In addition to all of the tasty items above, the Professors' Thanksgiving will f
 - Sweet Potato Casserole
 - Macaroni and Cheese
 
-The all remaining items would taste good with gravy on top, and so we call those "graviable".
+All remaining items would taste good with gravy on top, and so we call those "graviable".
 
 We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy. For example, some different valid gravy-helpings might be:
 
