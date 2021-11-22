@@ -125,4 +125,4 @@ A sandwich is considered "graviable" if all of its ingredients are graviable. An
 - (bread, turkey, mashed potatoes, bread)
 - (bread, cranberry sauce, bread)
 
-**Problem 12** How many possible sandwiches are there if we must have exactly 5 distinct ingredients, where one of them might be gravy?
+**Problem 12** How many possible graviable sandwiches are there if we must have exactly 5 distinct ingredients, where one of them might be gravy?
