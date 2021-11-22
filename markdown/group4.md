@@ -76,7 +76,7 @@ Again, we'll define a "helping" to be any non-empty subset of the items listed a
 
 **Problem 6**: How many different possible helpings are there for someone who can only eat items that are gluten-free and vegan?
 
-**Problem 7**: How many different possible helpings are there if no helping is may have both corn and cornbread?
+**Problem 7**: How many different possible helpings are there if no helping may have both corn and cornbread?
 
 ## Gravy Boat
 
