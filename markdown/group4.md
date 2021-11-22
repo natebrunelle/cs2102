@@ -80,7 +80,7 @@ Again, we'll define a "helping" to be any non-empty subset of the items listed a
 
 ## Gravy Boat
 
-In addition to all of the tasty items above, the Professors' Thanksgiving will feature a delicious gluten-free gravy. Gravy tastes good on most items available for this meal, but not all of them. In particular, it would be unpleasant if you covered any of these with gravy:
+In addition to all of the tasty items above, the Professors' Thanksgiving will feature a delicious gluten-free gravy (a savory sauce, thickened with flour or other starch). Gravy tastes good on most items available for this meal, but not all of them. In particular, it would be unpleasant if you covered any of these with gravy:
 
 - Cranberry Sauce
 - Sweet Potato Casserole
