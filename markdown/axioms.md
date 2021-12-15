@@ -4,7 +4,7 @@ title: Logic Rules
 
 # Equivalences
 
-Two expressions are equivalent if they have the same truth valuation regardless of 
+2 expressions are equivalent if they have the same truth valuation regardless of 
 
 ## Simplifications
 
