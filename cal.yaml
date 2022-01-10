@@ -4,19 +4,16 @@ Special Dates:
   Add deadline: 2022-02-02
   Drop deadline: 2022-02-03
   Withdraw deadline: 2022-03-23
-  Fall break: 
-    start: 2021-10-09
-    end: 2021-10-12
-  Thanksgiving break:
-    start: 2021-11-24
-    end: 2021-11-28
+  Spring break: 
+    start: 2022-05-05
+    end: 2022-05-13
   Reading Day: 2021-12-08
 
 meta:
   timezone: America/New_York
-  name: CS 2102
+  name: CS 2120
   lecture exam: true
-  home: https://www.cs.virginia.edu/~njb2b/cs2120/f2021/
+  home: https://www.cs.virginia.edu/~emo7bf/cs2120/index.html
   final:
     start: 2021-12-09 19:00:00
     duration: 180
