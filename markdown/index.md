@@ -4,7 +4,7 @@ title: Discrete Mathematics
 
 # Course Overview 
 Discrete Mathematics is a course designed to provide the mathematical tools needed for later CS courses.
-This version of the course is shared by Elizabeth Orrico and Briana Morrison, including sharing a common set of assessments and grading schemes.
+This version of the course is shared by Briana Morrison and Elizabeth Orrico, including sharing a common set of assessments and grading schemes.
 
 Course meetings are synchronous and usually may be attended in-person or remotely via zoom live-stream. We will additionally post recordings of live-streams after class for asynchronous review.
 Friday class meetings are mandatory with no recordings provided, we will make an announcement when there are exceptions to this..
