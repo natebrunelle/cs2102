@@ -5,7 +5,7 @@ date >> hook.log
 here="$(dirname "$(readlink -m "$0")")/"
 self="$(readlink -m "$0")"
 cd "$here"
-target="/var/www/html/cs2102-s22/website/"
+target="/var/www/html/cs2120-s22/website/"
 remote="portal.cs.virginia.edu:/u/emo7bf/public_html/cs2120/"
 
 if ls ~/.local/pandoc*/bin/pandoc
