@@ -6,16 +6,16 @@ title: Policies
 
 ## Meetings
 
-Due to the continuing COVID-19 pandemic, we want to give plenty of options for how to attend lectures to match your needs and comfort levels. Excepting cases when there are mandatory in-class activities (for which we have ample opportunity for make-up), you may attend lecture by:
+Due to the continuing COVID-19 pandemic, we want to give plenty of options for attending lectures to match your needs and comfort levels. Excepting cases when there are mandatory in-class activities (for which we have opportunity for make-up), you may attend lecture by:
 
 - Showing up in person
-- Joining the zoom live-stream remotely
+- Joining the zoom live-stream remotely 
 - Watching the recorded lecture after-the-fact.
 
 Links to your section's zoom livestreams and recordings can be found on the Collab site.
 
 
-We will generally have time-limited, and sometimes group-work, assignments during the Friday class time (and on one Monday), and so synchronous and in-person attendance is expected then. If you are not able to attend those times make-up opportunities are available, just ask the course staff.
+We will generally have time-limited, and sometimes group-work, assignments during the Friday class time, and so synchronous and in-person attendance is expected then. If you are not able to attend those times make-up opportunities are available, just ask the course staff.
 
 ## Tasks {#tasks}
 
@@ -26,9 +26,7 @@ The course is organized around four 3-week modules:
 3. **Contradiction**: contradiction, integers, well-ordering
 4. **Induction and Logarithms**: proof-by-induction, multi-part proofs, counting, logarithms
 
-And one additional ``mini-module'' on **state machines**.
-
-Each (full-sized) module will have the following components:
+Each module will have the following components:
 
 - Between 5 and 7 **lectures**
 
@@ -58,8 +56,7 @@ Each (full-sized) module will have the following components:
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
     - If taken, replaces your grade for the module (whether better or worse)
-    - Due to the very early final exam time given by the university, module 5 will not have this quiz
-
+    
 - One **group project**
     - You will
         - work with a partner during scheduled class time
@@ -70,14 +67,13 @@ Each (full-sized) module will have the following components:
         - discuss common mistakes in class
     - Occurs during the Friday class the week after a module ends
 
-The mini-module will contain 2 lectures, one group project, one in-class paper quiz, and one onling multiple choice quiz. There is no make-up for for the mini-module (except for the final quiz detailed below).
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you will also be able to take a **final quiz**.
-The final will be a set of five additional makeup quizzes, one for each module (including the mini-module), of similar format to earlier makeup quizzes. 
-If you chose to take any of these five, your results will replace your grade for that module.
-You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
+[comment]: <> At the end of the semester, you will also be able to take a **final quiz**.
+[comment]: <> The final will be a set of five additional makeup quizzes, one for each module (including the mini-module), of similar format to earlier makeup quizzes. 
+[comment]: <> If you chose to take any of these five, your results will replace your grade for that module.
+[comment]: <> You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
 
 ## Contact
 
@@ -90,20 +86,19 @@ All
 
     For communication about personal circumstances, contact an instructor **directly** via email, telephone, or office hours.
 
-Nathan Brunelle
+Briana Morrison
 :    Email
-    :   <a href="mailto:njb2b@virginia.edu?subject=2120">njb2b@virginia.edu</a>; include 2120 in the subject
+    :   <a href="mailto:wxt4gm@virginia.edu?subject=2120">bbmorrison@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    :   TBD
+    :   Rice 407 -- TBD
 
 Elizabeth Orrico
 :   Email
     :   <a href="mailto:emo7bf@virginia.edu?subject=2120">orrico@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    : Rice 207 --   Mon 11am-12pm and 3pm-4pm. Wed 11am-12pm and 3pm-4pm.
-
+    : Rice 207 --   TBD
 TAs
 :   Contact
     :   Do not contact TAs individually unless specifically invited to do so by course staff.
@@ -155,9 +150,10 @@ If you think your score in the course does not reflect your understanding of cou
 
 Your grade will be computed as a weighted average as follows:
 
-- Each of the 4 (full-sized) modules is worth 20% of your grade
-- The mini-module is worth 10% of your grade
-- Each of the four group projects is worth 2.5% of your grade
+- Each of the 4 (full-sized) modules is worth 25% of your grade
+- For each module the grade breakdown is:  
+- 6% for each quiz (4 total)
+- Each of the four group projects is worth 1% of your grade
 
 After combining your scores, your letter grade will be assigned according to the following:
 
@@ -179,11 +175,11 @@ F            otherwise              0.0
 
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations (including group projects) may be rescheduled or replaced with adequate notice and reasoning (sent to your instructor via email).
+You will be allowed to drop one (1) quiz grade (either auto-graded or hand-graded) during the semester, at which point the remaining 3 quizzes for that module will be worth 8% each.
 
 UVA does not award credit for placement tests.
 Hence, you must show continuing evidence of engagement and learning throughout the course.
-Doing well on the final quiz alone will not result in a passing grade unless such evidence is in hand.
-If you feel you deserve an exception to this rule, please contact your instructor for more.
+
 
 # Miscellanea
 
