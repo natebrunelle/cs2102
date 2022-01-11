@@ -70,10 +70,6 @@ Each module will have the following components:
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-[comment]: <> At the end of the semester, you will also be able to take a **final quiz**.
-[comment]: <> The final will be a set of five additional makeup quizzes, one for each module (including the mini-module), of similar format to earlier makeup quizzes. 
-[comment]: <> If you chose to take any of these five, your results will replace your grade for that module.
-[comment]: <> You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
 
 ## Contact
 
