@@ -17,7 +17,7 @@ Links to your section's zoom livestreams and recordings can be found on the Coll
 
 We will generally have time-limited, and sometimes group-work, assignments during the Friday class time, and so synchronous and in-person attendance is expected then. If you are not able to attend those times make-up opportunities are available, just ask the course staff.
 
-## Tasks {#tasks}
+## Tasks 
 
 The course is organized around four 3-week modules:
 
