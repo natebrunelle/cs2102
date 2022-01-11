@@ -151,7 +151,8 @@ If you think your score in the course does not reflect your understanding of cou
 Your grade will be computed as a weighted average as follows:
 
 - Each of the 4 (full-sized) modules is worth 25% of your grade
-- For each module the grade breakdown is:  
+
+For each module the grade breakdown is:  
 - 6% for each quiz (4 total)
 - Each of the four group projects is worth 1% of your grade
 
