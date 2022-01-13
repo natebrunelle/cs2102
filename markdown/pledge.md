@@ -41,7 +41,7 @@ you are expected to exemplify these behaviors in cs2120:
   away from my workspace, and to safely spend time outside.
 
 **I will be connected with others, and look out for the well-being of
-my classmates.** I will bee creative in
+my classmates.** I will be creative in
 maintaining and reinforcing communities in my classes and living spaces
 I will seek safe social interactions with fellow
 students and others in the university community.
