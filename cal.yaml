@@ -16,7 +16,7 @@ meta:
   home: https://www.cs.virginia.edu/~emo7bf/cs2120/index.html
   final:
     start: 
-    duration: 180
+    duration: 
     room: 
   days: [Monday, Wednesday, Friday]
 
