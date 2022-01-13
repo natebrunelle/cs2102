@@ -34,7 +34,6 @@ sections:
     start: 10:00:00
     duration: 50
 
-
 lectures:
     - welcome
     - [six habits, centrifuge]
@@ -106,7 +105,7 @@ reading:
       - "∀x 1.0"
       - txt: on proofs
         lnk: proofs.html
-    real maths:
+    six habits:
       - lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
         txt: six habits
       - "MCS 1.9"
