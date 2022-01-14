@@ -12,7 +12,7 @@ Special Dates:
 meta:
   timezone: America/New_York
   name: CS 2120
-  lecture exam: false
+  lecture exam: true
   home: https://www.cs.virginia.edu/~emo7bf/cs2120/index.html
   days: [Monday, Wednesday, Friday]
 
