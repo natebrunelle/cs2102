@@ -34,60 +34,6 @@ lectures:
     - welcome
     - [six habits, centrifuge]
 
-    - sets
-    - sets
-    - sets
-    
-    - [propositions, operators]
-    - [propositions, operators]
-    - quiz
-
-    - [equivalence proofs, direct proof]
-    - [equivalence proofs, direct proof]
-    - quiz
-
-    - predicates
-    - quantifiers
-    - group1
-
-    - [quantifiers, entailment]
-    - english
-    - quiz
-    
-    - functions
-    - relations
-    - group2
-
-    - [functions, relations]
-    - contradictions
-    - quiz
-    
-    - [contradiction, integers]
-    - [contradiction, integers]
-    - quiz
-    
-    - well-ordering
-    - well-ordering
-    - quiz
-    
-    - proof by cases
-    - induction
-    - group3
-    
-    - [counting, induction]
-    - [counting, induction]
-    - quiz
-    
-    - [counting, induction]
-    - [counting, induction]
-    - group4
-    
-    - logarithms
-    - logarithms
-    - quiz
-    
-    - review
-
 assignments:
     ".groups":
         Mod:
@@ -96,7 +42,6 @@ assignments:
         Group:
             portion: "6"
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
-
 
     Mod1Quiz1:
         due: 2022-02-04 15:00:00
@@ -115,8 +60,6 @@ assignments:
     Mod4Quiz2:
         due: 2022-04-29 15:00:00
     
-
-
     Mod0Multi1:
         due: 2022-01-24 09:00:00
     Mod1Multi1:
@@ -135,7 +78,6 @@ assignments:
         due: 2022-04-18 09:00:00
     Mod4Multi2:
         due: 2022-05-02 09:00:00
-   
    
     Mod1 Makeup:
         due: 2022-02-21 09:00:00
