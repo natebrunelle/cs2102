@@ -14,6 +14,10 @@ meta:
   name: CS 2120
   lecture exam: true
   home: https://www.cs.virginia.edu/~emo7bf/cs2120/index.html
+  final:
+    start: 2022-05-06 19:00:00
+    duration: 0
+    room: online
   days: [Monday, Wednesday, Friday]
 
 sections:
