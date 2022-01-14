@@ -37,14 +37,13 @@ sections:
 lectures:
     - welcome
     - [six habits, centrifuge]
-    - sets
 
     - sets
     - sets
+    - sets
+    
     - [propositions, operators]
-    
-    - operators
-    
+    - [propositions, operators]
     - quiz
 
     - [equivalence proofs, direct proof]
@@ -61,20 +60,21 @@ lectures:
     
     - functions
     - relations
-    - quiz
-
-    - contradiction
     - group2
-    - [contradiction, integers]
+
+    - [functions, relations]
+    - contradictions
+    - quiz
     
+    - [contradiction, integers]
     - [contradiction, integers]
     - quiz
     
-    - [contradiction, well-ordering]
-    - [contradiction, well-ordering]
+    - well-ordering
+    - well-ordering
     - quiz
     
-    - [proof by cases, induction]
+    - proof by cases
     - induction
     - group3
     
@@ -82,14 +82,12 @@ lectures:
     - [counting, induction]
     - quiz
     
-    - logarithms
-    - logarithms
-    - quiz
-    
+    - [counting, induction]
+    - [counting, induction]
     - group4
     
-    - state machines
-    - state machines
+    - logarithms
+    - logarithms
     - quiz
     
     - review
