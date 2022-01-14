@@ -5,8 +5,8 @@ Special Dates:
   Drop deadline: 2022-02-03
   Withdraw deadline: 2022-03-23
   Spring break: 
-    start: 2022-03-05
-    end: 2022-03-13
+    start: 2022-03-06
+    end: 2022-03-12
   Reading Day: 2022-05-05
 
 meta:
@@ -87,3 +87,72 @@ lectures:
     - quiz
     
     - review
+
+assignments:
+    ".groups":
+        Mod:
+            portion: "94"
+            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
+        Group:
+            portion: "6"
+            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
+
+
+    Mod1Quiz1:
+        due: 2022-02-04 15:00:00
+    Mod1Quiz2:
+        due: 2022-02-11 15:00:00
+    Mod2Quiz1:
+        due: 2022-02-25 15:00:00
+    Mod2Quiz2:
+        due: 2022-03-18 15:00:00
+    Mod3Quiz1:
+        due: 2022-03-25 15:00:00
+    Mod3Quiz2:
+        due: 2022-04-01 15:00:00
+    Mod4Quiz1:
+        due: 2022-04-15 15:00:00
+    Mod4Quiz2:
+        due: 2022-04-29 15:00:00
+    
+
+
+    Mod0Multi1:
+        due: 2022-01-24 09:00:00
+    Mod1Multi1:
+        due: 2022-02-07 09:00:00
+    Mod1Multi2:
+        due: 2022-02-14 09:00:00
+    Mod2Multi1:
+        due: 2022-02-28 09:00:00
+    Mod2Multi2:
+        due: 2022-03-21 09:00:00   
+    Mod3Multi1:
+        due: 2022-03-28 09:00:00
+    Mod3Multi2:
+        due: 2022-04-04 09:00:00
+    Mod4Multi1:
+        due: 2022-04-18 09:00:00
+    Mod4Multi2:
+        due: 2022-05-02 09:00:00
+   
+   
+    Mod1 Makeup:
+        due: 2022-02-21 09:00:00
+    Mod2 Makeup:
+        due: 2022-04-11 09:00:00
+    Mod3 Makeup:
+        due: 2022-04-25 09:00:00
+    Mod4 Makeup:
+        due: 2022-05-09 09:00:00
+
+    Group 0:
+        due: 2022-01-21 15:00:00
+    Group 1:
+        due: 2022-02-18 15:00:00
+    Group 2:
+        due: 2022-03-04 15:00:00
+    Group 3:
+        due: 2022-04-08 15:00:00
+    Group 4:
+        due: 2022-04-22 15:00:00
