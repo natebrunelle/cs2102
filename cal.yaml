@@ -63,7 +63,7 @@ lectures:
     - group2
 
     - [functions, relations]
-    - contradictions
+    - contradiction
     - quiz
     
     - [contradiction, integers]
@@ -94,14 +94,12 @@ lectures:
 
 reading:
 
-    lab12: []
-
     welcome: 
       - "MCS Introduction"
       - "∀x 1.0"
       - txt: on proofs
         lnk: proofs.html
-    real maths:
+    six habits:
       - lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
         txt: six habits
       - "MCS 1.9"
@@ -249,11 +247,6 @@ reading:
           lnk: https://en.m.wikipedia.org/wiki/Logarithm
         - txt: writeup
           lnk: logarithms.html
-
-    make-up:
-        - txt: quiz
-          lnk: files/quiz12.pdf
-
 assignments:
     ".groups":
         Mod:
