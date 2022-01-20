@@ -87,14 +87,14 @@ Briana Morrison
     :   <a href="mailto:wxt4gm@virginia.edu?subject=2120">bbmorrison@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    :   Rice 407 -- TBD
+    :   Rice 407 -- Tues 1-3pm  (in-person)
 
 Elizabeth Orrico
 :   Email
     :   <a href="mailto:emo7bf@virginia.edu?subject=2120">orrico@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    : Rice 207 --   TBD
+    : Rice 207 --   Mon and Wed 4-5pm  (in-person)
 TAs
 :   Contact
     :   Do not contact TAs individually unless specifically invited to do so by course staff.
