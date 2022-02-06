@@ -13,7 +13,7 @@ Direct-proof rules are of two types:
 Equivalences
 :   If $\mathcal A \equiv \mathcal B$ then $\mathcal A$ is true whenever $\mathcal B$ is true and false whenever it is false.
     
-    When proving new equivalences, our direct proof steps must all themselves by equivalences.
+    When proving new equivalences, our direct proof steps must all themselves be equivalences.
     Equivalences are commutative, so we can use them in either direction in our proof: from $\mathcal A$ to $\mathcal B$ or from $\mathcal B$ to $\mathcal A$, as whichever is helpful.
     
     Note that $\mathcal A \equiv \mathcal B$ and $\mathcal A \leftrightarrow \mathcal B \equiv \top$ are two ways of saying the same thing.
@@ -40,7 +40,7 @@ You look at where you are, find all the pieces that could fit, and then pick one
 
 ## See where you are
 
-At any given point in a proof, you have some things you know (are are assuming) are true.
+At any given point in a proof, you have some things you know (and are assuming) are true.
 Initially, that is just the given of the proof.
 Every time you apply a proof step, you add one more thing to the set of things you know.
 
@@ -143,6 +143,6 @@ Putting this another way, a direct proof of $\mathcal A \equiv \mathcal B$ looks
 Working backwards, or from the middle, is also possible (but uncommon) with proofs of entailment.
 A direct proof of $\mathcal A \vDash \mathcal B$ looks like $\mathcal A \vDash X_1 \vDash X_2 \vDash \dots \vDash X_n \vDash \mathcal B$;
 it's usually easiest to work forwards from $\mathcal A$ to $\mathcal B$, but you can do the other direction, or both and meet in the middle, instead.
-Note, though, that if you start from $\mathcal B$ your next step needs to be that some new expression entails $\mathcal B$, not that $\mathcal B entails something else.
+Note, though, that if you start from $\mathcal B$ your next step needs to be that some new expression entails $\mathcal B$, not that $\mathcal B$ entails something else.
 
 While working backwards can make some problems easier, it can also make them harder. We recommend only trying a backwards approach if you already tried going forwards and it didn't work.
