@@ -254,8 +254,7 @@ assignments:
             link: https://kytos.cs.virginia.edu/cs2102/quizzes/
         Group:
             portion: "6"
-            link: https://kytos.cs.virginia.edu/cs2102/quizzes/
-
+            
 
     Mod1Quiz1:
         due: 2022-02-04 15:00:00
