@@ -148,13 +148,13 @@ reading:
         - "practice exercises in ∀x 22 and 23"
         - {txt: Spring 2020 class examples, lnk: eng2quant.html}
     group1:
-        - lnk: "http://cs.virginia.edu/~emo7bf/cs2120/group1.html"
+        - lnk: http://cs.virginia.edu/~emo7bf/cs2120/group1.html
           txt: "Group 1 Guide"
     group2:
-        - lnk: "http://cs.virginia.edu/~emo7bf/cs2120/group_2.html"
+        - lnk: http://cs.virginia.edu/~emo7bf/cs2120/group_2.html
           txt: "Group 2 Guide"
     group3:
-        - lnk: "http://cs.virginia.edu/~emo7bf/cs2120/group-3.html"
+        - lnk: http://cs.virginia.edu/~emo7bf/cs2120/group-3.html
           txt: "Group 3 Guide"
     group4:
         - lnk: "group4.html"
