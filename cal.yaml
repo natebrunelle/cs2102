@@ -154,7 +154,7 @@ reading:
         - lnk: http://cs.virginia.edu/~emo7bf/cs2120/markdown/group_2.html
           txt: "Group 2 Guide"
     group3:
-        - lnk: http://cs.virginia.edu/~emo7bf/cs2120/markdown/group-3.html
+        - lnk: "/markdown/group-3.html"
           txt: "Group 3 Guide"
     group4:
         - lnk: "group4.html"
