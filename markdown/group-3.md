@@ -2,7 +2,7 @@
 title: Group Activity 3 | Well-Ordering, Induction, Recursion
 ...
 
-Put your answers for each problem of this activity in this [worksheet](/markdown/files/group3.pdf).
+Put your answers for each problem of this activity in this [worksheet](/files/group3.pdf).
 
 # Introduce Your Team!
 
