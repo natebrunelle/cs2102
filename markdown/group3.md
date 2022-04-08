@@ -190,7 +190,7 @@ A function which computes the number of moves required to move a stack of n disk
 def hanoi(n):
     if n == 1:
         return 1
-    return 2*hanoi(n-1)+1
+    return 2*hanoi(n-1)-1
 ```                          
 </td><td valign="top">
 ```Java
@@ -198,7 +198,7 @@ int hanoi(int n){
     if (n == 1){
         return 1;
     }
-    return 2*hanoi(n-1)+1;
+    return 2*hanoi(n-1)-1;
 }
 ```
 </td></tr></table>
