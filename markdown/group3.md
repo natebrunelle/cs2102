@@ -160,7 +160,7 @@ int find_max(int[] my_list){
           m=i;
         }
     }
-    return y;
+    return m;
 }
 ```
 </td></tr></table>
