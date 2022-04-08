@@ -7,7 +7,7 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 # Introduce Your Team!
 
 The first thing you're going to do is break up into teams of either 4 or 5. We will use $G$ to refer to the set of members in your team / group. 
-Fill in the members of $G$ on your worksheet (**problem 1**).
+Fill in the members of $G$ on your worksheet (**problem1**).
 
 
 Next you're going to identify the relation $M$ over the set $R$ where $M(x,y):$ $x$ has the same birth month as $y$.(**problem 2**)
