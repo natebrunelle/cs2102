@@ -6,7 +6,7 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 
 # Introduce Your Team!
 
-Give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Spring 2022. 
+Give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Fall 2022. 
 
 # Induction and Well-Ordering
 
