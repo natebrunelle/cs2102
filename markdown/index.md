@@ -1,5 +1,5 @@
 ---
-title: Discrete Mathematics
+title: Discrete Mathematics and Theory 1
 ...
 
 # Course Overview 
