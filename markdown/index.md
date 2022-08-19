@@ -3,7 +3,7 @@ title: Discrete Mathematics and Theory 1
 ...
 
 # Course Overview 
-Discrete Mathematics is a course designed to provide the mathematical tools needed for later CS courses.
+Discrete Mathematics and Theory 1 is a course designed to provide the mathematical tools needed for later CS courses.
 This version of the course is shared by Elizabeth Orrico and Nathan Brunelle, including sharing a common set of assessments and grading schemes.
 
 Course meetings are synchronous and usually may be attended in-person or remotely via zoom live-stream. We will additionally post recordings of live-streams after class for asynchronous review.
