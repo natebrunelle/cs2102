@@ -17,7 +17,7 @@ meta:
   lecture exam: true
   home: https://www.cs.virginia.edu/~njb2b/cs2120/f2021/
   final:
-    start: 2021-12-09 19:00:00
+    start: 2021-12-16 19:00:00
     duration: 180
     room: online
   days: [Monday, Wednesday, Friday]
