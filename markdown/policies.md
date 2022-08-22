@@ -26,8 +26,6 @@ The course is organized around four 3-week modules:
 3. **Contradiction**: contradiction, integers, well-ordering
 4. **Induction and Logarithms**: proof-by-induction, multi-part proofs, counting, logarithms
 
-And one additional ``mini-module'' on **state machines**.
-
 Each (full-sized) module will have the following components:
 
 - Between 5 and 7 **lectures**
@@ -58,7 +56,6 @@ Each (full-sized) module will have the following components:
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
     - If taken, replaces your grade for the module (whether better or worse)
-    - Due to the very early final exam time given by the university, module 5 will not have this quiz
 
 - One **group project**
     - You will
@@ -70,14 +67,12 @@ Each (full-sized) module will have the following components:
         - discuss common mistakes in class
     - Occurs during the Friday class the week after a module ends
 
-The mini-module will contain 2 lectures, one group project, one in-class paper quiz, and one onling multiple choice quiz. There is no make-up for for the mini-module (except for the final quiz detailed below).
-
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you will also be able to take a **final quiz**.
-The final will be a set of five additional makeup quizzes, one for each module (including the mini-module), of similar format to earlier makeup quizzes. 
-If you chose to take any of these five, your results will replace your grade for that module.
-You may chose to take 0, 1, 2, 3, 4, or all 5 of these modules' finals, at your discretion, and can make that choice after you see the contents of the quiz.
+At the end of the semester, you will also be able to take an optional **final quiz**.
+The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
+You may choose to take any one of these four, your resulting grade will then replace your grade for that module.
+You may wait choose whether to take a final quiz and which final quiz to take until after you see the contents of the quiz.
 
 ## Contact
 
@@ -155,8 +150,7 @@ If you think your score in the course does not reflect your understanding of cou
 
 Your grade will be computed as a weighted average as follows:
 
-- Each of the 4 (full-sized) modules is worth 20% of your grade
-- The mini-module is worth 10% of your grade
+- Each of the 4 modules is worth 22.5% of your grade
 - Each of the four group projects is worth 2.5% of your grade
 
 After combining your scores, your letter grade will be assigned according to the following:
