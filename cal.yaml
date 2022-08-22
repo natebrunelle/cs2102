@@ -75,13 +75,14 @@ lectures:
     - group2
     
     - [contradiction, integers]
+    - proof by cases
     - quiz
     
     - [contradiction, well-ordering]
     - [contradiction, well-ordering]
     - quiz
     
-    - [proof by cases, induction]
+    - induction
     - induction
     - group3
     
