@@ -60,10 +60,11 @@ lectures:
 
     - [quantifiers, entailment]
     - [quantifiers, english]
-    - quiz
-    
     - nested quantifiers
+    
+    
     - advanced quantifiers
+    - quiz
     
     - functions
     - relations
