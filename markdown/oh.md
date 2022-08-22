@@ -3,7 +3,7 @@ title: Office Hours
 ...
 
 
-Office hours (both instructor and TA) are held via Discord.
+Office hours are held via Discord or in-person, reference each calendar event to see which.
 Please see the course Collab site for the Discord join link.
 
 Scheduled office hours are shown in the following calendar:
