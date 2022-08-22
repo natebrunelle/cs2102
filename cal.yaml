@@ -59,7 +59,7 @@ lectures:
     - group1
 
     - [quantifiers, entailment]
-    - english
+    - [quantifiers, english]
     - quiz
     
     - functions
@@ -90,10 +90,6 @@ lectures:
     - quiz
     
     - group4
-    
-    - state machines
-    - state machines
-    - quiz
     
     - review
 
