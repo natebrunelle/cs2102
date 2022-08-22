@@ -8,7 +8,7 @@ This version of the course is shared by Elizabeth Orrico and Nathan Brunelle, in
 
 Course meetings are synchronous and usually may be attended in-person or remotely via zoom live-stream. We will additionally post recordings of live-streams after class for asynchronous review.
 Friday class meetings are mandatory with no recordings provided, we will make an announcement when there are exceptions to this..
-Connecting to the course meetings is managed through Collab: <https://collab.its.virginia.edu/portal/site/6ffc1758-bab3-4484-88a2-b3f3ca574172>.
+Connecting to the course meetings is managed through Collab: <https://collab.its.virginia.edu/>.
 
 Collab pulls participant information once each day from SIS. If you add the course, you may need to wait up to 24 hours before you have Collab access.
 
