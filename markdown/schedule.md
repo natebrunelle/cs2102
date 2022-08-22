@@ -1,5 +1,5 @@
 ---
-title: Spring 2021 Schedule
+title: Fall 2022 Schedule
 ...
 
 <style id="schedule-css">
