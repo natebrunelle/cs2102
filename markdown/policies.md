@@ -150,7 +150,7 @@ If you think your score in the course does not reflect your understanding of cou
 
 Your grade will be computed as a weighted average as follows:
 
-- Each of the 4 modules is worth 22.5% of your grade
+- Each of the four modules is worth 22.5% of your grade
 - Each of the four group projects is worth 2.5% of your grade
 
 After combining your scores, your letter grade will be assigned according to the following:
