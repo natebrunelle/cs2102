@@ -111,7 +111,9 @@ if [ cal.yaml -nt schedule.html ] \
 || [ links.yaml -nt schedule.html ] \
 || [ cal2html.py -nt schedule.html ] \
 || [ cal.yaml -nt markdown/cal.ics ] \
-|| [ cal.yaml -nt assignments.json ]
+|| [ cal.yaml -nt assignments.json ] \
+|| [ Brunelle-links.yaml -nt schedule.html ] \
+|| [ Orrico-links.yaml -nt schedule.html ]
 then
     echo "doing schedule"
     python3 cal2html.py
