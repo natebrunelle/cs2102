@@ -78,7 +78,7 @@ To then conclude $\lnot C$ we need to show $( \lnot B \rightarrow \lnot C ) \wed
 
 # Using Entailment
 
-Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot A \land \lnot B$ into $\lnot (A \lor B)$ and also to transform $\lnot (A \lor B)$ into $\lnot A \land \lnot B$. We cannot through entailment conclude from $\lnot B$ that $\lnot T$ (i.e. we can't guarantee that if Nathan is not good at basketball then Nathan is not tall, as perhaps he instead has poor balance).
+Unlike with logical equivalence, entailment can only be applied in one direction. For example, we can use DeMorgan's law to transform the statement $\lnot P \land \lnot Q$ into $\lnot (P \lor Q)$ and also to transform $\lnot (P \lor Q)$ into $\lnot P \land \lnot Q$. We cannot through entailment conclude from $\lnot B$ that $\lnot A$ (i.e. we can't guarantee that if Nathan is not good at basketball then Nathan is not tall, as perhaps he instead has poor hand-eye coordination).
 
 Typically when writing proofs we're more concerned with which statements logically follow from other than we are with strict logical equivalence. Entailment relaxes the equivalence requirement and often makes proofs easier and more intuitive.
 
