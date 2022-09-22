@@ -23,7 +23,7 @@ a. $\exists s \in G.\forall c\in C . N(s,c)$
 
 # What is Entailment?
 
-So far when discussing proofs we've been showing that two statements are logically equivalent to one another. Sometimes when proving things we actually want to *draw conclusions* from statements. For example, suppose that all of the following statements are True:
+So far when discussing proofs we've been showing that two statements are logically equivalent to one another. Sometimes when proving things, instead of demonstrating things are exactly equal to one another, we actually want to *draw meaningful conclusions* from a collection of facts. For example, suppose that all of the following statements are True:
  
 - Nathan is not tall
 - If Nathan is not good at basketball then Nathan is not good at football
