@@ -41,11 +41,9 @@ How are we able to conclude this? We'll walk through two different (but equivale
 
 We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude *must* also be true?" Let's consider what we can conclude if we presume the truth of "*Nathan is not tall*" and "*If Nathan is good at basketball then Nathan is tall*". 
 
-From an intuitive perspective, the conclusion "Nathan is not good at basketball" makes sense, because for the statment "*If Nathan is good at basketball then Nathan is tall*" to be valid, it must be that if ever Nathan is good at basketball
+From an intuitive perspective, let's see why the conclusion "*Nathan is not good at basketball*" makes sense. When considering entailments, we start of by assuming that our original statements are absolutely and unquestionably True. In this example, we consider "*Nathan is not tall*" as absolutely and unquestionably True, and also "*If Nathan is good at basketball then Nathan is tall*" as absolutely and unquestionably True. Consider the case where "*Nathan *is* good at basketball*" is true. Since "*Nathan is not tall*" is unquestionably True, the statement "*If Nathan is good at basketball then Nathan is tall*" becomes False, and so the only possible way for "*Nathan is not tall*" and "*If Nathan is good at basketball then Nathan is tall*" to be simultaneously True is for "*Nathan is not good at basketball*" to be True as well.
 
-since in every situation where Nathan is good at basketball he is also tall, and so knowing Nathan is not tall there's no way he could be good at basketball. 
-
-Let's now see how this shapes up with a more formal treatment
+Let's now see how this looks with a more formal treatment
 To begin, we translate each statement into a proposition. If these are our atomic propositions:
 
 - $A$: Nathan is tall
@@ -54,9 +52,9 @@ To begin, we translate each statement into a proposition. If these are our atomi
 
 Then we can represent each of our original statements as the following compound propositions:
 
-- $\lnot A$
-- $\lnot B \rightarrow \lnot C$
-- $B\rightarrow A$
+- *Nathan is not tall*: $\lnot A$
+- *If Nathan is good at basketball then Nathan is good at football*: $\lnot B \rightarrow \lnot C$
+- *If Nathan is good at basketball then Nathan is tall*: $B\rightarrow A$
 
 Next we'll look at the truth tables these expressions. For **problem 3**, fill out the truth table in your worksheet. 
 
