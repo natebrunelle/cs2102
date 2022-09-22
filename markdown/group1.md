@@ -11,7 +11,7 @@ The first thing you're going to do is break up into a group of either 3 or 4. We
 Next, consider the following set and predicates:
 
 - $C$: The set of all courses being taught at UVA this semester
-- $N(s,t)$: The predicate "$s$ is in thing $t$"
+- $N(s,t)$: The predicate "$s$ is in $t$"
 
 For **problem 2**, identify the truth value of each of the following propositions:
 
