@@ -34,7 +34,7 @@ From these statements, we are able to conclude that Nathan is not good at footba
 1. Considering the statement "Nathan is not tall" in the context of the statement "If Nathan is good at basketball then Nathan is tall" allows us to conclude that "Nathan is not good at basketball"
 1. From our conclusion that "Nathan is not good at basketball", the statement "If Nathan is not good at basketball then Nathan is not good at football" allows us to finally conclude that "Nathan is not good at football".
 
-How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. From either perspective we'll be exploring what statements logically follow from what other statements.
+How are we able to conclude this? We'll walk through two different (but equivalent) perspectives on entailment. From each perspective we explore what statements logically follow from other statements.
 
 
 ## Perspective 1: What else needs to be True?
