@@ -52,9 +52,9 @@ To begin, we translate each statement into a proposition. If these are our atomi
 
 Then we can represent each of our original statements as the following compound propositions:
 
-- $\lnot A$ means *Nathan is not tall* $\lnot A$
-- $\lnot B \rightarrow \lnot C$ means *If Nathan is good at basketball then Nathan is good at football*
-- $B\rightarrow A$ means *If Nathan is good at basketball then Nathan is tall*
+- $\lnot A$
+- $\lnot B \rightarrow \lnot C$
+- $B\rightarrow A$
 
 Next we'll look at the truth tables these expressions. For **problem 3**, fill out the truth table in your worksheet. 
 
