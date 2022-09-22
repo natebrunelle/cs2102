@@ -43,7 +43,7 @@ We can think of entailment as answering questions of the form "presuming some st
 
 From an intuitive perspective, let's see why the conclusion "*Nathan is not good at basketball*" makes sense. When considering entailments, we start of by assuming that our original statements are absolutely and unquestionably True. In this example, we consider "*Nathan is not tall*" as absolutely and unquestionably True, and also "*If Nathan is good at basketball then Nathan is tall*" as absolutely and unquestionably True. Consider the case where "*Nathan _is_ good at basketball*" is true. Since "*Nathan is not tall*" is unquestionably True, the statement "*If Nathan is good at basketball then Nathan is tall*" becomes False, and so the only possible way for "*Nathan is not tall*" and "*If Nathan is good at basketball then Nathan is tall*" to be simultaneously True is for "*Nathan is not good at basketball*" to be True as well.
 
-Let's now see how this looks with a more formal treatment
+Let's now see how this looks with a more formal treatment.
 To begin, we translate each statement into a proposition. If these are our atomic propositions:
 
 - $A$: Nathan is tall
