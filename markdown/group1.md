@@ -39,13 +39,17 @@ How are we able to conclude this? We'll walk through two different (but equivale
 
 ## Perspective 1: What else needs to be True?
 
-We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude *must* also be true?" Let's consider what we can conclude if we presume that both of "Nathan is not tall" and "If Nathan is good at basketball then Nathan is tall" are True. From an intuitive perspective, the conclusion "Nathan is not good at basketball" makes sense, because since in every situation where Nathan is good at basketball he is also tall, and so knowing Nathan is not tall there's no way he could be good at basketball. 
+We can think of entailment as answering questions of the form "presuming some statement is true, what other statement can we conclude *must* also be true?" Let's consider what we can conclude if we presume the truth of "*Nathan is not tall*" and "*If Nathan is good at basketball then Nathan is tall*". 
+
+From an intuitive perspective, the conclusion "Nathan is not good at basketball" makes sense, because for the statment "*If Nathan is good at basketball then Nathan is tall*" to be valid, it must be that if ever Nathan is good at basketball
+
+since in every situation where Nathan is good at basketball he is also tall, and so knowing Nathan is not tall there's no way he could be good at basketball. 
 
 Let's now see how this shapes up with a more formal treatment
 To begin, we translate each statement into a proposition. If these are our atomic propositions:
 
-- $T$: Nathan is tall
-- $B$: Nathan is good at basketball
+- $T_{all}$: Nathan is tall
+- $B_a$: Nathan is good at basketball
 - $F$: Nathan is good at football
 
 Then we can represent each of our original statements as the following compound propositions:
