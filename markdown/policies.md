@@ -171,6 +171,8 @@ D            &ge; 63%               1.0
 D&minus;     &ge; 60%               0.7
 F            otherwise              0.0
 
+We have created a [google spreadsheet](https://docs.google.com/spreadsheets/d/13uPnplekz-2wmlQPdbcYAsYZPqweSh3y09m7LnVgs2Y/edit?usp=sharing) that you can use to see your grade calculation. Please make a copy of the sheet, then fill in your grades as they come in. 
+
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations (including group projects) may be rescheduled or replaced with adequate notice and reasoning (sent to your instructor via email).
 
