@@ -157,7 +157,7 @@ reading:
         - {txt: Spring 2020 class examples, lnk: eng2quant.html}
         
     nested quantifiers:
-        - {txt:worksheet, lnk: files/quantifiers_worksheet_sep30.pdf}
+        - {txt: worksheet, lnk: files/quantifiers_worksheet_sep30.pdf}
     group1:
         - lnk: "group1.html"
           txt: "Group 1 Guide"
