@@ -368,7 +368,7 @@ $\lceil 3.1\rceil = \lceil 3.8\rceil = \lceil 4\rceil = 4$
 $\lceil -3\rceil = \lceil -3.1\rceil = \lceil -3.8\rceil = -3$
 :::
 
-# Function
+# Function and Relation
 
 A **function** maps a [sequence] (or single value, which is treated as equivalent to a singleton sequence for this purpose) to a value.
 It does this in a deterministic, single-valued way;
