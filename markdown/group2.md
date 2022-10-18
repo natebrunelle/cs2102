@@ -61,7 +61,7 @@ Here are some more examples of symmetric closures:
 The *transitive closure* of a relation is defined to be the smallest superset of a that relation that is transitive. In other words, to perform the transitive closure we want to add the fewest pairs required to make it transitive. Transitive closures are much trickier than either reflexive or symmetric closures. Let's see why.
 
 
-Consider the same example relation as before: $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. To be transitive we need to satisfy $\forall x \in D, \forall y \in D. \forall z \in D. \big( (x,y)\in R \land (y,z)\in R\big) \rightarrow (x,z)\in R$. We can see that $R$ is not transitive as we're missing:
+Consider the same example relation as before: $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. To be transitive we need to satisfy $\forall x \in D. \forall y \in D. \forall z \in D. \big( (x,y)\in R \land (y,z)\in R\big) \rightarrow (x,z)\in R$. We can see that $R$ is not transitive as we're missing:
 
 - $(0,5)$ (needed since we have $(0,1)$ and $(1,5)$)
 - $(0,3)$ (needed since we have $(0,2)$ and $(2,3)$)
