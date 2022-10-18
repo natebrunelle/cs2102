@@ -6,13 +6,18 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 
 # Introduce Your Team!
 
-The first thing you're going to do is break up into teams of either 4 or 5. We will use $T$ to refer to the set of members in your team. 
-Fill in the members of $T$ on your worksheet (**problem 1**).
+The first thing you're going to do is break up into teams of either 4 or 5. We will use $T$ to refer to the set of members in your team. Introduce yourselves to your team members, then fill in the members of $T$ on your worksheet (**problem 1**). Select someone to read the next section aloud.
+
+## Read This Aloud
 
 
-Next you're going to identify the relation $M$ over the set $T$ where $M(x,y):$ $x$ has the same birth month as $y$.(**problem 2**)
+Together we're going to create a relation $P$ over the set $T$. I'm going to count to five. Once I get to five everyone in the group (including myself) is going to point at one person in the group (another person or themselves). Once you point at someone, keep pointing at that person. We will use the pointing to define the relation $P(x,y):$ Person $x$ pointed at Person $y$. 
 
+1, 2, 3, 4, 5, POINT!
 
+I will now write down the the relation $P(x,y):$ Person $x$ pointed at Person $y$ (**problem 2**).
+
+Finally, we will write down the properties that the relation $P$ satisfies (**problem 3**).
 
 
 # Closure
