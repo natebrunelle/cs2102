@@ -97,7 +97,7 @@ Here are some more examples of transitive closures:
 
 - The transitive closure the $\lt$ relation is just the $\lt$ relation (since it is already transitive).
 
-- The transitive closure of the symmetric closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ and person $y$ are in the same Conga line".
+- The transitive closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ is behind person $y$ in the Conga line".
 
 # Ball-Toss Closure Championship
 
