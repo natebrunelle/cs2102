@@ -49,7 +49,7 @@ Here are some more examples of symmetric closures:
 
 - The symmetric closure of the $\leq$ relation over $\mathbb{Z}$ will be $\mathbb{Z}^2$ (the relation where everything relates to everything else). 
 
-- The symmetric closure of any relation $R$ that is already reflexive is just that same relation $R$.
+- The symmetric closure of any relation $R$ that is already symmetric is just that same relation $R$.
 
 - The symmetric closure the empty relation (where nothing relates to anything else) is just the empty relation (since it is already symmetric).
 
