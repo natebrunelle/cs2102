@@ -6,7 +6,7 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 
 # Introduce Your Team!
 
-The first thing you're going to do is break up into teams of either 4 or 5. We will use $T$ to refer to the set of members in your team. Introduce yourselves to your team members, then fill in the members of $T$ on your worksheet (**problem 1**). Select someone to read the next section aloud.
+The first thing you're going to do is break up into teams of either 4 or 5. We will use $T$ to refer to the set of members in your team. Introduce yourselves to your team members, then for **problem 1** fill in the members of $T$ on your worksheet. Select someone to read the next section aloud.
 
 ## Read This Aloud
 
@@ -15,9 +15,9 @@ Together we're going to create a relation $P$ over the set $T$. I'm going to cou
 
 1, 2, 3, 4, 5, POINT!
 
-I will now write down the the relation $P(x,y):$ Person $x$ pointed at Person $y$ (**problem 2**).
+I will now write down the the relation $P(x,y):$ Person $x$ pointed at Person $y$ for **problem 2**.
 
-Finally, we will write down the properties that the relation $P$ satisfies (**problem 3**).
+Finally, for **problem 3** we will together identify the properties that the relation $P$ satisfies.
 
 
 # Closure
@@ -28,7 +28,7 @@ For today's activity we'll be exploring this idea of *closure*, which means chan
 
 ## Reflexive Closure
 
-The *reflexive closure* of a relation is defined to be the smallest superset of a that relation that is reflexive. In other words, to perform the reflexive closure we want to add the fewest pairs required to make it reflexive. In this case, the pairs we need to add in are just all of the elements from our relation's domain paired with themselves. Using first order logic, we can define the reflexive closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,x) | x\in D \big\}$.
+The *reflexive closure* of a relation is defined to be the smallest superset of a that relation that is reflexive. In other words, to perform the reflexive closure we want to add the fewest pairs required to make it reflexive. In this case, the pairs we need to add in are just all of the elements from our relation's domain paired with themselves. **Using first order logic, we can define the reflexive closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,x) | x\in D \big\}$.**
 
 To see how this works, let's consider an example relation $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not reflexive, as to be reflexive we'd need to satisfy $\forall x\in D. (x,x)\in R$. In this case, we're missing $(1,1)$ and $(3,3)$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in $(1,1)$ and $(3,3)$, and so the reflexive closure of $R$ is $\big\{ (0,0), (0,1), (0,2), (1,2), (1,1), (1,5), (2,2), (2,3), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$.
 
@@ -42,9 +42,12 @@ Here are some more examples of reflexive closures:
 
 - The reflexive closure of any relation $R$ that is already reflexive is just that same relation $R$.
 
+
+For **problem 4**, write out the reflexive closure of $P$.
+
 ## Symmetric Closure
 
-The *symmetric closure* of a relation is defined to be the smallest superset of a that relation that is symmetric. In other words, to perform the symmetric closure we want to add the fewest pairs required to make it symmetric. In this case, the pairs we need to add in are just the reverses of all pairs already in the relation. Using first order logic, we can define the symmetric closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,y) | (y,x)\in R \}$.
+The *symmetric closure* of a relation is defined to be the smallest superset of a that relation that is symmetric. In other words, to perform the symmetric closure we want to add the fewest pairs required to make it symmetric. In this case, the pairs we need to add in are just the reverses of all pairs already in the relation. **Using first order logic, we can define the symmetric closure of relation $R$ over domain $D$ to be $R \cup \big\{ (x,y) | (y,x)\in R \}$.**
 
 To see how this works, let's consider the same example relation from before, $R = \big\{ (0,0), (0,1), (0,2), (1,2), (1,5), (2,2), (2,3), (3,4), (4,3), (4,4), (5,5) \big\}$ over the domain $\{0, 1, 2, 3, 4, 5\}$. Note that $R$ is not symmetric, as to be symmetric we'd need to satisfy $\forall x\in D.\forall y\in D. (x,y)\in R \rightarrow (y,x)\in R$. In this case, we're missing $(1,0)$, $(2,0)$, $(2,1)$, $(5,1)$, $(3,2)$, and $(4,3)$, since those are all missing opposites of pairs that belong to $R$. To make the smallest additions necessary to $R$ to make it reflexive, we therefore add in exactly those pairs, and so the summetric closure of $R$ is $\big\{ (0,0), (0,1), (1,0), (0,2), (2,0), (1,2), (2,1), (1,1), (1,5), (5,1), (2,2), (2,3), (3,2), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$
 
@@ -60,6 +63,7 @@ Here are some more examples of symmetric closures:
 
 - The symmetric closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ and person $y$ are adjacent in the Conga line".
 
+For **problem 5**, write out the symmetric closure of $P$.
 
 ## Transitive Closure
 
@@ -83,7 +87,7 @@ However, notice that this new relation $R_2$ *still* isn't transitive, as we now
 
 Giving us $R_3 = \big\{ (0,0), (0,1), (0,2), (0,3), (0,4), (0,5), (1,2), (1,3), (1,4), (1,5), (2,2), (2,3), (2,4), (3,3), (3,4), (4,3), (4,4), (5,5) \big\}$, which is *finally* transitive, and therefore is the transitive closure of our original relation $R$.
 
-In this case it took us 2 rounds of adding new pairs, but this gets even worse when we have an infinite domain. Consider the relation $P(x,y): x=y+1$ over the domain $\mathbb{Z}$. When we try and take the transitive closure of $P$, we'll need to add in $(0,2)$ since we previously had $P(0,1)$ and $P(1,2)$. Next we'll need to add $(0,3)$ since we had $P(0,2)$ and $P(2,3)$. Then we'll need to add $(0,4)$ since we had $P(0,3)$ and $P(3,4)$. Hopefully you can see the pattern, and notice that the transitive closure of $P$ is going to end up being the $\lt$ relation, but it's going to require an infinite number of steps to get there. Because of the possibility of needing an infinite number of steps, it's actually impossible to write out a definition of transitive closure using first order logic!
+In this case it took us 2 rounds of adding new pairs, but this gets even worse when we have an infinite domain. Consider the relation $P(x,y): x=y+1$ over the domain $\mathbb{Z}$. When we try and take the transitive closure of $P$, we'll need to add in $(0,2)$ since we previously had $P(0,1)$ and $P(1,2)$. Next we'll need to add $(0,3)$ since we had $P(0,2)$ and $P(2,3)$. Then we'll need to add $(0,4)$ since we had $P(0,3)$ and $P(3,4)$. Hopefully you can see the pattern, and notice that the transitive closure of $P$ is going to end up being the $\lt$ relation, but it's going to require an infinite number of steps to get there. Because of the possibility of needing an infinite number of steps, **it's actually impossible to write out a definition of transitive closure using first order logic!**
 
 
 Here are some more examples of transitive closures:
@@ -104,6 +108,8 @@ Here are some more examples of transitive closures:
 
 - The transitive closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ is behind person $y$ in the Conga line".
 
+For **problem 6**, write out the transitive closure of $P$.
+
 # Ball-Toss Closure Championship
 
 To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
@@ -118,9 +124,9 @@ The competition will involve producing Symmetric, Reflexive, and Transitive clos
 
 We'll use the placement of balls to define a relation as follows: 
 
-$C(m,n):$ color $m$ relates to color $n$ if there are balls of color $m$ and $n$ in the same bin and the number on the $m$-colored ball is larger than the number on the $n$-colored ball.
+$R(m,n):$ an employee of some company graduated from University $m$ before an a coworker at the same company graduated from University $n$.
 
-For example, if there is a $yellow$ ball with the number 4 on it that shares a bin with a $blue$ ball with a 1 on it then we'll say that $yellow$ relates to $blue$.
+For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, then we way that UVA relates to VT.
 
 Currently, the balls are placed in the bins in the front of the room in this arrangement:
 
