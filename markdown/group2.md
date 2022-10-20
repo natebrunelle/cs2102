@@ -132,7 +132,7 @@ For example, Suppose the following companies have the following employees:
 
 ![](files/universities_setup.png){ width=70% }
 
-Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
+Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,VT), (JMU,VT), (VCU,VT), (VCU,JMU), (VCU,VCU) \big\}$. (The first three pairs come from Apple, then next four from Facebook, the last from Alphabet. No relations come from Netflix.)
 
 ## Round 1: Reflexive Closure
 
