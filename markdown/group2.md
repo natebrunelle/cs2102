@@ -130,7 +130,7 @@ For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, the
 
 For example, Suppose the following companies have the following employees:
 
-![](files/bins_setup.png){ width=50% }
+![](files/universities_setup.png){ width=50% }
 
 Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
 
@@ -155,7 +155,7 @@ The 2 victors from Round 1 will face off, tasked with numbering and tossing ball
 
 The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
 
-![](files/bins_setup2.png){ width=50% }
+![](files/universities_setup_2.png){ width=50% }
 
 that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
 
