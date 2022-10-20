@@ -110,27 +110,27 @@ Here are some more examples of transitive closures:
 
 For **problem 6**, write out the transitive closure of $P$.
 
-# Ball-Toss Closure Championship
+# University Hiring Puzzle
 
-To give you experience with doing closures, we're together going to have a tournament! The tournament will proceed as follows:
+To get more experience with closures, we're going to give you a couple of challnge problems. For these challenge problems you will do the following:
 
-1. Everyone will answer problems 3-6 with their teams
-1. Once you're done you'll find another team to verify that your solutions are correct
-1. If you get finished with the previous step early then solve **problem 8**.
-1. We'll gather back together and ask for people to volunteer as competitors. Competing involves actualizing your solutions by accurately tossing balls.
-1. Four competitors will compete in a tournament as described below, with the final round being against the professor!
+1. Answer problems 3-6 with your team
+1. Once you're done, find another team to verify that your solutions are correct
+1. Solve problem 8 with your team.
 
-The competition will involve producing Symmetric, Reflexive, and Transitive closures using the following relation. The domain of this relation is going to be the set of colors $\{ yellow, blue, purple, red, green \}$. Which colors relate to each other will depend on which numbered balls (see the bag at the front of the room) are in which bins (see those at the front of the room). 
+The puzzles involve producing symmetric, reflexive, and transitive closures using the following relation. The domain of this relation is going to be the set of universities $\{ UVA, VT, VCU, ODU, JMU \}$. Which universities relate to each other depends on whether alumns from each university work at the same company and the year that person graduated.
 
-We'll use the placement of balls to define a relation as follows: 
+We'll define a relation as follows: 
+
+$R(m,n)$: An alumn of university $m$ works at the same company as a more recent graduate of university $n$.
 
 $R(m,n):$ an employee of some company graduated from University $m$ before an a coworker at the same company graduated from University $n$.
 
-For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, then we way that UVA relates to VT.
+For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, then we say that UVA relates to VT, i.e. $R(UVA,VT)\equiv \top$.
 
-Currently, the balls are placed in the bins in the front of the room in this arrangement:
+For example, Suppose the following companies have the following employees:
 
-![](files/bins_setup.png){ width=50% }
+![](/files/bins_setup.png){ width=50% }
 
 Which results in the relation $C = \big\{ (yellow,blue), (yellow, green), (green, blue), (purple, purple), (yellow, purple), (green, purple), (green, yellow), (green, green) \big\}$. (The first 3 pairs come from bin 1, then next 4 from bin 2, the last from bin 3.)
 
@@ -155,7 +155,7 @@ The 2 victors from Round 1 will face off, tasked with numbering and tossing ball
 
 The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
 
-![](files/bins_setup2.png){ width=50% }
+![](/files/bins_setup2.png){ width=50% }
 
 that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
 
