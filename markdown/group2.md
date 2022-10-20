@@ -138,20 +138,14 @@ Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,V
 
 For the first puzzle you are to identify who each company should hire to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. For **problem 7**, write down the missing pairs on your worksheet.
 
-Next add employees (with their class year and alma mater) to the companies in order to add those pairs, and only those pairs, to $C$. That is, add employees to companies so that the new relation is the reflexive closure of $C$. Write the university and class year of each new employee in **problem 8**. We were able to do this by adding four total new employees.
+Next add employees (with their class year and alma mater) to the companies in order to add those pairs, and only those pairs, to $C$. That is, add employees to companies so that the new relation is the reflexive closure of $C$. Write the university and class year of each new employee in **problem 8**. We were able to do this by adding four new employees total.
 
 ## Puzzle 2: Symmetric Closure
 
-For the second puzzle you are to identify who each company should hire to produce the Reflexive closure of the original relation $C$ above.
-
-To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
-
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the symmetric closure of $C$ (**problem 6**). We were able to do this by adding 2 balls.
-
-The 2 victors from Round 1 will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
+For the second puzzle you are to identify who each company should hire to produce the Reflexive closure of the original relation $C$ above. For **problem 9**, identify all missing pairs that preven $C$ from being symmetric. For **problem 10**, add new employees to each company to add those pairs, and only those pais, to $C$. That is, add employees to each company so that the new relation is the symmetric closure of $C$. We were able to do this by adding just two new employees total.
 
 
-## Round 3: Transitive Closure
+## Puzzle 3: Transitive Closure
 
 The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
 
