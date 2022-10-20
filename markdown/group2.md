@@ -138,22 +138,23 @@ Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,V
 
 For the first puzzle you are to identify who each company should hire to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. For **problem 7**, write down the missing pairs on your worksheet.
 
-Next add employees (with their class year and alma mater) to the companies in order to add those pairs, and only those pairs, to $C$. That is, add employees to companies so that the new relation is the reflexive closure of $C$. Write the university and class year of each new employee in **problem 8**. We were able to do this by adding four new employees total.
+Next add employees (with their class year and alma mater) to the companies in order to add those pairs, and only those pairs, to $C$. That is, add employees to companies so that the new relation is the reflexive closure of $C$. Write the university and class year of each new employee in **problem 8**. Try to do this using the fewest number of new employees possible. We were able to do this by adding four new employees total.
 
 ## Puzzle 2: Symmetric Closure
 
-For the second puzzle you are to identify who each company should hire to produce the Reflexive closure of the original relation $C$ above. For **problem 9**, identify all missing pairs that preven $C$ from being symmetric. For **problem 10**, add new employees to each company to add those pairs, and only those pais, to $C$. That is, add employees to each company so that the new relation is the symmetric closure of $C$. We were able to do this by adding just two new employees total.
+For the second puzzle you are to identify who each company should hire to produce the Reflexive closure of the original relation $C$ above. For **problem 9**, identify all missing pairs that preven $C$ from being symmetric. For **problem 10**, add new employees to each company to add those pairs, and only those pais, to $C$. That is, add employees to each company so that the new relation is the symmetric closure of $C$. Try to do this using the fewest number of new employees possible. We were able to do this by adding just two new employees total.
 
+Once you're done, find another group who has gotten this far (or a course staff member if you can't find one). Check each others' answers and see if the other team found a more efficient solution for problems 8 and 10 than you did!
 
 ## Puzzle 3: Transitive Closure
 
-The victor for round 2 will face off with the professor to produce the transitive closure of the relation produced by this arrangement:
+Finally, for the last puzzle we will find transitive closure of the relation produced by this arrangement:
 
 ![](files/universities_setup_2.png){ width=70% }
 
-that is $C=\big\{ (yellow, blue), (blue, purple), (purple, red), (red, green) \big\}$
+that is $D=\big\{ (JMU, ODU), (ODU, VT), (VT, UVA), (UVA, VCU) \big\}$
 
-As a class, we will determine how to number and add balls in order to produce the transitive closure of this new relation $C$ (**problem 7**).
+For **problem 11** Add employees in order to produce the transitive closure of this new relation $D$. Try to do this using the fewest number of new employees possible. Once you're done, find another group who has gotten this far (or a course staff member if you can't find one). Check each others' answers and see if the other team found a more efficient solution for problems 11 than you did!
 
 # Appendix: Properties of relations
 
