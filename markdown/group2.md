@@ -134,15 +134,15 @@ For example, Suppose the following companies have the following employees:
 
 Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,VT), (JMU,VT), (VCU,VT), (VCU,JMU), (VCU,VCU) \big\}$. (The first three pairs come from Apple, then next four from Facebook, the last from Alphabet. No relations come from Netflix.)
 
-## Round 1: Reflexive Closure
+## Puzzle 1: Reflexive Closure
 
-To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. Write down the missing pairs on your worksheet (**problem 3**).
+For the first puzzle you are to identify who each company should hire to produce the Reflexive closure of the relation $C$ above. To start with, we'll first identify the pairs we need to add in order to make $C$ reflexive. For **problem 7**, write down the missing pairs on your worksheet.
 
-Next add balls (with their numbers) to the bins in order to add those pairs, and only those pairs, to $C$. That is, add balls to bins so that the new relation is the reflexive closure of $C$ (**problem 4**). We were able to do this by adding 4 balls.
+Next add employees (with their class year and alma mater) to the companies in order to add those pairs, and only those pairs, to $C$. That is, add employees to companies so that the new relation is the reflexive closure of $C$. Write the university and class year of each new employee in **problem 8**. We were able to do this by adding four total new employees.
 
-The 4 competitors will face off, tasked with numbering and tossing balls into bins to match this solution with the fewest throws possible.
+## Puzzle 2: Symmetric Closure
 
-## Round 2: Symmetric Closure
+For the second puzzle you are to identify who each company should hire to produce the Reflexive closure of the original relation $C$ above.
 
 To prepare for round 1 of the tournament, we will figure out how to add balls to bins to produce the Symmetric closure of the original relation $C$ above (before we computed the reflexive closure). To start with, we'll first identify the pairs we need to add in order to make $C$ symmetric. Write down the missing pairs on your worksheet (**problem 5**).
 
