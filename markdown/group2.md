@@ -11,9 +11,9 @@ The first thing you're going to do is break up into teams of either 4 or 5. We w
 ## Read This Aloud
 
 
-Together we're going to create a relation $P$ over the set $T$. I'm going to count to five. Once I get to five everyone in the group (including myself) is going to point at one person in the group (another person or themselves). Once you point at someone, keep pointing at that person. We will use the pointing to define the relation $P(x,y):$ Person $x$ pointed at Person $y$. 
+Together we're going to create a relation $P$ over the set $T$. I'm going to count to three. Once I get to three everyone in the group (including myself) is going to point at one person in the group (another person or themselves). Once you point at someone, keep pointing at that person. We will use the pointing to define the relation $P(x,y):$ Person $x$ pointed at Person $y$. 
 
-1, 2, 3, 4, 5, POINT!
+1, 2, 3, POINT!
 
 I will now write down the the relation $P(x,y):$ Person $x$ pointed at Person $y$ for **problem 2**.
 
@@ -61,7 +61,7 @@ Here are some more examples of symmetric closures:
 
 - The symmetric closure the empty relation (where nothing relates to anything else) is just the empty relation (since it is already symmetric).
 
-- The symmetric closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ and person $y$ are adjacent in the Conga line".
+- The symmetric closure of the relation $L(x,y):$ "person $x$'s hands are on person $y$'s shoulers" might be "person $x$ and person $y$ are adjacent in the [Conga line](https://en.wikipedia.org/wiki/Conga_line)".
 
 For **problem 5**, write out the symmetric closure of $P$.
 
