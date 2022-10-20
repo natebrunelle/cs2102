@@ -122,7 +122,7 @@ The puzzles involve producing symmetric, reflexive, and transitive closures usin
 
 We'll define a relation as follows: 
 
-$R(m,n)$: An alumn of university $m$ works at the same company as a more recent graduate of university $n$.
+$R(m,n)$: An alumn of university $m$ works at the same company as a more recent alumn of university $n$.
 
 $R(m,n):$ an employee of some company graduated from University $m$ before an a coworker at the same company graduated from University $n$.
 
