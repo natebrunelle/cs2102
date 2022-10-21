@@ -112,19 +112,12 @@ For **problem 6**, write out the transitive closure of $P$.
 
 # University Hiring Puzzle
 
-To get more experience with closures, we're going to give you a couple of challnge problems. For these challenge problems you will do the following:
-
-1. Answer problems 3-6 with your team
-1. Once you're done, find another team to verify that your solutions are correct
-1. Solve problem 8 with your team.
-
-The puzzles involve producing symmetric, reflexive, and transitive closures using the following relation. The domain of this relation is going to be the set of universities $\{ UVA, VT, VCU, ODU, JMU \}$. Which universities relate to each other depends on whether alumns from each university work at the same company and the year that person graduated.
+To get more experience with closures, we're going to give you a couple of challange puzzles.
+The puzzles involve producing symmetric, reflexive, and transitive closures using the relation we describe below. The domain of this relation is going to be the set of universities $\{ UVA, VT, VCU, ODU, JMU \}$. Which universities relate to each other depends on whether there are alumns from each university who work at the same company, and the year that those workers graduated.
 
 We'll define a relation as follows: 
 
 $R(m,n)$: An alumn of university $m$ works at the same company as a more recent alumn of university $n$.
-
-$R(m,n):$ an employee of some company graduated from University $m$ before an a coworker at the same company graduated from University $n$.
 
 For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, then we say that UVA relates to VT, i.e. $R(UVA,VT)\equiv \top$.
 
@@ -132,7 +125,7 @@ For example, Suppose the following companies have the following employees:
 
 ![](files/universities_setup.png){ width=70% }
 
-Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,VT), (JMU,VT), (VCU,VT), (VCU,JMU), (VCU,VCU) \big\}$. (The first three pairs come from Apple, then next four from Facebook, the last from Alphabet. No relations come from Netflix.)
+Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,VT), (JMU,VT), (VCU,VT), (VCU,JMU), (VCU,VCU) \big\}$. (The first three pairs come from Apple, then next four from Meta, the last from Alphabet. No relations come from Netflix.)
 
 ## Puzzle 1: Reflexive Closure
 
