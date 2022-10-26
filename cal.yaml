@@ -220,6 +220,10 @@ reading:
           lnk: irrationality.html
         - txt: open sets
           lnk: openset.html
+        - txt: worksheet
+          lnk: files/contradiction_practice.pdf
+        - txt: sample solutions
+          lnk: files/contradiction_solutions.pdf
 
     induction:
         - "MCS 5.1–5.3"
