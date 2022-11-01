@@ -97,7 +97,8 @@ Elizabeth Orrico
     :   <a href="mailto:emo7bf@virginia.edu?subject=2120">orrico@virginia.edu</a>; include 2120 in the subject
     
     Office Hours
-    : Rice 207 --   Mon 11am-12pm and 3pm-4pm. Wed 11am-12pm and 3pm-4pm.
+    : Rice 207 --   Thursdays 12:30-1:30pm
+    : Mec 205 -- Mondays and Wednesdays 2:50-3:25
 
 TAs
 :   Contact
