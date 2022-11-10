@@ -28,7 +28,7 @@ If you recall from class, the Well-Ordering Principle states "Every non-empty su
 7. We observe that steps 4, 5, and 6 together form a contradiction, since every member of $C$ (except 0) has a member of $C$ smaller than it, the only way to have a smallest member is for that to be 0, which showed was not a member of $C$.
 8. This contradiction requires therefore that $C=\emptyset$, or equivalently that $\forall x\in \mathbb{N}. P(x)$.
 
-Super informally, the idea of this proof strategy is to say "Any time the theorem was false there must have been a prior time it was false as well, so there was no opportunity for it to start being false".
+Super informally, the idea of this proof strategy is to say "Any time the theorem was false there must have been a prior time it was false as well, so there was no first value where it could start being false".
 
 ## Proof by Induction
 
