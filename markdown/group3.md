@@ -54,9 +54,9 @@ Super informally, the idea of this proof strategy is to say "The theorem is true
 
 ## Comparing the strategies
 
-It turns out that proofs by induction and proofs by contradiction using well-ordering are very closely related to one another (and in a very formal sense they are logically equivalent to one another). To get a vague idea for why, we can first of all look at the most important components of each proof. For a proof my contradiction using well-ordering, we need to show $\neg P(n) \rightarrow \neg P(n-1)$, or equivalently $\neg P(n+1) \rightarrow \neg P(n)$. For a proof by induction we need to show $P(n)\rightarrow P(n+1)$. These two statements are logically equivalent to one another. Show this using logical equivalences (**Problem 2**).
+It turns out that proofs by induction and proofs by contradiction using well-ordering are very closely related to one another (and in a very formal sense they are logically equivalent to one another). To get a vague idea for why, we can first of all look at the most important components of each proof. For a proof by contradiction using well-ordering, we need to show $\neg P(n) \rightarrow \neg P(n-1)$, or equivalently $\neg P(n+1) \rightarrow \neg P(n)$. For a proof by induction we need to show $P(n)\rightarrow P(n+1)$. These two statements are logically equivalent to one another. Show this using logical equivalences (**Problem 2**).
 
-These proofs techniques are equivalent in that you can transform any proof by contradiction using well-ordering into a proof by induction by showing using the demonstration that $0\notin C$ as your proof of the base case $P(0)$, then using your proof that $\neg P(n) \rightarrow \neg P(n-1)$ as your inductive case since it is equivalent to $P(n)\rightarrow P(n+1)$. 
+These proofs techniques are equivalent in that you can transform any proof by contradiction using well-ordering into a proof by induction by showing using the demonstration that $0\notin C$ as your proof of the base case $P(0)$, then using your proof that $\neg P(n) \rightarrow \neg P(n-1)$ as your inductive step since it is equivalent to $P(n)\rightarrow P(n+1)$. 
 
 You can similarly transform any proof by induction into a proof by contradiction by well ordering by using your proof that the base case ($P(0)$) holds to show $0 \notin C$, and then using your proof that $P(n)\rightarrow P(n+1)$ in your inductive step as the proof of the logically equivalent statement $\neg P(n) \rightarrow \neg P(n-1)$. Everything else in these proof strategies are just structural pieces that will be the same among *all* proofs that use the respective strategy!
 
@@ -128,7 +128,7 @@ int gcd(int x, int y){
 </td></tr></table>
 {/}
 
-To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "The program terminates for $y=n$". We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (**Problem 4**).
+To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "The program terminates when the input parameter $y$ is $n$". We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (**Problem 4**).
 
 Finally, to show that this program will terminate, we need to show that if there is some natural number $n$ for which the function does not terminate, then there must be some smaller natural number $m$ for which it doesn't terminate as well[^1]. Explain how we know this is the case (**Problem 5**).
 
