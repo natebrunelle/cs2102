@@ -5,8 +5,9 @@ title: Group Activity 3 | Well-Ordering, Induction, Recursion
 Put your answers for each problem of this activity in this [worksheet](/files/group3.pdf).
 
 # Introduce Your Team!
+First, put your name (and only you name, not your teammates' names) on the front of your worksheet.
 
-Give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Fall 2022. (**problem 1**).
+Next, for **problem 1**, give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Fall 2022.
 
 # Induction and Well-Ordering
 
@@ -32,7 +33,7 @@ Super informally, the idea of this proof strategy is to say "Any time the theore
 
 ## Proof by Induction
 
-If you recall from class, the Principle of Induction states "if $P(0)$ is true, and $P(n)\rightarrow P(n+1)$ for all natural numbers $n$, then $P(m)$ is true for all natural numbers $m$. The general template for how we use this idea to construct a proof that $\forall x\in \mathbb{N}. P(x)$ is as follows (though this may change slightly in some cases):
+If you recall from class, the Principle of Induction states "if $P(0)$ is true, and $P(n)\rightarrow P(n+1)$ for all natural numbers $n$, then $P(m)$ is true for all natural numbers $m$". The general template for how we use this idea to construct a proof that $\forall x\in \mathbb{N}. P(x)$ is as follows (though this may change slightly in some cases):
 
 1. Begin by showing our base case, i.e. show that $P(0)$ is true.
 2. Show the inductive case: $\forall n \in \mathbb{N}. P(n)\rightarrow P(n+1)$. This is typically done by:
