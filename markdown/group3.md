@@ -167,7 +167,7 @@ int find_max(int[] my_list){
 </td></tr></table>
 {/}
 
-To prove that this code always terminates using induction, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "after looking at the $n$th element in the list, $m$ is equal to the maximum of those elements". To begin, show a base case that $P(1)$ is true (**Problem 6**).
+To prove that this code always terminates using induction, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "after the iteration of the for loop where $i=n$, $m$ is equal to the maximum of the first $n+1$ elements of the list". To begin, show a base case that $P(0)$ is true (**Problem 6**).
 
 Next show the inductive step, the $P(n)\rightarrow P(n+1)$ (**Problem 7**). 
 
@@ -175,7 +175,7 @@ Make sure everyone in your group understands why these two together would allow 
 
 # Tower of Hanoi
 
-According to ancient legend, somewhere in Hanoi there is a temple in Hanoi, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and are placed in a stack over the first pillar. This stack is arranged so that the largest disc is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
+According to legend, somewhere in Hanoi there is a temple, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and is placed in a stack over the first pillar. This stack is arranged so that the largest disk is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
 
 You have a set of 4 disks (or if you're completing this at home, make 4 disks of unique diameter, pancakes sound good). With your group, determine the number of moves it will take for the monks to move a stack of 4 disks (**Problem 8**). To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
 
