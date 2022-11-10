@@ -41,7 +41,7 @@ If you recall from class, the Principle of Induction states "if $P(0)$ is true, 
 4. By using the definition of $P$, show that it must also be the case that $P(n)$ is true.
 5. Conclude by the Principle of Induction that $\forall n\in \mathbb{N}.P(n)$.
 
-Note that more often (and more generally) induction is used to show $\forall x\in \big\{n \big| (y\in \mathbb{N})\wedge (y\geq b)\big\}. P(x)$ (i.e. that $P(x)$ is true for all natural numbers great than $b$) by instead doing the following:
+Note that more often (and more generally) induction is used to show $\forall x\in \big\{y \big| (y\in \mathbb{N})\wedge (y\geq b)\big\}. P(x)$ (i.e. that $P(x)$ is true for all natural numbers great than $b$) by instead doing the following:
 
 1. Begin by showing our base case, i.e. show that $P(b)$ is true.
 2. Show the inductive case: $\forall n \in \big\{y \big| (y\in \mathbb{N})\wedge (y\geq b)\big\}. P(n)\rightarrow P(n+1)$. This is typically done by:
