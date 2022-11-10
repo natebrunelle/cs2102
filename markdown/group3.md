@@ -50,7 +50,7 @@ Note that more often (and more generally) induction is used to show $\forall x\i
 5. Conclude by the Principle of Induction that $\forall x\in \big\{n \big| (y\in \mathbb{N})\wedge (y\geq b)\big\}. P(x)$.
 
 
-Super informally, the idea of this proof strategy is to say "The theorem is true because once it's started being true it can't stop, and here where it starts being true".
+Super informally, the idea of this proof strategy is to say "The theorem is true because once it's started being true it can't stop, and here's where it starts being true".
 
 ## Comparing the strategies
 
