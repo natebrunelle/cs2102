@@ -132,7 +132,7 @@ To prove that this code always terminates using well-ordering, we first need to 
 
 Finally, to show that this program will terminate, we need to show that if there is some natural number $n$ for which the function does not terminate, then there must be some smaller natural number $m$ for which it doesn't terminate as well[^1]. For **Problem 5**, explain how we know this is the case.
 
-[^1]: Note that this is slightly different from how we derived a contradiction above. Before we said we wanted to show $\neg P(n)\rightarrow \neg P(n-1)$. The contradiction will actually still work if we show $\neg P(n)$ implies $P(m)$ for any choice of $m \lt n$.
+[^1]: Note that this is slightly different from how we derived a contradiction above. Before we said we wanted to show $\neg P(n)\rightarrow \neg P(n-1)$. The contradiction will actually still work if we show $\neg P(n)$ implies $\neg P(m)$ for any choice of $m \lt n$.
 
 Make sure everyone in your group understands why these two together would allow us to conclude that the code always terminates.
 
