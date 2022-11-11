@@ -54,13 +54,13 @@ Super informally, the idea of this proof strategy is to say "The theorem is true
 
 ## Comparing the strategies
 
-It turns out that proofs by induction and proofs by contradiction using well-ordering are very closely related to one another (and in a very formal sense they are logically equivalent to one another). To get a vague idea for why, we can first of all look at the most important components of each proof. For a proof by contradiction using well-ordering, we need to show $\neg P(n) \rightarrow \neg P(n-1)$, or equivalently $\neg P(n+1) \rightarrow \neg P(n)$. For a proof by induction we need to show $P(n)\rightarrow P(n+1)$. These two statements are logically equivalent to one another. Show this using logical equivalences (**Problem 2**).
+It turns out that proofs by induction and proofs by contradiction using well-ordering are very closely related to one another (and in a very formal sense they are logically equivalent to one another). To get a vague idea for why, we can first of all look at the most important components of each proof. For a proof by contradiction using well-ordering, we need to show $\neg P(n) \rightarrow \neg P(n-1)$, or equivalently $\neg P(n+1) \rightarrow \neg P(n)$. For a proof by induction we need to show $P(n)\rightarrow P(n+1)$. These two statements are logically equivalent to one another. For **Problem 2** Show this using logical equivalences.
 
 These proofs techniques are equivalent in that you can transform any proof by contradiction using well-ordering into a proof by induction by showing using the demonstration that $0\notin C$ as your proof of the base case $P(0)$, then using your proof that $\neg P(n) \rightarrow \neg P(n-1)$ as your inductive step since it is equivalent to $P(n)\rightarrow P(n+1)$. 
 
 You can similarly transform any proof by induction into a proof by contradiction by well ordering by using your proof that the base case ($P(0)$) holds to show $0 \notin C$, and then using your proof that $P(n)\rightarrow P(n+1)$ in your inductive step as the proof of the logically equivalent statement $\neg P(n) \rightarrow \neg P(n-1)$. Everything else in these proof strategies are just structural pieces that will be the same among *all* proofs that use the respective strategy!
 
-To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction). Briefly explain how we transformed the first proof into the second (**Problem 3**).
+To see this transformation, consider the following proofs that $\neg P(n) \rightarrow \neg P(n-1)$ (that might be part of a proof by contradiction using well-ordering) and that $P(n)\rightarrow P(n+1)$ (that might be the inductive case in a proof by induction). For **Problem 3**, briefly explain how we transformed the first proof into the second.
 
 
 {.example ...}$\neg P(n) \rightarrow \neg P(n-1)$
@@ -128,9 +128,9 @@ int gcd(int x, int y){
 </td></tr></table>
 {/}
 
-To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "The program terminates when the input parameter $y$ is $n$". We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (**Problem 4**).
+To prove that this code always terminates using well-ordering, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "The program terminates when the input parameter $y$ is $n$". We won't give the entire proof here, but we'll together prove the most important pieces. To begin, show that $P(0)$ is true (this is **Problem 4**).
 
-Finally, to show that this program will terminate, we need to show that if there is some natural number $n$ for which the function does not terminate, then there must be some smaller natural number $m$ for which it doesn't terminate as well[^1]. Explain how we know this is the case (**Problem 5**).
+Finally, to show that this program will terminate, we need to show that if there is some natural number $n$ for which the function does not terminate, then there must be some smaller natural number $m$ for which it doesn't terminate as well[^1]. For **Problem 5**, explain how we know this is the case.
 
 [^1]: Note that this is slightly different from how we derived a contradiction above. Before we said we wanted to show $\neg P(n)\rightarrow \neg P(n-1)$. The contradiction will actually still work if we show $\neg P(n)$ implies $P(m)$ for any choice of $m \lt n$.
 
@@ -167,9 +167,9 @@ int find_max(int[] my_list){
 </td></tr></table>
 {/}
 
-To prove that this code always terminates using induction, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "after the iteration of the for loop where $i=n$, $m$ is equal to the maximum of the first $n+1$ elements of the list". To begin, show a base case that $P(0)$ is true (**Problem 6**).
+To prove that this code always terminates using induction, we first need to identify a predicate $P$ so that we can state a theorem of form $\forall n\in \mathbb{N}. P(n)$. In this case we'll define $P(n)$: "after the iteration of the for loop where $i=n$, $m$ is equal to the maximum of the first $n+1$ elements of the list". To begin, show a base case that $P(0)$ is true (this is **Problem 6**).
 
-Next show the inductive step, the $P(n)\rightarrow P(n+1)$ (**Problem 7**). 
+Next show the inductive step, the $P(n)\rightarrow P(n+1)$ (this is **Problem 7**). 
 
 Make sure everyone in your group understands why these two together would allow us to conclude that the code correctly finds the maximum of the list.
 
@@ -177,11 +177,11 @@ Make sure everyone in your group understands why these two together would allow 
 
 According to legend, somewhere in Hanoi there is a temple, and in this temple there are 3 pillars and 64 disks. Each disk is a unique diameter, has a hole through the middle, and is placed in a stack over the first pillar. This stack is arranged so that the largest disk is at the bottom and the smallest is at the top (and all other disks are similarly ordered by diameter in between). A group of monks are tasked with moving all 64 disks from the first pillar to the third. The challenge is, though, that the monks can only move one disk at a time and no disk may ever be atop a disk smaller than it. If the monks can move one disk per second, how long will it take for them to move all of the disks?
 
-You have a set of 4 disks (or if you're completing this at home, make 4 disks of unique diameter, pancakes sound good). With your group, determine the number of moves it will take for the monks to move a stack of 4 disks (**Problem 8**). To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
+You have a set of 4 disks (or if you're completing this at home, make 4 disks of unique diameter, pancakes sound good) and three pillars on the front side of the worksheet. With your group, for **Problem 8**, determine the number of moves it will take for the monks to move a stack of 4 disks. To do this, I recommend first considering the number of moves that will be required to move a stack of 1 disk, then 2 disks, then 3, and finally 4.
 
-Next, guess a formula that would represent the number of moves required for the monks to move $n$ disks (**Problem 9**).
+Next, for **Problem 9**, guess a formula that would represent the number of moves required for the monks to move $n$ disks.
 
-Finally, use induction to show that your answer for Problem 9 is correct (**Problem 10**). Here's a hint for how you might do this. The number of moves required to move all $n$ disks is going to be the number of moves required to move $n-1$ disks (to free the largest disk), plus one (to move the largest disk), plust the number of moves required to move $n-1$ disks again (to put all disks back atop the largest). In other words, the number of moves required should match the return value of the following function.
+Finally, for **Problem 10**, use induction to show that your answer for Problem 9 is correct. Here's a hint for how you might do this. The number of moves required to move all $n$ disks is going to be the number of moves required to move $n-1$ disks (to free the largest disk), plus one (to move the largest disk), plust the number of moves required to move $n-1$ disks again (to put all disks back atop the largest). In other words, the number of moves required should match the return value of the following function.
 
 {.example ...}
 A function which computes the number of moves required to move a stack of n disks
