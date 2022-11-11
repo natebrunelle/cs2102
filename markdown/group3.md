@@ -181,7 +181,7 @@ You have a set of 4 disks (or if you're completing this at home, make 4 disks of
 
 Next, for **Problem 9**, guess a formula that would represent the number of moves required for the monks to move $n$ disks.
 
-Finally, for **Problem 10**, use induction to show that your answer for Problem 9 is correct. Here's a hint for how you might do this. The number of moves required to move all $n$ disks is going to be the number of moves required to move $n-1$ disks (to free the largest disk), plus one (to move the largest disk), plust the number of moves required to move $n-1$ disks again (to put all disks back atop the largest). In other words, the number of moves required should match the return value of the following function.
+Finally, for **Problem 10**, use induction to show that your answer for Problem 9 is correct. Here's a hint for how you might do this. The number of moves required to move all $n$ disks is going to be the number of moves required to move $n-1$ disks (to free the largest disk), plus one (to move the largest disk), plus the number of moves required to move $n-1$ disks again (to put all disks back atop the largest). In other words, the number of moves required should match the return value of the following function.
 
 {.example ...}
 A function which computes the number of moves required to move a stack of n disks
