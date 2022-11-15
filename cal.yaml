@@ -289,9 +289,7 @@ assignments:
         due: 2022-10-28 15:00:00
     Mod3Quiz2:
         due: 2022-11-04 15:00:00
-    Mod4Quiz1:
-        due: 2022-11-18 15:00:00
-    Mod4Quiz2:
+    Mod4Quiz:
         due: 2022-12-02 15:00:00
 
 
@@ -309,9 +307,7 @@ assignments:
         due: 2022-10-31 09:00:00
     Mod3Multi2:
         due: 2022-11-07 09:00:00
-    Mod4Multi1:
-        due: 2022-11-21 09:00:00
-    Mod4Multi2:
+    Mod4Multi:
         due: 2022-12-05 09:00:00
    
     Mod1 Makeup:
