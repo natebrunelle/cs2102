@@ -88,13 +88,13 @@ In addition to all of the tasty items above, the Professors' Thanksgiving will f
 
 All remaining items would taste good with gravy on top, and so we call those "graviable".
 
-We'll consider a "gravy-helping" to be a helping where graviable items may or may not be paired with gravy (also, a gravy-helping may not have both an item with gravy and also that same item without gravy). For example, some different valid gravy-helpings might be:
+We'll consider a "gravied-helping" to be a helping where graviable items may or may not be paired with gravy (also, a gravy-helping may not have both an item with gravy and also that same item without gravy). For example, some different valid gravied-helpings might be:
 
 - {(Turkey, Gravy), (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Cranberry Sauce}
 
-**Problem 8** How many different gravy-helpings are there?
+**Problem 8** How many different gravied-helpings are there?
 
 
 ## Leftovers
@@ -123,4 +123,4 @@ A sandwich is considered "graviable" if all of its ingredients are graviable. An
 - (bread, turkey, gravy, turkey, bread)
 - (bread, turkey, gravy, mashed potatoes, bread)
 
-**Problem 12** How many possible graviable sandwiches are there if we must have exactly 5 distinct ingredients, where one of them must be gravy?
+**Problem 12** How many valid sandwiches with gravy are there if we must have exactly 5 distinct ingredients (not including the bread)? In other words, count all the sandwiches that include 2 pieces of bread, 4 graviable ingredients, and gravy.
