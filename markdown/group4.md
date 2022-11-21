@@ -94,7 +94,7 @@ We'll consider a "gravied-helping" to be a helping where graviable items may or 
 - {Turkey, (Mashed Potatoes, Gravy), Cranberry Sauce}
 - {Cranberry Sauce}
 
-**Problem 8** How many different gravied-helpings are there?
+**Problem 7** How many different gravied-helpings are there?
 
 
 ## Leftovers
@@ -108,11 +108,11 @@ On the day after Thanksgiving, Nate likes to make a sandwich with the leftover i
 
 For now (we'll change this in the next section) sandwiches may not have gravy.
 
-**Problem 9** How many different sandwiches are there?
+**Problem 8** How many different sandwiches are there?
 
-**Problem 10** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many edible sandwiches are there?
+**Problem 9** A sandwich is really only going to be edible if you can fit it into your mouth, so maybe it's unwise to have sandwiches that have 5 or more ingredients (not counting the bread). How many edible sandwiches are there?
 
-**Problem 11** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients?
+**Problem 10** How many sandwiches would there be if we wanted them to have exactly 5 distinct ingredients?
 
 
 ## Gravy on Sandwiches
@@ -123,4 +123,4 @@ A sandwich is considered "graviable" if all of its ingredients are graviable. An
 - (bread, turkey, gravy, turkey, bread)
 - (bread, turkey, gravy, mashed potatoes, bread)
 
-**Problem 12** How many valid sandwiches with gravy are there if we must have exactly 5 distinct ingredients (not including the bread)? In other words, count all the sandwiches that include 7 items: 2 pieces of bread, 4 graviable ingredients, and gravy.
+**Problem 11** How many valid sandwiches with gravy are there if we must have exactly 5 distinct ingredients (not including the bread)? In other words, count all the sandwiches that include 7 items: 2 pieces of bread, 4 graviable ingredients, and gravy.
