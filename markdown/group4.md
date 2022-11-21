@@ -21,15 +21,15 @@ Give the names of all members of your group. Indicate the your relationship to e
 
 # Introduce Your (Thanksgiving) Dinner!
 
-**If you're in class**: Have each person in your group share their two favorite items to have at Thanksgiving dinner. If you do not celebrate Thanksgiving, then just name at least one food that you enjoy to eat with your family. Write down the set of all dishes you've named (**Problem 2**). We'll refer to this set as $D$ in a future problem
+**If you're in class**: Have each person in your group share their two favorite items to have at Thanksgiving dinner. If you do not celebrate Thanksgiving, then just name at least one food that you enjoy to eat with your family. Write down the set of all dishes you've named (**Problem 1**). We'll refer to this set as $D$ in a future problem
 
-**If you're at home**: Select one meal that you've had over the break (ideally your Thanksgiving meal, if you celebrate that holiday, but any meal will do). List all of the items that were included in that meal and write those down (**Problem 2**). We'll refer to this set as $D$ in a future problem.
+**If you're at home**: Select one meal that you've had over the break (ideally your Thanksgiving meal, if you celebrate that holiday, but any meal will do). List all of the items that were included in that meal and write those down (**Problem 1**). We'll refer to this set as $D$ in a future problem.
 
 # Counting Meals
 
-**If you're in class**: We'll define a "helping" to be any non-empty subset of dishes from the set $D$. How many different helpings are there for you set $D$? (**Problem 3**)
+**If you're in class**: We'll define a "helping" to be any non-empty subset of dishes from the set $D$. How many different helpings are there for you set $D$? (**Problem 2**)
 
-**If you're at home**: We'll define a "helping" to be any non-empty subset of dishes from the set $D$. First ask your team/family to estimate the number of different helpings there are for the meal you used to define the set $D$ (**Problem 1a**). Next calculate for yourself the number of helpings. Tell your team/family the number, explaining how you arrived at it. Give a high-five to whoever guessed the closest.
+**If you're at home**: We'll define a "helping" to be any non-empty subset of dishes from the set $D$. First ask your team/family to estimate the number of different helpings there are for the meal you used to define the set $D$ (**Problem 2a**). Next calculate for yourself the number of helpings (**Problem 2b**). Tell your team/family the number, explaining how you arrived at it. Give a high-five to whoever guessed the closest.
 
 # More Counting Problems
 
@@ -70,13 +70,13 @@ The following items are vegan:
 
 Again, we'll define a "helping" to be any non-empty subset of the items listed above. For example, one helping might be {Turkey, Mashed potatoes, Corn, Cornbread}, and a different helping might be {Corn, Cornbread}. 
 
-**Problem 4**: How many different possible helpings are there for the Professors' Thanksgiving?
+**Problem 3**: How many different possible helpings are there for the Professors' Thanksgiving?
 
-**Problem 5**: How many different possible helpings are there for Elizabeth, where Elizabeth can only eat gluten-free items?
+**Problem 4**: How many different possible helpings are there for Elizabeth, where Elizabeth can only eat gluten-free items?
 
-**Problem 6**: How many different possible helpings are there for someone who can only eat items that are gluten-free and vegan?
+**Problem 5**: How many different possible helpings are there for someone who can only eat items that are gluten-free and vegan?
 
-**Problem 7**: How many different possible helpings are there if no helping may have both corn and cornbread?
+**Problem 6**: How many different possible helpings are there if no helping may have both corn and cornbread?
 
 ## Gravy Boat
 
