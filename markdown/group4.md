@@ -123,4 +123,4 @@ A sandwich is considered "graviable" if all of its ingredients are graviable. An
 - (bread, turkey, gravy, turkey, bread)
 - (bread, turkey, gravy, mashed potatoes, bread)
 
-**Problem 12** How many valid sandwiches with gravy are there if we must have exactly 5 distinct ingredients (not including the bread)? In other words, count all the sandwiches that include 2 pieces of bread, 4 graviable ingredients, and gravy.
+**Problem 12** How many valid sandwiches with gravy are there if we must have exactly 5 distinct ingredients (not including the bread)? In other words, count all the sandwiches that include 7 items: 2 pieces of bread, 4 graviable ingredients, and gravy.
