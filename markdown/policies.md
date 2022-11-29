@@ -69,10 +69,10 @@ Each (full-sized) module will have the following components:
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you will also be able to take an optional **final quiz**.
-The final will be a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
-You may choose to take any one of these four, your resulting grade will then replace your grade for that module.
-You may wait choose whether to take a final quiz and which final quiz to take until after you see the contents of the quiz.
+At the end of the semester, you may opt to attempt up to two **final quizzes**.
+During the final exam period we will release a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
+You may choose to take zero, one, or two of these four, your resulting grade on each will then replace your grade for the respective module.
+You may wait choose whether to take any final quizzes and which final quizzes to take until after you see the contents of each quiz.
 
 ## Contact
 
