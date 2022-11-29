@@ -154,7 +154,7 @@ Your grade will be computed as a weighted average as follows:
 - Each of the four modules is worth 22.5% of your grade
 - Each of the four group projects is worth 2.5% of your grade
 
-After combining your scores, your letter grade will be assigned according to the following:
+After combining your scores, your letter grade will be assigned according to the following[^cminus]:
 
 You get      if you score     Which is worth
 ----------   ------------    ----------------
@@ -165,12 +165,13 @@ B+           &ge; 87%               3.3
 B            &ge; 83%               3.0
 B&minus;     &ge; 80%               2.7
 C+           &ge; 77%               2.3
-C            &ge; 73%               2.0
-C-           &ge; 70%               1.7
+C            &ge; 70%               2.0
 D+           &ge; 67%               1.3
 D            &ge; 63%               1.0
 D&minus;     &ge; 60%               0.7
 F            otherwise              0.0
+
+[^cminus]: For the Fall 2022 Semester the University instituted a CR/NC/GC grading option. At some time after final grades are released students may choose to have a grade changed from a letter grade to a CR/GC/NC grade. CR/NC/GC grades are not used in GPA calculations. A grade of C or higher translates to a CR grade. A grade of D- to C- translates to GC. A grade of F translates to NC. If you receive a grade of CR or GC in a course then that course can be used to satisfy major requirements. If you receive a grade of CR in a course then that course can be used to satisfy prerequisites. Note that the CS department typically uses a C- as the minimum grade to satisfy prerequisites, and therefore we have removed the C- grade from the crading scale (effectively, all C- grades are rounded up to C).
 
 We have created a [google spreadsheet](https://docs.google.com/spreadsheets/d/13uPnplekz-2wmlQPdbcYAsYZPqweSh3y09m7LnVgs2Y/edit?usp=sharing) that you can use to see your grade calculation. Please make a copy of the sheet, then fill in your grades as they come in. 
 
