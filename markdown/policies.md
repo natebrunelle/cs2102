@@ -74,6 +74,12 @@ During the final exam period we will release a set of four additional makeup qui
 You may choose to take zero, one, or two of these four, your resulting grade on each will then replace your grade for the respective module.
 You may wait choose whether to take any final quizzes and which final quizzes to take until after you see the contents of each quiz.
 
+### Quiz Dropping
+
+Students may drop one MAKEUP or FINAL quiz. So for one such quiz, if a student takes it and does worse than the previous module grade, we will pretend that later quiz never happened. The dropped quiz will be the one which, by dropping, makes the greatest mathematical impact on the student's final grade.
+
+As some examples of what would happen, let's say a student had a 80% average on the four MOD1 quizzes and a 85% average on the MOD2 quizzes. If the student takes the MOD1MAKEUP and gets a 75%, we will drop MOD1MAKEUP so the student will still have an 80% average on mod1. If the student then later takes the MOD2MAKEUP and gets a 77% then we will drop MOD2MAKEUP instead of MOD1MAKEUP (so the student will receive 75% on MOD1 and 85% on MOD2, since that results in a higher overall grade in the class compared to a 80% on MOD1 and  77% on MOD2). If, however, the student the later takes the MOD1FINAL and receives a 60%, we will then drop MOD1FINAL instead of MOD2MAKEUP, again to maximize the student's grade.
+
 ## Contact
 
 We'll use 
