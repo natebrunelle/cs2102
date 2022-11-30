@@ -92,16 +92,6 @@
   files:
   - files/slides/cs2120_L25_f22.pdf
   
-2021-11-10:
-  files:
-  - files/slides/cs2120_L24.pdf
-  - files/slides/cs2120_L24.pptx
-  
-2021-11-15:
-  files:
-  - files/slides/cs2120_L25.pdf
-  - files/slides/cs2120_L25.pptx
-  
 2022-11-16:
   files:
   - files/slides/cs2120_L26_f22.pdf
@@ -110,7 +100,6 @@
   files:
   - files/slides/cs2120_L27_f22.pdf
   
-2021-12-01:
+2022-11-28:
   files:
-  - files/slides/cs2120_L28.pdf
-  - files/slides/cs2120_L28.pptx
+  - files/slides/cs2120_L28_f22.pdf
