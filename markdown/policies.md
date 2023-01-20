@@ -55,9 +55,9 @@ Each (full-sized) module will have the following components:
 - Optionally, one **makeup quiz**
     - A mix of manually-graded and automatically-graded components
     - Delivered the week after a module concludes
-    - If taken, replaces your grade for the module (whether better or worse)
+    - If taken, replaces **all 4 quiz grades (22.5%)** for the module (whether better or worse)
 
-- One **group project**
+- One **group project worth 2.5% of your grade**
     - You will
         - work with a partner during scheduled class time
         - finish on your own time, if needed
