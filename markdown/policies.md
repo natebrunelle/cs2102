@@ -12,14 +12,14 @@ Due to the continuing COVID-19 pandemic, we want to give plenty of options for h
 - Joining the zoom live-stream remotely
 - Watching the recorded lecture after-the-fact.
 
-Links to your section's zoom livestreams and recordings can be found on the Collab site.
+However, you are strongly encouraged to attend class in-person. Masks are optional but appreciated. Links to your section's zoom livestreams and recordings can be found on the Collab site.
 
 
 We will generally have time-limited, and sometimes group-work, assignments during the Friday class time (and on one Monday), and so synchronous and in-person attendance is expected then. If you are not able to attend those times make-up opportunities are available, just ask the course staff.
 
 ## Tasks {#tasks}
 
-The course is organized around four 3-week modules:
+The course is organized around four 3-week modules, **each worth 25% of your grade**:
 
 1. **Discrete Structures**: sets, logic, equivalence proofs
 2. **First-order Logic**: predicates, quantifiers, functions, relations
@@ -30,7 +30,7 @@ Each (full-sized) module will have the following components:
 
 - Between 5 and 7 **lectures**
 
-- Two manually-graded **paper quizzes**
+- Two manually-graded **paper quizzes, each worth 5.625% of your grade**
     - You will
         - be given a prompt and a time limit
         - write a solution on paper
@@ -41,7 +41,7 @@ Each (full-sized) module will have the following components:
         - discuss common mistakes in class
     - Occur during the Friday class time of the second and third week of the module
 
-- Two automatically-graded multiple-choice **online quizzes**
+- Two automatically-graded multiple-choice **online quizzes, each worth 5.625% of your grade**
     - You will
         - be given a set of questions with a web form for answering them
         - write clarifying comments if the question is confusingly worded
@@ -69,7 +69,7 @@ Each (full-sized) module will have the following components:
 
 You will also be expected to read instructional material and either understand it or ask questions to clarify what you found confusing. We strongly recommend forming study groups that meet at least weekly all semester long to discuss readings, as even if they appear simple at first they will often contain nuances that will only emerge with conversions.
 
-At the end of the semester, you may opt to attempt up to two **final quizzes**.
+At the end of the semester, you may opt to attempt up to one **final quiz**.
 During the final exam period we will release a set of four additional makeup quizzes, one for each module, of similar format to earlier makeup quizzes. 
 You may choose to take zero, one, or two of these four, your resulting grade on each will then replace your grade for the respective module.
 You may wait choose whether to take any final quizzes and which final quizzes to take until after you see the contents of each quiz.
