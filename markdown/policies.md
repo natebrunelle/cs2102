@@ -74,11 +74,6 @@ During the final exam period we will release a set of four additional makeup qui
 You may choose to take zero, one, or two of these four, your resulting grade on each will then replace your grade for the respective module.
 You may wait choose whether to take any final quizzes and which final quizzes to take until after you see the contents of each quiz.
 
-### Quiz Dropping
-
-Students may drop one MAKEUP or FINAL quiz. So for one such quiz, if a student takes it and does worse than the previous module grade, we will pretend that later quiz never happened. The dropped quiz will be the one which, by dropping, makes the greatest mathematical impact on the student's final grade.
-
-As some examples of what would happen, let's say a student had a 80% average on the four MOD1 quizzes and a 85% average on the MOD2 quizzes. If the student takes the MOD1MAKEUP and gets a 75%, we will drop MOD1MAKEUP so the student will still have an 80% average on mod1. If the student then later takes the MOD2MAKEUP and gets a 77% then we will drop MOD2MAKEUP instead of MOD1MAKEUP (so the student will receive 75% on MOD1 and 85% on MOD2, since that results in a higher overall grade in the class compared to a 80% on MOD1 and  77% on MOD2). If, however, the student the later takes the MOD1FINAL and receives a 60%, we will then drop MOD1FINAL instead of MOD2MAKEUP, again to maximize the student's grade.
 
 ## Contact
 
@@ -89,15 +84,10 @@ All
     A discord server join link is in the course's Collab site.
     We recommend downloading the desktop app (at <https://discord.com/>), which has more features and better-quality audio and video, but the browser version should also work.
 
-    For communication about personal circumstances, contact an instructor **directly** via email, telephone, or office hours.
+    For communication about personal circumstances, especially valid reasons for rescheduling a Friday assignment, **please precisely execute the following instructioms**:
+    :   Send an email with 2120 and a short explanation *in the subject line* to the following three addresses:  <a href="mailto:orrico@virginia.edu?subject=2120">orrico@virginia.edu</a>, <a href="mailto:nc2uzv@virginia.edu?subject=2120">nc2uzv@virginia.edu</a>, <a href="mailto:ryc5nfd@virginia.edu?subject=2120">ryc5nfd@virginia.edu</a> 
 
-Nathan Brunelle
-:    Email
-    :   <a href="mailto:njb2b@virginia.edu?subject=2120">njb2b@virginia.edu</a>; include 2120 in the subject
-    
-    Office Hours
-    :   TBD
-
+For other issues, dropping by my office is definitely the best way to reach me. I have an open-door policy (ie, if my door is open, even just a crack, that means please come in and chat!)
 Elizabeth Orrico
 :   Email
     :   <a href="mailto:orrico@virginia.edu?subject=2120">orrico@virginia.edu</a>; include 2120 in the subject
