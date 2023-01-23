@@ -111,9 +111,6 @@ reading:
       - lnk: https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
         txt: six habits
       - "MCS 1.9"
-    sets:
-        - txt: Slides
-          lnk: https://docs.google.com/presentation/d/1BXSO-TkmlSSkd3IIVM2yxjG03KVn0roCMBNhjLEHjK0/edit?usp=sharing
     propositions:
         - "MCS 1.1"
         - "∀x 4.3"
@@ -174,6 +171,8 @@ reading:
         - lnk: "group4.html"
           txt: "Group 4 Guide"
     sets:
+        - lnk: https://docs.google.com/presentation/d/1BXSO-TkmlSSkd3IIVM2yxjG03KVn0roCMBNhjLEHjK0/edit?usp=sharing
+          txt: Slides
         - lnk: "values.html"
           txt: "sets are values"
         - lnk: "set-seq.html"
