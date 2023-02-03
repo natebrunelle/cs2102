@@ -4,12 +4,9 @@ Special Dates:
   Add deadline: 2022-02-01
   Drop deadline: 2022-03-01
   Withdraw deadline: 2022-03-15
-  Fall break: 
-    start: 2022-10-01
-    end: 2022-10-04
-  Thanksgiving break: 
-    start: 2022-11-23
-    end: 2022-11-27
+  Spring break: 
+    start: 2022-03-04
+    end: 2022-03-11
 
 meta:
   timezone: America/New_York
