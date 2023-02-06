@@ -12,7 +12,7 @@ meta:
   timezone: America/New_York
   name: CS 2102
   lecture exam: true
-  home: https://www.cs.virginia.edu/~njb2b/cs2120/f2022/
+  home: https://www.cs.virginia.edu/~emo7bf/cs2120/s2023/schedule.html
   final:
     start: 2022-12-16 14:00:00
     duration: 180
@@ -47,12 +47,16 @@ lectures:
     - quiz
     
     - [propositions, operators]
-    - [equivalence proofs, direct proof]
+    - [propositions, operators]
     - quiz
 
-    - [equivalence proofs, direct proof, predicates]
-    - quantifiers
+    - [equivalence proofs, direct proof]
+    - [equivalence proofs, direct proof]
     - group1
+
+    - predicates
+    - quantifiers
+    - quantifiers
 
     - [quantifiers, entailment]
     - [quantifiers, english]
