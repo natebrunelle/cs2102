@@ -48,15 +48,15 @@ lectures:
     
     - [propositions, operators]
     - [propositions, operators]
+    - [equivalence proofs, direct proof]
+
+    - [equivalence proofs, direct proof]
+    - predicates
     - quiz
 
-    - [equivalence proofs, direct proof]
-    - [equivalence proofs, direct proof]
+    - quantifiers
+    - quantifiers
     - group1
-
-    - predicates
-    - quantifiers
-    - quantifiers
 
     - [quantifiers, entailment]
     - [quantifiers, english]
