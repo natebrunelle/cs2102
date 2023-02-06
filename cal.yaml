@@ -47,20 +47,16 @@ lectures:
     - quiz
     
     - [propositions, operators]
-    - operators
-    - quiz
-
-    - [equivalence proofs, direct proof]
     - [equivalence proofs, direct proof]
     - quiz
 
-    - predicates
+    - [equivalence proofs, direct proof, predicates]
     - quantifiers
     - group1
 
     - [quantifiers, entailment]
     - [quantifiers, english]
-    - nested quantifiers
+    - quiz
     
     
     - advanced quantifiers
