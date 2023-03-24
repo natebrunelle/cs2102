@@ -123,7 +123,7 @@ For example, if a 1984 UVA grad and a 1996 VT grad work at the same company, the
 
 For example, Suppose the following companies have the following employees:
 
-![](files/universities_setup.png){ width=70% }
+![](https://www.cs.virginia.edu/~njb2b/cs2120/f2022/files/universities_setup.png){ width=70% }
 
 Which results in the relation $C = \big\{ (JMU,ODU), (JMU,VCU), (VCU,ODU), (VT,VT), (JMU,VT), (VCU,VT), (VCU,JMU), (VCU,VCU) \big\}$. (The first three pairs come from Apple, then next four from Meta, the last from Alphabet. No relations come from Netflix.)
 
@@ -143,7 +143,7 @@ Once you're done, find another group who has gotten this far (or a course staff 
 
 Finally, for the last puzzle we will find transitive closure of the relation produced by this arrangement:
 
-![](files/universities_setup_2.png){ width=70% }
+![](https://www.cs.virginia.edu/~njb2b/cs2120/f2022/files/universities_setup_2.png){ width=70% }
 
 that is $E=\big\{ (JMU, ODU), (ODU, VT), (VT, UVA), (UVA, VCU) \big\}$
 
