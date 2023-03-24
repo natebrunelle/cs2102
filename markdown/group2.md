@@ -2,7 +2,7 @@
 title: Group Activity 2 | Closure
 ...
 
-Put your answers for each problem of this activity in this [worksheet](/files/group2.pdf).
+Put your answers for each problem of this activity in this [worksheet](https://www.cs.virginia.edu/~njb2b/cs2120/f2022/files/group2.pdf).
 
 # Introduce Your Team!
 
