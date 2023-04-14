@@ -7,7 +7,7 @@ Put your answers for each problem of this activity in this [worksheet](/files/gr
 # Introduce Your Team!
 First, put your name (and only you name, not your teammates' names) on the front of your worksheet.
 
-Next, for **problem 1**, give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Spring 2023.
+Next, for **problem 1**, give the names of all members of your group. Put a star next to a group member's name if that person is struggling with course enrollment for Fall 2023.
 
 # Induction and Well-Ordering
 
