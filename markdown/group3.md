@@ -2,7 +2,7 @@
 title: Group Activity 3 | Well-Ordering, Induction, Recursion
 ...
 
-Put your answers for each problem of this activity in this [worksheet](/files/group3.pdf).
+Put your answers for each problem of this activity in this [worksheet](https://www.cs.virginia.edu/~emo7bf/cs2120_group3_s23.pdf).
 
 # Introduce Your Team!
 First, put your name (and only you name, not your teammates' names) on the front of your worksheet.
