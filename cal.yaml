@@ -91,7 +91,7 @@ lectures:
     - logarithms
     - quiz
     
-    - review
+    - Group 4
 
 reading:
 
@@ -162,7 +162,7 @@ reading:
     group3:
         - lnk: "group3.html"
           txt: "Group 3 Guide"
-    (optional) group4:
+    group4:
         - lnk: "group4.html"
           txt: "Group 4 Guide"
     sets:
@@ -325,7 +325,7 @@ assignments:
     Group 3:
         due: 2021-11-11 15:00:00
     Group 4:
-        due: 2021-12-12 15:00:00
+        due: 2023-12-12 15:00:00
     
     Mod1 Final:
         due: 2023-05-06 23:00:00
