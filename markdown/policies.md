@@ -168,8 +168,6 @@ F            otherwise              0.0
 
 [^cminus]: For the Fall 2022 Semester the University instituted a CR/NC/GC grading option. At some time after final grades are released students may choose to have a grade changed from a letter grade to a CR/GC/NC grade. CR/NC/GC grades are not used in GPA calculations. A grade of C or higher translates to a CR grade. A grade of D- to C- translates to GC. A grade of F translates to NC. If you receive a grade of CR or GC in a course then that course can be used to satisfy major requirements. If you receive a grade of CR in a course then that course can be used to satisfy prerequisites. Note that the CS department typically uses a C- as the minimum grade to satisfy prerequisites, and therefore we have removed the C- grade from the crading scale (effectively, all C- grades are rounded up to C).
 
-We have created a [google spreadsheet](https://docs.google.com/spreadsheets/d/13uPnplekz-2wmlQPdbcYAsYZPqweSh3y09m7LnVgs2Y/edit?usp=sharing) that you can use to see your grade calculation. Please make a copy of the sheet, then fill in your grades as they come in. 
-
 Missed auto-graded evaluations will not be rescheduled, extended, nor made up during the semester.
 Missed hand-graded evaluations (including group projects) may be rescheduled or replaced with adequate notice and reasoning (sent to your instructor via email).
 
